@@ -1,39 +1,61 @@
 # 🧪 DrakesCraft Labs
+<p align="center">
+  <img src="https://img.shields.io/badge/Minecraft-1.20.6-informational?style=for-the-badge&logo=minecraft&logoColor=white&color=00A651">
+  <img src="https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk&logoColor=white">
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge">
+</p>
 
-¡Bienvenidos al laboratorio de desarrollo oficial de **DrakesCraft**! Aquí es donde ocurre la magia detrás de nuestro servidor. Somos un equipo apasionado por mejorar la experiencia de Minecraft a través de código limpio y funcional.
-
----
-
-### 🚀 Nuestra Misión
-Nos dedicamos a la **modificación y creación de plugins** optimizados para la versión **1.20.6**. Creemos en el conocimiento compartido, por lo que la mayoría de nuestro trabajo es:
-* **Open Source:** Si te sirve, úsalo.
-* **Siempre Gratis:** El acceso al código no tiene barreras.
-* **Comunitario:** Puedes tomar nuestro código, actualizarlo o mejorarlo según tus necesidades.
+¡Bienvenidos al laboratorio de desarrollo oficial de **DrakesCraft**! 🚀 Aquí es donde la ingeniería y la pasión por Minecraft se encuentran para crear experiencias únicas. Somos un equipo dedicado a llevar el rendimiento y la jugabilidad al siguiente nivel.
 
 ---
 
-### 🛠️ Tecnologías que usamos
-* **Lenguajes:** Java, Python.
-* **Herramientas:** Maven, Gradle, Git.
-* **Plataforma:** Paper / Spigot API (1.20.6+).
+### 🏛️ Filosofía de Desarrollo
+En **DrakesCraft Labs**, no solo modificamos código; aplicamos principios de ingeniería para asegurar que nuestro servidor sea estable, escalable y divertido.
+
+* **Open Source & Transparency:** Creemos que el código debe ser libre. Si nuestro trabajo ayuda a tu comunidad, nuestra misión está cumplida.
+* **Performance First:** Cada plugin es analizado para minimizar el impacto en el TPS (Ticks Per Second) y el consumo de RAM.
+* **Comunidad Activa:** Fomentamos el "Fork & Improve". Si ves algo que puede mejorar, ¡hazlo tuyo!
 
 ---
 
-### 👥 El Equipo (The Core)
-Actualmente, el laboratorio es impulsado por:
-* **[JackStar](https://github.com/JackStar6677-1)** - Lead Developer & SysAdmin.
-* **[Chagui](https://github.com/Chagui68)** - Senior Plugin Developer.
+### 🛠️ Tech Stack & Herramientas
+| Categoría | Tecnologías |
+| :--- | :--- |
+| **Core Languages** | `Java 21`, `Python 3.x`, `PowerShell` (Automatización) |
+| **Build Tools** | `Maven`, `Gradle` |
+| **Infraestructura** | `Linux (Ubuntu/Debian)`, `Paper/Spigot API`, `MySQL/MariaDB` |
+| **DevOps & IA** | `GitHub Actions`, `Antigravity IDE`, `Gemini/Claude AI` |
+
+---
+
+### 👥 The Core Team
+| Developer | Role | Focus |
+| :--- | :--- | :--- |
+| **[JackStar](https://github.com/JackStar6677-1)** | **Lead Developer & SysAdmin** | Arquitectura, Automatización TI, QA y Hardening de Servidores. |
+| **[Chagui](https://github.com/Chagui68)** | **Senior Plugin Developer** | Desarrollo de Mecánicas, Integración de Addons y Sistemas Tácticos. |
+
+---
+
+### 📂 Proyectos Destacados
+* **[Military Arsenal Addon](https://github.com/DrakesCraft-Labs/Military-Arsenal-addon-for-Slimefun4):** Armamento avanzado y tácticas para Slimefun 1.20.6.
+* **[Networks Better Compatibility](https://github.com/DrakesCraft-Labs/Networks---Better-Compatibility):** Optimización de flujos de red y compatibilidad entre plugins.
+* **[Cultivation Updated](https://github.com/DrakesCraft-Labs/Cultivation_Updated):** Reviviendo mecánicas clásicas para las versiones más recientes.
 
 ---
 
 ### 💡 Contribuciones y Soporte
-Si encuentras un error o tienes una mejora, ¡los Pull Requests son bienvenidos! 
+¿Quieres ayudar? ¡Genial!
+1. Haz un **Fork** del proyecto.
+2. Crea una rama con tu mejora: `git checkout -b feature/MejoraIncreible`.
+3. Envía un **Pull Request**.
 
-> [!TIP]
-> **¿Quieres apoyar nuestro trabajo?**
-> Estamos trabajando en la creación de nuestro **Patreon** para mantener los servidores y el desarrollo activo. ¡Pronto daremos más noticias!
+> [!IMPORTANT]
+> **Próximamente: Patreon** > Estamos preparando una plataforma para quienes deseen apoyar económicamente el mantenimiento de nuestros servidores de prueba y el tiempo de desarrollo. ¡Tu apoyo nos ayuda a seguir innovando!
 
 ---
 <p align="center">
-  <i>"Code is poetry, but Minecraft plugins are the soul of the game."</i>
+  <br>
+  <i>"Transformando café en código, y código en mundos infinitos."</i>
+  <br>
+  <b>DrakesCraft Labs © 2026</b>
 </p>
