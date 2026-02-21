@@ -28,27 +28,29 @@
 <a href="https://github.com/DrakesCraft-Labs/DrakesCore">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DrakesCraft-Labs&repo=DrakesCore&theme=tokyonight&hide_border=true" alt="DrakesCore" />
 </a>
-<a href="https://github.com/DrakesCraft-Labs/MultiverseCreatures">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DrakesCraft-Labs&repo=MultiverseCreatures&theme=tokyonight&hide_border=true" alt="MultiverseCreatures" />
+<a href="https://github.com/DrakesCraft-Labs/DrakesTech">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DrakesCraft-Labs&repo=DrakesTech&theme=tokyonight&hide_border=true" alt="DrakesTech" />
 </a>
-<a href="https://github.com/DrakesCraft-Labs/Military-Arsenal-addon-for-Slimefun4">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DrakesCraft-Labs&repo=Military-Arsenal-addon-for-Slimefun4&theme=tokyonight&hide_border=true" alt="Military Arsenal" />
+<a href="https://github.com/DrakesCraft-Labs/DrakesCrates">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DrakesCraft-Labs&repo=DrakesCrates&theme=tokyonight&hide_border=true" alt="DrakesCrates" />
 </a>
-<a href="https://github.com/DrakesCraft-Labs/Networks---Better-Compatibility-Unofficial-">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DrakesCraft-Labs&repo=Networks---Better-Compatibility-Unofficial-&theme=tokyonight&hide_border=true" alt="Networks Compatibility" />
+<a href="https://github.com/DrakesCraft-Labs/DrakesRanks">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DrakesCraft-Labs&repo=DrakesRanks&theme=tokyonight&hide_border=true" alt="DrakesRanks" />
 </a>
-<a href="https://github.com/DrakesCraft-Labs/Cultivation_Updated">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DrakesCraft-Labs&repo=Cultivation_Updated&theme=tokyonight&hide_border=true" alt="Cultivation Updated" />
+<a href="https://github.com/DrakesCraft-Labs/DrakesTab">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DrakesCraft-Labs&repo=DrakesTab&theme=tokyonight&hide_border=true" alt="DrakesTab" />
+</a>
+<a href="https://github.com/DrakesCraft-Labs/DrakesMotd">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DrakesCraft-Labs&repo=DrakesMotd&theme=tokyonight&hide_border=true" alt="DrakesMotd" />
 </a>
 
 </div>
 
-## Modulos internos en desarrollo
-- DrakesTech
-- DrakesCrates
-- DrakesRanks
-- DrakesTab
-- DrakesMotd
+## Otros repos publicos
+- [MultiverseCreatures](https://github.com/DrakesCraft-Labs/MultiverseCreatures)
+- [Military-Arsenal-addon-for-Slimefun4](https://github.com/DrakesCraft-Labs/Military-Arsenal-addon-for-Slimefun4)
+- [Networks---Better-Compatibility-Unofficial-](https://github.com/DrakesCraft-Labs/Networks---Better-Compatibility-Unofficial-)
+- [Cultivation_Updated](https://github.com/DrakesCraft-Labs/Cultivation_Updated)
 
 ## Filosofia de desarrollo
 - Performance first: minimo impacto en TPS y consumo de RAM.
