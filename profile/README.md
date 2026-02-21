@@ -1,61 +1,70 @@
-# 🧪 DrakesCraft Labs
-<p align="center">
-  <img src="https://img.shields.io/badge/Minecraft-1.20.6-informational?style=for-the-badge&logo=minecraft&logoColor=white&color=00A651">
-  <img src="https://img.shields.io/badge/Java-21-orange?style=for-the-badge&logo=openjdk&logoColor=white">
-  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge">
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=DrakesCraft%20Labs&fontAlign=50&fontAlignY=40&color=0:0f172a,45:1e293b,100:0a66c2&fontColor=ffffff&desc=Minecraft%20Engineering%20%7C%20Plugins%20%7C%20Automation%20%7C%20Open%20Source&descAlign=50&descAlignY=62" width="100%" alt="DrakesCraft Labs" />
+
+<p>
+  <a href="https://github.com/DrakesCraft-Labs"><img src="https://img.shields.io/badge/GitHub-DrakesCraft--Labs-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
+  <img src="https://img.shields.io/badge/Java-21-F89820?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 21" />
+  <img src="https://img.shields.io/badge/Paper%20API-Plugin%20Development-00A651?style=for-the-badge&logo=minecraft&logoColor=white" alt="Paper API" />
+  <img src="https://img.shields.io/badge/License-MIT-2563eb?style=for-the-badge" alt="MIT" />
 </p>
 
-¡Bienvenidos al laboratorio de desarrollo oficial de **DrakesCraft**! 🚀 Aquí es donde la ingeniería y la pasión por Minecraft se encuentran para crear experiencias únicas. Somos un equipo dedicado a llevar el rendimiento y la jugabilidad al siguiente nivel.
-
----
-
-### 🏛️ Filosofía de Desarrollo
-En **DrakesCraft Labs**, no solo modificamos código; aplicamos principios de ingeniería para asegurar que nuestro servidor sea estable, escalable y divertido.
-
-* **Open Source & Transparency:** Creemos que el código debe ser libre. Si nuestro trabajo ayuda a tu comunidad, nuestra misión está cumplida.
-* **Performance First:** Cada plugin es analizado para minimizar el impacto en el TPS (Ticks Per Second) y el consumo de RAM.
-* **Comunidad Activa:** Fomentamos el "Fork & Improve". Si ves algo que puede mejorar, ¡hazlo tuyo!
-
----
-
-### 🛠️ Tech Stack & Herramientas
-| Categoría | Tecnologías |
-| :--- | :--- |
-| **Core Languages** | `Java 21`, `Python 3.x`, `PowerShell` (Automatización) |
-| **Build Tools** | `Maven`, `Gradle` |
-| **Infraestructura** | `Linux (Ubuntu/Debian)`, `Paper/Spigot API`, `MySQL/MariaDB` |
-| **DevOps & IA** | `GitHub Actions`, `Antigravity IDE`, `Gemini/Claude AI` |
-
----
-
-### 👥 The Core Team
-| Developer | Role | Focus |
-| :--- | :--- | :--- |
-| **[JackStar](https://github.com/JackStar6677-1)** | **Lead Developer & SysAdmin** | Arquitectura, Automatización TI, QA y Hardening de Servidores. |
-| **[Chagui](https://github.com/Chagui68)** | **Senior Plugin Developer** | Desarrollo de Mecánicas, Integración de Addons y Sistemas Tácticos. |
-
----
-
-### 📂 Proyectos Destacados
-* **[Military Arsenal Addon](https://github.com/DrakesCraft-Labs/Military-Arsenal-addon-for-Slimefun4):** Armamento avanzado y tácticas para Slimefun 1.20.6.
-* **[Networks Better Compatibility](https://github.com/DrakesCraft-Labs/Networks---Better-Compatibility):** Optimización de flujos de red y compatibilidad entre plugins.
-* **[Cultivation Updated](https://github.com/DrakesCraft-Labs/Cultivation_Updated):** Reviviendo mecánicas clásicas para las versiones más recientes.
-
----
-
-### 💡 Contribuciones y Soporte
-¿Quieres ayudar? ¡Genial!
-1. Haz un **Fork** del proyecto.
-2. Crea una rama con tu mejora: `git checkout -b feature/MejoraIncreible`.
-3. Envía un **Pull Request**.
-
-> [!IMPORTANT]
-> **Próximamente: Patreon** > Estamos preparando una plataforma para quienes deseen apoyar económicamente el mantenimiento de nuestros servidores de prueba y el tiempo de desarrollo. ¡Tu apoyo nos ayuda a seguir innovando!
-
----
-<p align="center">
-  <br>
-  <i>"Transformando café en código, y código en mundos infinitos."</i>
-  <br>
-  <b>DrakesCraft Labs © 2026</b>
+<p>
+  Laboratorio oficial de desarrollo para el ecosistema DrakesCraft.
+  Construimos plugins modulares, escalables y listos para produccion.
 </p>
+
+</div>
+
+## Estadisticas de organizacion
+<div align="center">
+  <a href="https://github.com/DrakesCraft-Labs"><img src="https://img.shields.io/badge/dynamic/json?color=0A66C2&label=Repos%20publicos&query=public_repos&url=https%3A%2F%2Fapi.github.com%2Forgs%2FDrakesCraft-Labs&style=for-the-badge" alt="Repos publicos" /></a>
+  <a href="https://github.com/DrakesCraft-Labs"><img src="https://img.shields.io/badge/dynamic/json?color=1f2937&label=Seguidores%20Org&query=followers&url=https%3A%2F%2Fapi.github.com%2Forgs%2FDrakesCraft-Labs&style=for-the-badge" alt="Seguidores" /></a>
+</div>
+
+## Repositorios publicos principales
+<div align="center">
+
+<a href="https://github.com/DrakesCraft-Labs/DrakesCore">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DrakesCraft-Labs&repo=DrakesCore&theme=tokyonight&hide_border=true" alt="DrakesCore" />
+</a>
+<a href="https://github.com/DrakesCraft-Labs/MultiverseCreatures">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DrakesCraft-Labs&repo=MultiverseCreatures&theme=tokyonight&hide_border=true" alt="MultiverseCreatures" />
+</a>
+<a href="https://github.com/DrakesCraft-Labs/Military-Arsenal-addon-for-Slimefun4">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DrakesCraft-Labs&repo=Military-Arsenal-addon-for-Slimefun4&theme=tokyonight&hide_border=true" alt="Military Arsenal" />
+</a>
+<a href="https://github.com/DrakesCraft-Labs/Networks---Better-Compatibility-Unofficial-">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DrakesCraft-Labs&repo=Networks---Better-Compatibility-Unofficial-&theme=tokyonight&hide_border=true" alt="Networks Compatibility" />
+</a>
+<a href="https://github.com/DrakesCraft-Labs/Cultivation_Updated">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DrakesCraft-Labs&repo=Cultivation_Updated&theme=tokyonight&hide_border=true" alt="Cultivation Updated" />
+</a>
+
+</div>
+
+## Modulos internos en desarrollo
+- DrakesTech
+- DrakesCrates
+- DrakesRanks
+- DrakesTab
+- DrakesMotd
+
+## Filosofia de desarrollo
+- Performance first: minimo impacto en TPS y consumo de RAM.
+- Arquitectura modular: separacion por dominios y extension por addons.
+- Configuracion explicita: YAML documentado y mantenible.
+- Open source real: codigo util para comunidades que quieran crecer.
+
+## Equipo
+- [JackStar](https://github.com/JackStar6677-1): Lead developer, arquitectura y automatizacion.
+- [Chagui](https://github.com/Chagui68): Desarrollo de mecanicas, addons y sistemas tacticos.
+
+## Roadmap tecnico
+- DrakesTech: energy net, maquinas, multiblocks y progresion completa.
+- DrakesCore ecosystem: crates, ranks, tab, motd, integraciones y calidad de release.
+- Tooling: pipelines CI/CD, builds limpias y pruebas de servidor.
+
+<div align="center">
+  <b>DrakesCraft Labs - Build systems that scale.</b>
+</div>
