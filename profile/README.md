@@ -58,7 +58,7 @@
 
 ## Equipo
 - [JackStar](https://github.com/JackStar6677-1): Lead developer, arquitectura y automatizacion.
-- [Chagui](https://github.com/Chagui68): Desarrollo de mecanicas, addons y sistemas tacticos.
+- [Chagui](https://github.com/Chagui68): Core plugin developer, partner tecnico directo en la org.
 
 ## Roadmap tecnico
 - DrakesTech: energy net, maquinas, multiblocks y progresion completa.
