@@ -28,6 +28,9 @@
 <a href="https://github.com/DrakesCraft-Labs/DrakesCore">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DrakesCraft-Labs&repo=DrakesCore&theme=tokyonight&hide_border=true" alt="DrakesCore" />
 </a>
+<a href="https://github.com/DrakesCraft-Labs/DrakesWorlds">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DrakesCraft-Labs&repo=DrakesWorlds&theme=tokyonight&hide_border=true" alt="DrakesWorlds" />
+</a>
 <a href="https://github.com/DrakesCraft-Labs/DrakesTech">
   <img src="https://github-readme-stats-sigma-five.vercel.app/api/pin/?username=DrakesCraft-Labs&repo=DrakesTech&theme=tokyonight&hide_border=true" alt="DrakesTech" />
 </a>
@@ -63,6 +66,7 @@
 - [Chagui](https://github.com/Chagui68): Core plugin developer, partner tecnico directo en la org.
 
 ## Roadmap tecnico
+- DrakesWorlds: generacion custom de biomas, relieve y flora.
 - DrakesTech: energy net, maquinas, multiblocks y progresion completa.
 - DrakesCore ecosystem: crates, ranks, tab, motd, integraciones y calidad de release.
 - Tooling: pipelines CI/CD, builds limpias y pruebas de servidor.
