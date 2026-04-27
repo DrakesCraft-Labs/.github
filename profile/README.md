@@ -11,7 +11,36 @@ Laboratorio público de ingeniería alrededor de **Paper**, **Slimefun** y siste
   <img src="https://img.shields.io/badge/Open%20Source-Active-2563eb?style=for-the-badge" alt="Open Source" />
 </p>
 
+<p>
+  <a href="https://discord.gg/rR7FbfCt9Y"><img src="https://img.shields.io/badge/Discord-DrakesCraft-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord DrakesCraft" /></a>
+  <a href="https://drakescraft.cl"><img src="https://img.shields.io/badge/Web-drakescraft.cl-7c3aed?style=for-the-badge" alt="Web" /></a>
+</p>
+
 </div>
+
+## Comunidad y servidor (DrakesCraft)
+
+- **Discord (oficial):** [discord.gg/rR7FbfCt9Y](https://discord.gg/rR7FbfCt9Y) — anuncios, normas y contacto con staff.
+- **Web:** [drakescraft.cl](https://drakescraft.cl)
+
+### Java (Minecraft: Java Edition)
+
+- **Dirección:** `mc.drakescraft.cl` (también se usa `play.drakescraft.cl` según el cliente).
+
+### Chat Minecraft ↔ Discord ([DiscordSRV](https://github.com/DiscordSRV/DiscordSRV))
+
+En el servidor de referencia el chat global, entradas/salidas, estado y mensajes similares se enlazan con Discord mediante **DiscordSRV**; los jugadores suelen usar **`/discord`** para ver la invitación y enlazar cuenta. Documentación del plugin: [docs.discordsrv.com](https://docs.discordsrv.com/).
+
+### Bedrock ([Geyser](https://github.com/GeyserMC/Geyser))
+
+- **Dirección:** `mc.drakescraft.cl`
+- **Puerto Bedrock (UDP):** `25571` (listener Geyser en el despliegue actual).
+- **Autenticación Bedrock → Java:** [Floodgate](https://wiki.geysermc.org/floodgate/) (`auth-type: floodgate` en Geyser).
+- Nombre visible en cliente Bedrock: **DrakesCraft** (MOTD secundario configurado junto a la odisea Java & Bedrock).
+
+Guías oficiales: [wiki Geyser](https://wiki.geysermc.org/) · [Discord GeyserMC](https://discord.gg/geysermc).
+
+---
 
 ## Proyecto principal
 
