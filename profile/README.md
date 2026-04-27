@@ -2,101 +2,73 @@
 
 # DrakesCraft Labs
 
-Official development lab for the DrakesCraft ecosystem.
-
-Focused on Minecraft plugin engineering, Slimefun ecosystem work, Paper tooling, and long-term maintainable server systems.
+Laboratorio público de ingeniería alrededor de **Paper**, **Slimefun** y sistemas de servidor mantenibles.
 
 <p>
   <a href="https://github.com/DrakesCraft-Labs"><img src="https://img.shields.io/badge/GitHub-DrakesCraft--Labs-181717?style=for-the-badge&logo=github" alt="GitHub" /></a>
   <img src="https://img.shields.io/badge/Java-21-F89820?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 21" />
-  <img src="https://img.shields.io/badge/Paper-1.21.11-00A651?style=for-the-badge&logo=minecraft&logoColor=white" alt="Paper 1.21.11" />
-  <img src="https://img.shields.io/badge/Open%20Source-Active-2563eb?style=for-the-badge" alt="Open Source Active" />
+  <img src="https://img.shields.io/badge/Paper-1.21.x-00A651?style=for-the-badge&logo=minecraft&logoColor=white" alt="Paper 1.21" />
+  <img src="https://img.shields.io/badge/Open%20Source-Active-2563eb?style=for-the-badge" alt="Open Source" />
 </p>
 
 </div>
 
-## Overview
+## Proyecto principal
 
-DrakesCraft Labs is the public engineering space behind several Minecraft server-side projects, plugin experiments, compatibility ports, and ecosystem maintenance efforts.
+El **eje actual** de la organización es el monorepo **[`drakes-slimefun-labs`](https://github.com/DrakesCraft-Labs/drakes-slimefun-labs)**:
 
-This organization currently has two strong public lines:
+- **Slimefun 4 (fork Drake)**, **dough-core**, parches internos y **decenas de addons** en un solo reactor **Maven + Gradle**
+- Baseline **Paper 1.21.x** y **Java 21**; rama estable **`1.21-latin`**; línea experimental **26.x** en rama dedicada (no mezclar bases sin acuerdo; ver README del monorepo)
+- **CI**, smoke, documentación y matriz de módulos en el propio repo
 
-- active work around the `Drake Framework` and the Slimefun ecosystem on modern Paper builds
-- the broader DrakesCraft plugin suite, including core server modules and gameplay systems
+Si quieres ver **qué está pasando ahora** en el laboratorio, empieza ahí.
 
-Not every repository here is in the same phase. Some are active engineering labs, some are support modules, and some are historical or compatibility-focused snapshots that are still useful as references.
+## Otras líneas públicas
 
-## Current Public Focus
+### Slimefun / compatibilidad (repos satélite)
 
-### 1. Slimefun / Drake migration work
-
-The most actively updated public repository right now is:
-
-- [`drakes-slimefun-labs`](https://github.com/DrakesCraft-Labs/drakes-slimefun-labs)
-
-This repo is the migration lab for:
-
-- `Paper 1.21.11`
-- `Java 21`
-- `Slimefun 6`
-- `dev.drake.dough:dough-core:1.3.1-DRAKE`
-- large-scale addon porting and validation
-
-Related public repositories in this line:
+Repos históricos o de compatibilidad que siguen siendo referencia:
 
 - [`Slimefun4-1.20.6-Port`](https://github.com/DrakesCraft-Labs/Slimefun4-1.20.6-Port)
 - [`Cultivation_Updated`](https://github.com/DrakesCraft-Labs/Cultivation_Updated)
 - [`Networks---Better-Compatibility-Unofficial-`](https://github.com/DrakesCraft-Labs/Networks---Better-Compatibility-Unofficial-)
 - [`Military-Arsenal-addon-for-Slimefun4`](https://github.com/DrakesCraft-Labs/Military-Arsenal-addon-for-Slimefun4)
 
-### 2. DrakesCraft plugin ecosystem
+### Suite modular DrakesCraft (servidor)
 
-These repositories represent the broader modular plugin line for the server:
+Módulos del ecosistema **DrakesCraft** en el servidor (core, mundos, gameplay, etc.); **no sustituyen** al monorepo como “proyecto central” de ingeniería abierta hoy, pero siguen siendo parte del mapa:
 
-- [`DrakesCore`](https://github.com/DrakesCraft-Labs/DrakesCore)
-- [`DrakesWorlds`](https://github.com/DrakesCraft-Labs/DrakesWorlds)
-- [`DrakesTech`](https://github.com/DrakesCraft-Labs/DrakesTech)
-- [`DrakesCrates`](https://github.com/DrakesCraft-Labs/DrakesCrates)
-- [`DrakesRanks`](https://github.com/DrakesCraft-Labs/DrakesRanks)
-- [`DrakesTab`](https://github.com/DrakesCraft-Labs/DrakesTab)
-- [`DrakesMotd`](https://github.com/DrakesCraft-Labs/DrakesMotd)
-- [`MultiverseCreatures`](https://github.com/DrakesCraft-Labs/MultiverseCreatures)
+- [`DrakesCore`](https://github.com/DrakesCraft-Labs/DrakesCore), [`DrakesWorlds`](https://github.com/DrakesCraft-Labs/DrakesWorlds), [`DrakesTech`](https://github.com/DrakesCraft-Labs/DrakesTech), [`DrakesCrates`](https://github.com/DrakesCraft-Labs/DrakesCrates), [`DrakesRanks`](https://github.com/DrakesCraft-Labs/DrakesRanks), [`DrakesTab`](https://github.com/DrakesCraft-Labs/DrakesTab), [`DrakesMotd`](https://github.com/DrakesCraft-Labs/DrakesMotd), [`MultiverseCreatures`](https://github.com/DrakesCraft-Labs/MultiverseCreatures)
 
-## Active Public Repositories
+## Mapa rápido
 
-| Repository | Role | Current relevance |
-| :--- | :--- | :--- |
-| [`drakes-slimefun-labs`](https://github.com/DrakesCraft-Labs/drakes-slimefun-labs) | Main migration lab | Current flagship public engineering repo. |
-| [`Slimefun4-1.20.6-Port`](https://github.com/DrakesCraft-Labs/Slimefun4-1.20.6-Port) | Compatibility port | Useful historical/public release line for `1.20.6`. |
-| [`DrakesCore`](https://github.com/DrakesCraft-Labs/DrakesCore) | Core server plugin | Important ecosystem base, but its public description is still tied to `1.20.6`. |
-| [`DrakesWorlds`](https://github.com/DrakesCraft-Labs/DrakesWorlds) | World systems | Part of the broader modular server suite. |
-| [`DrakesTech`](https://github.com/DrakesCraft-Labs/DrakesTech) | Technical gameplay systems | Part of the broader modular server suite. |
-| [`Cultivation_Updated`](https://github.com/DrakesCraft-Labs/Cultivation_Updated) | Active compatibility variant | Public addon-side compatibility work. |
-| [`Networks---Better-Compatibility-Unofficial-`](https://github.com/DrakesCraft-Labs/Networks---Better-Compatibility-Unofficial-) | Active compatibility variant | Public addon-side compatibility work. |
+| Repositorio | Rol |
+| :--- | :--- |
+| [`drakes-slimefun-labs`](https://github.com/DrakesCraft-Labs/drakes-slimefun-labs) | **Monorepo principal** (Slimefun Drake + addons + CI) |
+| [`Slimefun4-1.20.6-Port`](https://github.com/DrakesCraft-Labs/Slimefun4-1.20.6-Port) | Línea pública / histórica 1.20.6 |
+| [`DrakesCore`](https://github.com/DrakesCraft-Labs/DrakesCore) | Core del servidor (suite modular) |
 
-## How To Read This Organization
+## Cómo leer esta organización
 
-- If you want the most up-to-date public engineering work, start with [`drakes-slimefun-labs`](https://github.com/DrakesCraft-Labs/drakes-slimefun-labs).
-- If you are looking for the older public Slimefun compatibility baseline, check [`Slimefun4-1.20.6-Port`](https://github.com/DrakesCraft-Labs/Slimefun4-1.20.6-Port).
-- If you are exploring the wider DrakesCraft server plugin suite, start with [`DrakesCore`](https://github.com/DrakesCraft-Labs/DrakesCore) and the related modular repos.
-- If a repo looks older, treat it as either a support module, a compatibility branch, or a historical reference unless the README says otherwise.
+1. **Ingeniería actual y porte masivo:** [`drakes-slimefun-labs`](https://github.com/DrakesCraft-Labs/drakes-slimefun-labs).
+2. **Baseline antiguo Slimefun 1.20.6:** [`Slimefun4-1.20.6-Port`](https://github.com/DrakesCraft-Labs/Slimefun4-1.20.6-Port).
+3. **Plugins del servidor DrakesCraft:** suite `Drakes*` enlazada arriba; revisa el README de cada repo para fase y versión de Minecraft.
 
-## Engineering Principles
+## Principios
 
-- performance-conscious server development
-- modular plugin architecture
-- explicit configuration over hidden magic
-- compatibility work that is documented, reproducible, and maintainable
-- open repositories that remain useful to other server operators and developers
+- Rendimiento y servidor real.
+- Arquitectura modular y configuración explícita.
+- Compatibilidad documentada y reproducible.
+- Repos abiertos útiles para otros operadores y desarrolladores.
 
-## Team
+## Equipo
 
-- [JackStar6677-1](https://github.com/JackStar6677-1): lead developer, architecture, automation, ecosystem direction
-- [Chagui68](https://github.com/Chagui68): core plugin development, compatibility work, technical collaboration
+- [JackStar6677-1](https://github.com/JackStar6677-1): liderazgo técnico, arquitectura, automatización, dirección del ecosistema.
+- [Chagui68](https://github.com/Chagui68): desarrollo de plugins, compatibilidad, colaboración técnica.
 
-## Language Note
+## Idioma
 
-Most public code and documentation here may mix Spanish and English depending on project history and intended audience. Newer public-facing documentation is being normalized progressively.
+Parte del código y de la documentación mezcla **español e inglés** según historia del proyecto y audiencia. La documentación nueva del monorepo se va normalizando de forma incremental.
 
 <div align="center">
   <b>DrakesCraft Labs · Build systems that scale.</b>
