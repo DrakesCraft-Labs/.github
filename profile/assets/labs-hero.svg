@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="260" viewBox="0 0 920 260" role="img" aria-label="DrakesCraft Labs">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07040f"/>
+      <stop offset="55%" stop-color="#120a22"/>
+      <stop offset="100%" stop-color="#1a0f30"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#9a7209"/>
+      <stop offset="50%" stop-color="#f5d76e"/>
+      <stop offset="100%" stop-color="#c9a227"/>
+    </linearGradient>
+    <linearGradient id="violet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#6d28d9"/>
+    </linearGradient>
+  </defs>
+  <rect width="920" height="260" rx="16" fill="url(#bg)"/>
+  <rect x="1" y="1" width="918" height="258" rx="15" fill="none" stroke="#c9a227" stroke-width="1.5" opacity="0.35">
+    <animate attributeName="opacity" values="0.25;0.55;0.25" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <g opacity="0.1" stroke="#c4b5fd" stroke-width="0.6">
+    <path d="M0 65H920M0 130H920M0 195H920"/>
+    <path d="M92 0V260M184 0V260M276 0V260M368 0V260M460 0V260M552 0V260M644 0V260M736 0V260M828 0V260"/>
+  </g>
+  <circle cx="700" cy="130" r="70" fill="#7c3aed" opacity="0.12">
+    <animate attributeName="r" values="62;78;62" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.08;0.2;0.08" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <g>
+    <circle cx="220" cy="95" r="9" fill="#4c1d95" stroke="#d4af37" stroke-width="2">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="340" cy="155" r="11" fill="#5b21b6" stroke="#f5d76e" stroke-width="2">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="470" cy="88" r="10" fill="#6d28d9" stroke="#e9d5ff" stroke-width="2">
+      <animate attributeName="opacity" values="0.65;1;0.65" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="590" cy="148" r="12" fill="#7c3aed" stroke="#c9a227" stroke-width="2">
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="710" cy="105" r="9" fill="#581c87" stroke="#d4af37" stroke-width="2">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="138" r="17" fill="url(#violet)" stroke="#f5d76e" stroke-width="3">
+      <animate attributeName="r" values="15;19;15" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <path fill="none" stroke="url(#gold)" stroke-width="2" stroke-linecap="round" stroke-dasharray="10 8"
+          d="M220 95L340 155L470 88L590 148L710 105L800 138">
+      <animate attributeName="stroke-dashoffset" values="0;36;0" dur="2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+  <text x="48" y="108" fill="#f5d76e" font-family="system-ui,sans-serif" font-size="42" font-weight="700">DrakesCraft</text>
+  <text x="48" y="152" fill="#e9d5ff" font-family="system-ui,sans-serif" font-size="36" font-weight="600">Labs</text>
+  <text x="48" y="188" fill="#a78bfa" font-family="system-ui,sans-serif" font-size="14">Paper 1.21.x | Slimefun Drake | Java 21 | Chile</text>
+  <text x="48" y="214" fill="#8b5cf6" font-family="system-ui,sans-serif" font-size="12">Open engineering for DrakesCraft and the community</text>
+  <rect x="720" y="42" width="160" height="36" rx="8" fill="#2e1065" stroke="#d4af37" stroke-width="1.2"/>
+  <text x="800" y="65" fill="#f5d76e" font-family="system-ui,sans-serif" font-size="13" font-weight="600" text-anchor="middle">drakescraft.cl</text>
+</svg>
