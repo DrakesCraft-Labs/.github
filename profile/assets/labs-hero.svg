@@ -55,7 +55,7 @@
   <text x="48" y="108" fill="#f5d76e" font-family="system-ui,sans-serif" font-size="42" font-weight="700">DrakesCraft</text>
   <text x="48" y="152" fill="#e9d5ff" font-family="system-ui,sans-serif" font-size="36" font-weight="600">Labs</text>
   <text x="48" y="188" fill="#a78bfa" font-family="system-ui,sans-serif" font-size="14">Paper 1.21.x | Slimefun Drake | Java 21 | Chile</text>
-  <text x="48" y="214" fill="#8b5cf6" font-family="system-ui,sans-serif" font-size="12">Open engineering for DrakesCraft and the community</text>
+  <text x="48" y="214" fill="#8b5cf6" font-family="system-ui,sans-serif" font-size="12">Platform engineering for DrakesCraft</text>
   <rect x="720" y="42" width="160" height="36" rx="8" fill="#2e1065" stroke="#d4af37" stroke-width="1.2"/>
   <text x="800" y="65" fill="#f5d76e" font-family="system-ui,sans-serif" font-size="13" font-weight="600" text-anchor="middle">drakescraft.cl</text>
 </svg>

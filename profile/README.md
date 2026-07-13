@@ -8,104 +8,84 @@
 
 # DrakesCraft Labs
 
-Laboratorio publico de ingenieria alrededor de **Paper**, **Slimefun Drake** y sistemas de servidor mantenibles en produccion.
+**Ingeniería de plataforma para Paper, Slimefun y DrakesCraft.**
+
+Construimos, portamos y operamos software que necesita sobrevivir versiones de Minecraft,
+cargas reales y mantenimiento continuo. El laboratorio reúne el núcleo de Slimefun Drake,
+addons mantenidos y herramientas que respaldan la plataforma DrakesCraft.
 
 <p>
   <a href="https://github.com/DrakesCraft-Labs"><img src="https://img.shields.io/badge/GitHub-DrakesCraft--Labs-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
+  <a href="https://drakescraft.cl"><img src="https://img.shields.io/badge/Platform-DrakesCraft-c9a227?style=for-the-badge" alt="DrakesCraft"/></a>
   <img src="https://img.shields.io/badge/Java-21-F89820?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 21"/>
-  <img src="https://img.shields.io/badge/Paper-1.21.x-00A651?style=for-the-badge&logo=minecraft&logoColor=white" alt="Paper 1.21"/>
-  <img src="https://img.shields.io/badge/Rama-main-7c3aed?style=for-the-badge" alt="rama main"/>
+  <img src="https://img.shields.io/badge/Paper-1.21.x-00A651?style=for-the-badge&logo=minecraft&logoColor=white" alt="Paper 1.21.x"/>
 </p>
 
 <p>
-  <a href="https://discord.gg/rR7FbfCt9Y"><img src="https://img.shields.io/badge/Discord-DrakesCraft-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
-  <a href="https://drakescraft.cl"><img src="https://img.shields.io/badge/Web-drakescraft.cl-c9a227?style=for-the-badge" alt="Web"/></a>
-  <a href="https://github.com/DrakesCraft-Labs/drakes-slimefun-labs"><img src="https://img.shields.io/badge/Monorepo-drakes--slimefun--labs-6d28d9?style=for-the-badge" alt="Monorepo"/></a>
+  <a href="https://drakescraft.cl"><strong>Portal</strong></a> ·
+  <a href="https://discord.gg/rR7FbfCt9Y"><strong>Discord</strong></a> ·
+  <a href="https://github.com/DrakesCraft-Labs/maven-repo"><strong>Maven repository</strong></a>
 </p>
-
-**Build systems that scale.** · Validacion en servidor real [DrakesCraft](https://drakescraft.cl)
 
 </div>
 
 ---
 
-## Proyectos destacados
+## Qué mantenemos
 
-| Repo | Que es |
-|------|--------|
-| [**drakes-slimefun-labs**](https://github.com/DrakesCraft-Labs/drakes-slimefun-labs) | Monorepo principal: Slimefun 4 Drake, dough-core, ~80 addons, CI unificado |
-| [**NetworksV6-drake**](https://github.com/DrakesCraft-Labs/NetworksV6-drake) | Networks estabilizado para Paper 1.21.11 (anti-dupe, sin autoupdate) |
-| [**DrakesCore**](https://github.com/DrakesCraft-Labs/DrakesCore) | Plugin nucleo del servidor DrakesCraft |
+| Área | Proyecto | Responsabilidad |
+|---|---|---|
+| Núcleo | [**Slimefun4-Drake**](https://github.com/DrakesCraft-Labs/Slimefun4-Drake) | Adaptación y mantenimiento del core para el runtime Drake. |
+| Integración | [**drakes-slimefun-labs**](https://github.com/DrakesCraft-Labs/drakes-slimefun-labs) | Laboratorio de migración, compatibilidad y construcción de addons. |
+| Addons | [**SlimeTinker-drake**](https://github.com/DrakesCraft-Labs/SlimeTinker-drake) · [**FoxyMachines-drake**](https://github.com/DrakesCraft-Labs/FoxyMachines-drake) | Distribuciones independientes con compatibilidad legacy y builds reproducibles. |
+| Redes | [**NetworksV6-drake**](https://github.com/DrakesCraft-Labs/NetworksV6-drake) | Almacenamiento y automatización de redes para Paper 1.21.x. |
+| Contenido avanzado | [**Supreme-Drake**](https://github.com/DrakesCraft-Labs/Supreme-Drake) | Integración de contenido endgame dentro del ecosistema Drake. |
+| Distribución | [**maven-repo**](https://github.com/DrakesCraft-Labs/maven-repo) | Artefactos Maven consumidos por los proyectos mantenidos. |
 
-Rama estable del lab: **`main`** (Paper 1.21.x, Java 21). Linea experimental 26.x en rama dedicada del monorepo.
+## Cómo trabajamos
 
----
+- **Compatibilidad antes que reemplazos.** Un port no debe invalidar inventarios, recetas, claves PDC ni datos de mundo existentes.
+- **Cambios trazables.** Cada build se compila, valida y conserva con una ruta de rollback antes de una ventana de reinicio.
+- **Operación real.** Los proyectos se prueban contra una plataforma Paper/Slimefun en funcionamiento, no sólo contra una compilación local.
+- **Complejidad con propósito.** Preferimos una integración mantenible a añadir capas que no mejoran la experiencia de jugadores u operadores.
 
-## Comunidad y servidor (DrakesCraft)
+## Stack
 
-- **Discord:** [discord.gg/rR7FbfCt9Y](https://discord.gg/rR7FbfCt9Y)
-- **Web:** [drakescraft.cl](https://drakescraft.cl)
+`Java 21` · `Paper 1.21.x` · `Slimefun Drake` · `Maven` · `GitHub Actions` ·
+`SQLite` · `Docker` · `Linux` · `Cloudflare` · `Tailscale`
 
-### Java Edition
+El código de esta organización se centra en el plano de ejecución de Minecraft. La infraestructura,
+observabilidad, despliegues y automatizaciones de DrakesCraft se mantienen como parte del ecosistema
+operativo, con acceso privado por diseño.
 
-- **Host:** `mc.drakescraft.cl` (tambien `play.drakescraft.cl`)
+## DrakesCraft
 
-### Bedrock ([Geyser](https://github.com/GeyserMC/Geyser))
+DrakesCraft es la plataforma donde estos componentes se integran y validan.
 
-- **Host:** `mc.drakescraft.cl` · **UDP:** `25571`
-- **Auth:** [Floodgate](https://wiki.geysermc.org/floodgate/)
-- Wiki: [wiki.geysermc.org](https://wiki.geysermc.org/)
+- **Java Edition:** `mc.drakescraft.cl` o `play.drakescraft.cl`
+- **Bedrock:** `mc.drakescraft.cl:25571` mediante [Geyser](https://github.com/GeyserMC/Geyser) y Floodgate
+- **Comunidad:** [Discord DrakesCraft](https://discord.gg/rR7FbfCt9Y)
+- **Portal:** [drakescraft.cl](https://drakescraft.cl)
 
-### Discord ↔ Minecraft ([DiscordSRV](https://github.com/DiscordSRV/DiscordSRV))
+## Estado de repositorios
 
-Chat global y presencia enlazados; en juego: **`/discord`**. Docs: [docs.discordsrv.com](https://docs.discordsrv.com/).
+Los repositorios con sufijo `-drake`, los proyectos destacados arriba y sus releases/documentación son
+la referencia para trabajo activo. Los forks históricos siguen públicos para preservar procedencia y
+contexto técnico, pero no deben asumirse como builds recomendados ni como compatibilidad actual.
 
----
+## Contribuir
 
-## Ecosistema Slimefun (mapa)
+Los reportes útiles incluyen versión de Paper, Java, Slimefun Drake, addon afectado, pasos para
+reproducir y el error completo. Para cambios de código, abre primero un issue cuando el alcance pueda
+afectar datos de jugadores, recetas o compatibilidad entre versiones.
 
-### Nucleo y portes
+## Dirección
 
-- [**drakes-slimefun-labs**](https://github.com/DrakesCraft-Labs/drakes-slimefun-labs) — reactor Maven + Gradle, foundry, releases
-- [**NetworksV6-drake**](https://github.com/DrakesCraft-Labs/NetworksV6-drake/releases) — almacenamiento en red (fork Chagui / Netex / Sefiraat)
-- [**Slimefun4-1.20.6-Port**](https://github.com/DrakesCraft-Labs/Slimefun4-1.20.6-Port) — linea historica 1.20.6
-
-### Satelite / compatibilidad
-
-- [Cultivation_Updated](https://github.com/DrakesCraft-Labs/Cultivation_Updated)
-- [Networks---Better-Compatibility-Unofficial-](https://github.com/DrakesCraft-Labs/Networks---Better-Compatibility-Unofficial-) (legacy; ver NetworksV6-drake)
-- [Military-Arsenal-addon-for-Slimefun4](https://github.com/DrakesCraft-Labs/Military-Arsenal-addon-for-Slimefun4)
-
-### Suite modular servidor (`Drakes*`)
-
-[DrakesCore](https://github.com/DrakesCraft-Labs/DrakesCore) · [DrakesWorlds](https://github.com/DrakesCraft-Labs/DrakesWorlds) · [DrakesTech](https://github.com/DrakesCraft-Labs/DrakesTech) · [DrakesCrates](https://github.com/DrakesCraft-Labs/DrakesCrates) · [DrakesRanks](https://github.com/DrakesCraft-Labs/DrakesRanks) · [DrakesTab](https://github.com/DrakesCraft-Labs/DrakesTab) · [DrakesMotd](https://github.com/DrakesCraft-Labs/DrakesMotd) · [MultiverseCreatures](https://github.com/DrakesCraft-Labs/MultiverseCreatures)
-
----
-
-## Como leer esta organizacion
-
-1. **Ingenieria activa:** empieza por [drakes-slimefun-labs](https://github.com/DrakesCraft-Labs/drakes-slimefun-labs).
-2. **Networks en produccion:** [NetworksV6-drake](https://github.com/DrakesCraft-Labs/NetworksV6-drake) (rama `main`, releases con JAR).
-3. **Plugins del servidor:** suite `Drakes*` — revisa README y version MC de cada repo.
-
-## Principios
-
-- Rendimiento medido en servidor real, no solo en compilacion.
-- Arquitectura modular y configuracion explicita.
-- Compatibilidad documentada y reproducible (CI + smoke cuando aplica).
-- Codigo abierto util para operadores y desarrolladores.
-
-## Equipo
-
-- [**JackStar6677-1**](https://github.com/JackStar6677-1) — arquitectura, automatizacion, direccion del ecosistema.
-- [**Chagui68**](https://github.com/Chagui68) — plugins, compatibilidad, validacion en produccion.
-
-## Idioma
-
-Documentacion y codigo mezclan **espanol e ingles** segun historial del proyecto; la documentacion nueva del monorepo se normaliza de forma incremental.
+[**JackStar6677-1**](https://github.com/JackStar6677-1) dirige la arquitectura, desarrollo y operación
+del ecosistema DrakesCraft.
 
 <div align="center">
 
-**DrakesCraft Labs** · Chile · [drakescraft.cl](https://drakescraft.cl)
+**DrakesCraft Labs** · Chile · software mantenible para comunidades y operadores
 
 </div>
