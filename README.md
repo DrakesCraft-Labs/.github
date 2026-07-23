@@ -1,10 +1,10 @@
 # DrakesCraft-Labs/.github
 
-Repositorio de perfil y plantillas de la organizacion.
+Organization profile and template repository.
 
-| Ruta | Uso |
-|------|-----|
-| [`profile/README.md`](profile/README.md) | **README visible** en https://github.com/DrakesCraft-Labs |
-| [`profile/assets/labs-hero.svg`](profile/assets/labs-hero.svg) | Banner animado del perfil (SMIL, compatible GitHub) |
+| Path | Purpose |
+|------|---------|
+| [`profile/README.md`](profile/README.md) | **Visible README** on https://github.com/DrakesCraft-Labs |
+| [`profile/assets/labs-hero.svg`](profile/assets/labs-hero.svg) | Animated profile banner (SMIL, GitHub compatible) |
 
-Para editar la pagina de la org, modifica `profile/README.md` y sube a `main`.
+To edit the organization landing page, modify `profile/README.md` and push to `main`.
