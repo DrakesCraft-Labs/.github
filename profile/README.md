@@ -58,7 +58,7 @@
 ## 🎮 DrakesCraft Server
 
 - **Java Edition IP:** `mc.drakescraft.cl`
-- **Bedrock Edition IP:** `mc.drakescraft.cl:25571` (Geyser / Floodgate)
+- **Bedrock Edition IP:** `mc.drakescraft.cl:25565` (Geyser / Floodgate)
 - **Web:** [drakescraft.cl](https://drakescraft.cl)
 - **Community:** [DrakesCraft Discord](https://discord.gg/rR7FbfCt9Y)
 
