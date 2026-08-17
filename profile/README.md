@@ -17,7 +17,7 @@
 
 [🌐 Official Portal](https://web.drakescraft.cl) ·
 [📖 Player & Command Guide](https://web.drakescraft.cl/guia-comandos.html) ·
-[🛒 Official Store](https://tienda.drakescraft.cl) ·
+[🛒 Official Store](https://web.drakescraft.cl/store.html) ·
 [🏛️ Ecosystem Architecture](#-canonical-architecture--ecosystem-pillars) ·
 [💬 Join Discord](https://discord.gg/rR7FbfCt9Y)
 
@@ -160,7 +160,7 @@ All software produced and maintained by DrakesCraft Labs adheres to strict engin
 | **Bedrock Edition** | `mc.drakescraft.cl` (Port: `25565` / Geyser) |
 | **Official Web Portal** | [web.drakescraft.cl](https://web.drakescraft.cl) |
 | **Command & Player Guide** | [web.drakescraft.cl/guia-comandos.html](https://web.drakescraft.cl/guia-comandos.html) |
-| **Official Store** | [tienda.drakescraft.cl](https://tienda.drakescraft.cl) |
+| **Official Store** | [web.drakescraft.cl/store.html](https://web.drakescraft.cl/store.html) |
 | **Discord Community** | [discord.gg/rR7FbfCt9Y](https://discord.gg/rR7FbfCt9Y) |
 | **Instagram** | [@drakescraft.cl](https://www.instagram.com/drakescraft.cl/) |
 
