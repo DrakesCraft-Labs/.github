@@ -10,13 +10,13 @@
 [![Purpur](https://img.shields.io/badge/Purpur-1.21.11-FFA000?style=for-the-badge&logo=purpur)](https://purpurmc.org/)
 [![Java](https://img.shields.io/badge/Java-21_LTS-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/)
 [![Rust](https://img.shields.io/badge/Rust-2021_Workspace-DEA584?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-[![Server](https://img.shields.io/badge/Server-mc.drakescraft.cl-00E5FF?style=for-the-badge&logo=minecraft&logoColor=white)](https://drakescraft.cl)
+[![Server](https://img.shields.io/badge/Server-mc.drakescraft.cl-00E5FF?style=for-the-badge&logo=minecraft&logoColor=white)](https://web.drakescraft.cl)
 [![Discord](https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/rR7FbfCt9Y)
 
-**DrakesCraft Labs is the engineering organization responsible for the core infrastructure, gameplay engines, native calculation layers, and 80+ maintained addons powering the [DrakesCraft Network](https://drakescraft.cl).**
+**DrakesCraft Labs is the engineering organization responsible for the core infrastructure, gameplay engines, native calculation layers, and 80+ maintained addons powering the [DrakesCraft Network](https://web.drakescraft.cl).**
 
-[🌐 Official Portal](https://drakescraft.cl) ·
-[📖 Player & Command Guide](https://drakescraft.cl/guia-comandos.html) ·
+[🌐 Official Portal](https://web.drakescraft.cl) ·
+[📖 Player & Command Guide](https://web.drakescraft.cl/guia-comandos.html) ·
 [🛒 Official Store](https://tienda.drakescraft.cl) ·
 [🏛️ Ecosystem Architecture](#-canonical-architecture--ecosystem-pillars) ·
 [💬 Join Discord](https://discord.gg/rR7FbfCt9Y)
@@ -158,8 +158,8 @@ All software produced and maintained by DrakesCraft Labs adheres to strict engin
 |---|---|
 | **Java Edition** | `mc.drakescraft.cl` (Port: `25565`) |
 | **Bedrock Edition** | `mc.drakescraft.cl` (Port: `25565` / Geyser) |
-| **Official Web Portal** | [drakescraft.cl](https://drakescraft.cl) |
-| **Command & Player Guide** | [drakescraft.cl/guia-comandos.html](https://drakescraft.cl/guia-comandos.html) |
+| **Official Web Portal** | [web.drakescraft.cl](https://web.drakescraft.cl) |
+| **Command & Player Guide** | [web.drakescraft.cl/guia-comandos.html](https://web.drakescraft.cl/guia-comandos.html) |
 | **Official Store** | [tienda.drakescraft.cl](https://tienda.drakescraft.cl) |
 | **Discord Community** | [discord.gg/rR7FbfCt9Y](https://discord.gg/rR7FbfCt9Y) |
 | **Instagram** | [@drakescraft.cl](https://www.instagram.com/drakescraft.cl/) |
