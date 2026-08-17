@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="profile/assets/labs-hero.svg" alt="DrakesCraft Labs" width="100%" />
+<img src="https://raw.githubusercontent.com/DrakesCraft-Labs/.github/main/profile/assets/labs-hero.svg" alt="DrakesCraft Labs" width="100%" />
 
 # ✦ DrakesCraft Labs ✦
 
