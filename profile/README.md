@@ -154,7 +154,7 @@ All software produced and maintained by DrakesCraft Labs adheres to strict engin
 DrakesCraft Labs is driven by a small, focused team combining dedicated solo backend engineering with valued collaborative development:
 
 * **👑 Lead Architect & Systems Operator:** **Jack** ([@JackStar6677-1](https://github.com/JackStar6677-1)) — Leads and executes the server-side architecture, 100+ maintained plugin codebases, Java 21 LTS ports, custom forks, database integrity, Linux SRE infrastructure, and the **SAORI** autonomous operating fleet.
-* **🤝 Core Engineering Collaboration:** **Shaggy** — Actively collaborates on core mechanics, gameplay enhancements, technical testing, and feature implementations.
+* **🤝 Core Engineering Collaboration:** **Chagui** — Actively collaborates on core mechanics, gameplay enhancements, technical testing, and feature implementations.
 * **🛡️ Community & Moderation Staff:** Supported by our dedicated in-game and Discord staff team who manage player support, community events, and day-to-day player relations.
 
 ---
