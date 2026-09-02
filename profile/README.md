@@ -11,7 +11,7 @@
 [![Java](https://img.shields.io/badge/Java-21_LTS-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/)
 [![Rust](https://img.shields.io/badge/Rust-2021_Workspace-DEA584?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
 [![Server](https://img.shields.io/badge/Server-mc.drakescraft.cl-00E5FF?style=for-the-badge&logo=minecraft&logoColor=white)](https://web.drakescraft.cl)
-[![Discord](https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/rR7FbfCt9Y)
+[![Discord](https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/rv3vtXZTk7)
 
 **DrakesCraft Labs is the engineering organization responsible for the core infrastructure, gameplay engines, native calculation layers, and 80+ maintained addons powering the [DrakesCraft Network](https://web.drakescraft.cl).**
 
@@ -19,7 +19,7 @@
 [📖 Player & Command Guide](https://web.drakescraft.cl/guia-comandos.html) ·
 [🛒 Official Store](https://web.drakescraft.cl/store.html) ·
 [🏛️ Ecosystem Architecture](#-canonical-architecture--ecosystem-pillars) ·
-[💬 Join Discord](https://discord.gg/rR7FbfCt9Y)
+[💬 Join Discord](https://discord.gg/rv3vtXZTk7)
 
 </div>
 
@@ -161,7 +161,7 @@ All software produced and maintained by DrakesCraft Labs adheres to strict engin
 | **Official Web Portal** | [web.drakescraft.cl](https://web.drakescraft.cl) |
 | **Command & Player Guide** | [web.drakescraft.cl/guia-comandos.html](https://web.drakescraft.cl/guia-comandos.html) |
 | **Official Store** | [web.drakescraft.cl/store.html](https://web.drakescraft.cl/store.html) |
-| **Discord Community** | [discord.gg/rR7FbfCt9Y](https://discord.gg/rR7FbfCt9Y) |
+| **Discord Community** | [discord.gg/rv3vtXZTk7](https://discord.gg/rv3vtXZTk7) |
 | **Instagram** | [@drakescraft.cl](https://www.instagram.com/drakescraft.cl/) |
 
 <br>
