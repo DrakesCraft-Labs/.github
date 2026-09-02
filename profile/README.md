@@ -146,7 +146,16 @@ All software produced and maintained by DrakesCraft Labs adheres to strict engin
 2. **Transactional Idempotency**: Commercial transactions utilize state machines with atomic SQLite WAL journaling. Duplicate events, network timeouts, or sudden restarts will never duplicate rewards or drop purchases.
 3. **Zero Rogue Telemetry**: External analytics, background pings, and unverified webhooks are systematically stripped from all third-party ports. All telemetry is internal and auditable.
 4. **Graceful Maintenance Protocol**: Server maintenance utilizes safe countdowns (`/restart30`) with global warnings and forced disk flushes, ensuring zero rollback on restarts.
-5. **Native Optimization with Java Safety**: Native Rust modules run in companion workspaces with Java fallbacks, ensuring that production servers remain fully functional across all architectures.
+
+---
+
+## 👥 Engineering Leadership & Collaboration
+
+DrakesCraft Labs is driven by a small, focused team combining dedicated solo backend engineering with valued collaborative development:
+
+* **👑 Lead Architect & Systems Operator:** **Jack** ([@JackStar6677-1](https://github.com/JackStar6677-1)) — Leads and executes the server-side architecture, 100+ maintained plugin codebases, Java 21 LTS ports, custom forks, database integrity, Linux SRE infrastructure, and the **SAORI** autonomous operating fleet.
+* **🤝 Core Engineering Collaboration:** **Shaggy** — Actively collaborates on core mechanics, gameplay enhancements, technical testing, and feature implementations.
+* **🛡️ Community & Moderation Staff:** Supported by our dedicated in-game and Discord staff team who manage player support, community events, and day-to-day player relations.
 
 ---
 
