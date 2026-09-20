@@ -85,6 +85,8 @@ The technical foundation of DrakesCraft relies on an enterprise-grade Slimefun4 
 
 - **[`Slimefun4-Drake`](https://github.com/DrakesCraft-Labs/Slimefun4-Drake)** — High-performance Slimefun 4 core optimized for Java 21 and Paper 1.21.11. Features robust thread-safe block persistence, optimized ticker scheduling, and strict memory safety.
 - **[`NetworksV6-drake`](https://github.com/DrakesCraft-Labs/NetworksV6-drake)** — The high-throughput item transport, quantum storage, auto-crafting, and energy distribution backbone. Features zero-lag cached inventory resolution, WorldGuard protection caching, and on-the-fly network reconciliation (`/networks doctor` & `/networks reload`).
+- **[`MultiverseNets`](https://github.com/DrakesCraft-Labs/MultiverseNets)** — Standalone digital logistics and mass storage (controllers, cables, grabbers/pushers, Greedy cells, terminals) built by Chagui, with a reflection-based Slimefun bridge so machines are first-class citizens. Coexists with NetworksV6.
+- **[`Drakes-Suites`](https://github.com/DrakesCraft-Labs/Drakes-Suites)** — Maven multi-module monorepo consolidating the 160+ addon portfolio into 8 mega-suites (Core, Tech, Bio, Magic, Generators, Utility, Combat, Server) with a centralized ticker. Phase 1 (skeleton + reactor build) done; Phase 2 (source migration by domain) in progress.
 - **[`Slimefun-Rust`](https://github.com/DrakesCraft-Labs/Slimefun-Rust)** & **[`Odysseia-Rust`](https://github.com/DrakesCraft-Labs/Odysseia-Rust)** — High-performance native Rust 2021 calculation workspaces interfacing with Java 21 via Project Panama (Foreign Function & Memory API) for heavy math, item indexing, and graph operations.
 
 ---
@@ -130,7 +132,9 @@ DrakesCraft Labs actively maintains over **80+ curated, ported, and hardened plu
 └── 🛡️ Server Core, Utilities & Identity
     ├── Odysseia               # Sovereign operational core, Tebex gateway & kits
     ├── DrakesCore             # Community essentials, performance utilities & commands
-    ├── DrakesCrates           # Animated loot crates with weighted probability
+    ├── DrakesCrates           # El Oraculo & Relicarios del Olimpo: virtual keys, GUI relicaries, pity system
+    ├── DrakesRankup           # 50-tier progression (Dragon Ball / One Piece divisions), abilities, upkeep & ascent pouch
+    ├── MultiverseCreatures    # Custom creatures & bosses across modalities (Chagui)
     ├── DrakesRanks            # Tiered visual prefix hierarchy & LP synchronization
     ├── DrakesTab              # Dynamic gradient tablist & scoreboard integration
     └── AxGraves-Drakes        # Secure death graves with Soulbound item protection
@@ -154,7 +158,8 @@ All software produced and maintained by DrakesCraft Labs adheres to strict engin
 DrakesCraft Labs is driven by a small, focused team combining dedicated solo backend engineering with valued collaborative development:
 
 * **👑 Lead Architect & Systems Operator:** **Jack** ([@JackStar6677-1](https://github.com/JackStar6677-1)) — Leads and executes the server-side architecture, 100+ maintained plugin codebases, Java 21 LTS ports, custom forks, database integrity, Linux SRE infrastructure, and the **SAORI** autonomous operating fleet.
-* **🤝 Core Engineering Collaboration:** **Chagui** — Actively collaborates on core mechanics, gameplay enhancements, technical testing, and feature implementations.
+* **🤝 Core Engineering Collaboration:** **Chagui** ([@Chagui68](https://github.com/Chagui68)) — Author of `MultiverseNets` and `MultiverseCreatures`; collaborates on core mechanics (Supreme cargo smart-fill, Electric Core Fabricator), gameplay enhancements, technical testing and feature implementations.
+* **🤖 SAORI:** the autonomous SRE/agent fleet (Codex · Claude · Antigravity) that triages tickets, builds and stages fixes, guards the economy and runs the Discord/WhatsApp assistants. Public skeleton: [JackStar6677-1/saori](https://github.com/JackStar6677-1/saori).
 * **🛡️ Community & Moderation Staff:** Supported by our dedicated in-game and Discord staff team who manage player support, community events, and day-to-day player relations.
 
 ---
