@@ -4,190 +4,103 @@
 
 # ✦ DrakesCraft Labs ✦
 
-### High-Performance Minecraft Engineering & Distributed Server Architecture for Purpur 1.21.11 & Java 21
+### Software, mundos y herramientas que nacen de una comunidad
 
-[![Minecraft](https://img.shields.io/badge/Minecraft-1.21.11-7C4DFF?style=for-the-badge&logo=minecraft&logoColor=white)](https://papermc.io/)
-[![Purpur](https://img.shields.io/badge/Purpur-1.21.11-FFA000?style=for-the-badge&logo=purpur)](https://purpurmc.org/)
+[![DrakesCraft](https://img.shields.io/badge/DrakesCraft-Producto_principal-7C4DFF?style=for-the-badge&logo=minecraft&logoColor=white)](https://web.drakescraft.cl)
 [![Java](https://img.shields.io/badge/Java-21_LTS-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/)
-[![Rust](https://img.shields.io/badge/Rust-2021_Workspace-DEA584?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-[![Server](https://img.shields.io/badge/Server-mc.drakescraft.cl-00E5FF?style=for-the-badge&logo=minecraft&logoColor=white)](https://web.drakescraft.cl)
-[![Discord](https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/rv3vtXZTk7)
+[![Rust](https://img.shields.io/badge/Rust-Workspace-DEA584?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
+[![Community](https://img.shields.io/badge/Discord-Comunidad-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/rv3vtXZTk7)
 
-**DrakesCraft Labs is the engineering organization responsible for the core infrastructure, gameplay engines, native calculation layers, and 80+ maintained addons powering the [DrakesCraft Network](https://web.drakescraft.cl).**
+**DrakesCraft Labs es una organización de creación y mantenimiento de software.**
+DrakesCraft es nuestro mundo principal y el lugar donde más probamos ideas, pero
+el laboratorio también reúne herramientas, servicios, experimentos de IA,
+multimedia e infraestructura que pueden vivir por sí mismos.
 
-[🌐 Official Portal](https://web.drakescraft.cl) ·
-[📖 Player & Command Guide](https://web.drakescraft.cl/guia-comandos.html) ·
-[🛒 Official Store](https://web.drakescraft.cl/store.html) ·
-[🏛️ Ecosystem Architecture](#-canonical-architecture--ecosystem-pillars) ·
-[💬 Join Discord](https://discord.gg/rv3vtXZTk7)
+[🌐 DrakesCraft](https://web.drakescraft.cl) ·
+[💬 Comunidad](https://discord.gg/rv3vtXZTk7) ·
+[🧭 Explorar repositorios](https://github.com/orgs/DrakesCraft-Labs/repositories)
 
 </div>
 
 ---
 
-## 🏛️ About DrakesCraft Labs
+## Lo que hacemos
 
-**DrakesCraft** is a high-concurrency, long-running survival ecosystem supporting both **Java Edition** and **Bedrock Edition** (via Floodgate/Geyser) without ever resetting player progress or the main world. 
+No todos los repositorios de esta organización son plugins de Minecraft, y no
+tienen por qué serlo. Organizamos el trabajo alrededor de productos y problemas
+reales, no de una sola tecnología.
 
-To achieve zero-lag scalability, technical stability, and rich cross-discipline gameplay, DrakesCraft Labs engineers and maintains **a fully modular, decoupled architecture**. Rather than running monolithic mega-plugins, every domain—from transactional commerce and mythological pantheons to technical logistics and instanced combat—runs as an independent, hardened system.
-
----
-
-## 🗺️ Canonical Architecture & Ecosystem Pillars
-
-```
-                                  ┌──────────────────────────────────────────────────┐
-                                  │               DRAKESCRAFT LABS                   │
-                                  │      High-Performance Minecraft Systems          │
-                                  └────────────────────────┬─────────────────────────┘
-                                                           │
-         ┌─────────────────────────┬───────────────────────┴───────────────────────┬─────────────────────────┐
-         ▼                         ▼                                               ▼                         ▼
-┌──────────────────┐      ┌──────────────────┐                           ┌──────────────────┐      ┌──────────────────┐
-│     ODYSSEIA     │      │   DIOSESDRAKES   │                           │   DRAKESBOSSES   │      │   ARCANADRAKES   │
-│ Sovereign Core,  │      │ Divine Pantheon, │                           │ Instanced Arenas,│      │ 6 Elemental Magic│
-│ Store Gateway &  │      │ Favor Systems &  │                           │ Dragmas Economy &│      │ Paths, Shrines & │
-│ Server Controls  │      │ Altars           │                           │ Mailbox Delivery │      │ Spells Codex     │
-└────────┬─────────┘      └────────┬─────────┘                           └────────┬─────────┘      └────────┬─────────┘
-         │                         │                                               │                         │
-         └─────────────────────────┼───────────────────────────────────────────────┴─────────────────────────┘
-                                   │
-                                   ▼
-         ┌───────────────────────────────────────────────────┐
-         │             SLIMEFUN PLATFORM & LOGISTICS         │
-         │  Slimefun4-Drake · NetworksV6-drake · 80+ Addons  │
-         └─────────────────────────┬─────────────────────────┘
-                                   │
-                                   ▼
-         ┌───────────────────────────────────────────────────┐
-         │              RUST COMPUTATION LAYER               │
-         │  Slimefun-Rust · Odysseia-Rust (FFM / Project     │
-         │  Panama Native Off-JVM Calculations)              │
-         └───────────────────────────────────────────────────┘
-```
-
----
-
-## 🌟 The 4 Core Autonomous Pillars
-
-| Pillar Repository | Domain & Purpose | Key Highlights |
+| Línea | Qué reúne | Ejemplos |
 |---|---|---|
-| **[`Odysseia`](https://github.com/DrakesCraft-Labs/Odysseia)** | **Central Execution Core & Store Gateway** | Idempotent Tebex state machine, SQLite WAL transaction logs, cross-modality inventory protection, 4-tier kit delivery, `/restart30` atomic saving, and horror night environmental events. |
-| **[`DiosesDrakes`](https://github.com/DrakesCraft-Labs/DiosesDrakes)** | **Mythological Pantheons & Divine Favor** | 5 active pantheons (Greek, Norse, Celtic, Egyptian, Hindu), favor point accumulation, deity sacrifices, unique blessings, and community Convergence anchors. |
-| **[`DrakesBosses`](https://github.com/DrakesCraft-Labs/DrakesBosses)** | **Instanced Arena Encounters & Boss Systems** | Multi-phase custom armor-stand bosses in `drakes_bosses`, Dragmas economy entry fees, anti-griefing arena barriers, and asynchronous mailbox reward dispatch (`/buzon`). |
-| **[`ArcanaDrakes`](https://github.com/DrakesCraft-Labs/ArcanaDrakes)** | **Elemental Magic & Spiritual Progression** | 6 elemental affinities (Fire, Water, Earth, Air, Ice, Lightning), meditation shrines, spell grimoires, divine resonance, and custom PvE mechanics. |
+| 🎮 **DrakesCraft** | Plugins, contenido, operaciones y herramientas para la red de Minecraft. | [Odysseia](https://github.com/DrakesCraft-Labs/Odysseia), [Slimefun4-Drake](https://github.com/DrakesCraft-Labs/Slimefun4-Drake), [DrakesBosses](https://github.com/DrakesCraft-Labs/DrakesBosses), [drakescraft-web](https://github.com/DrakesCraft-Labs/drakescraft-web) |
+| 🧠 **IA y automatización** | Experimentos, componentes y utilidades para asistentes, chat, voz y flujos automáticos. | [javaai-core](https://github.com/DrakesCraft-Labs/javaai-core), [java-chat-ai](https://github.com/DrakesCraft-Labs/java-chat-ai), [voice-java-ai](https://github.com/DrakesCraft-Labs/voice-java-ai) |
+| 🌐 **Infraestructura y red** | Herramientas para observar, administrar o proteger servicios y redes. | [IP-Detector](https://github.com/DrakesCraft-Labs/IP-Detector), [maven-repo](https://github.com/DrakesCraft-Labs/maven-repo) |
+| 🎵 **Medios y creatividad** | Proyectos de música, contenido interactivo y prototipos audiovisuales. | [YoutubeMusicMachine](https://github.com/DrakesCraft-Labs/YoutubeMusicMachine), [MusicMP3-Downloader](https://github.com/DrakesCraft-Labs/MusicMP3-Downloader) |
+| 🧪 **Investigación y prototipos** | Ideas en exploración; no todas son productos terminados ni están destinadas a producción. | Repositorios experimentales y forks de compatibilidad |
 
----
+## DrakesCraft sigue siendo nuestro corazón
 
-## ⚙️ Technical Platform & Logistics Engine
+DrakesCraft Labs mantiene el ecosistema técnico que sostiene
+[DrakesCraft](https://web.drakescraft.cl): gameplay, economía, automatización,
+contenido, web y herramientas de operación. El trabajo de Minecraft se organiza
+en repositorios independientes para que cada cambio pueda revisarse, probarse y
+liberarse con claridad.
 
-The technical foundation of DrakesCraft relies on an enterprise-grade Slimefun4 fork and a hardened logistics network:
+Algunos proyectos relevantes:
 
-- **[`Slimefun4-Drake`](https://github.com/DrakesCraft-Labs/Slimefun4-Drake)** — High-performance Slimefun 4 core optimized for Java 21 and Paper 1.21.11. Features robust thread-safe block persistence, optimized ticker scheduling, and strict memory safety.
-- **[`NetworksV6-drake`](https://github.com/DrakesCraft-Labs/NetworksV6-drake)** — The high-throughput item transport, quantum storage, auto-crafting, and energy distribution backbone. Features zero-lag cached inventory resolution, WorldGuard protection caching, and on-the-fly network reconciliation (`/networks doctor` & `/networks reload`).
-- **[`MultiverseNets`](https://github.com/DrakesCraft-Labs/MultiverseNets)** — Standalone digital logistics and mass storage (controllers, cables, grabbers/pushers, Greedy cells, terminals) built by Chagui, with a reflection-based Slimefun bridge so machines are first-class citizens. Coexists with NetworksV6.
-- **[`Drakes-Suites`](https://github.com/DrakesCraft-Labs/Drakes-Suites)** — Maven multi-module monorepo consolidating the 160+ addon portfolio into 8 mega-suites (Core, Tech, Bio, Magic, Generators, Utility, Combat, Server) with a centralized ticker. Phase 1 (skeleton + reactor build) done; Phase 2 (source migration by domain) in progress.
-- **[`Slimefun-Rust`](https://github.com/DrakesCraft-Labs/Slimefun-Rust)** & **[`Odysseia-Rust`](https://github.com/DrakesCraft-Labs/Odysseia-Rust)** — High-performance native Rust 2021 calculation workspaces interfacing with Java 21 via Project Panama (Foreign Function & Memory API) for heavy math, item indexing, and graph operations.
+- **[Odysseia](https://github.com/DrakesCraft-Labs/Odysseia)** — núcleo operativo,
+  eventos, entregas y lógica de comunidad.
+- **[Slimefun4-Drake](https://github.com/DrakesCraft-Labs/Slimefun4-Drake)** — base
+  mantenida para la plataforma técnica y sus addons.
+- **[DrakesBosses](https://github.com/DrakesCraft-Labs/DrakesBosses)** — encuentros,
+  arenas y recompensas.
+- **[MultiverseNets](https://github.com/DrakesCraft-Labs/MultiverseNets)** — redes
+  logísticas y almacenamiento digital que conviven con la plataforma existente.
+- **[Drakes-Suites](https://github.com/DrakesCraft-Labs/Drakes-Suites)** — trabajo
+  gradual para ordenar addons por dominio, sin confundir el monorepo con un producto
+  ya terminado.
+- **[DrakesCrates](https://github.com/DrakesCraft-Labs/DrakesCrates)** y
+  **[DrakesRankup](https://github.com/DrakesCraft-Labs/DrakesRankup)** — sistemas de
+  progresión y recompensas de la comunidad.
+- **[DrakesTab](https://github.com/DrakesCraft-Labs/DrakesTab)** — presentación de
+  información del servidor para jugadores.
+- **[drakescraft-web](https://github.com/DrakesCraft-Labs/drakescraft-web)** — portal
+  web y experiencia pública de la comunidad.
 
----
+## Cómo leer este laboratorio
 
-## 📦 Maintained Addons & Ecosystem Portfolio
+- **Producción**: proyectos usados activamente por DrakesCraft o por un servicio
+  identificado. Sus cambios requieren revisión, pruebas y plan de reversión.
+- **Mantenimiento / compatibilidad**: ports y forks que conservamos para que un
+  ecosistema existente siga funcionando en versiones modernas.
+- **Experimental**: pruebas, prototipos y aprendizaje. Que un repositorio sea
+  público no significa que esté listo para instalarse ni que tenga soporte.
 
-DrakesCraft Labs actively maintains over **80+ curated, ported, and hardened plugins** ensuring 100% compatibility with Paper/Purpur 1.21.11, modern Java 21, and UTF-8 Spanish localization.
+Cada repositorio debería declarar su estado, propósito, licencia y forma de
+probarlo. Si falta esa información, se agradecen issues o contribuciones para
+dejarlo más claro.
 
-```
-├── 🤖 Logistics & Automation
-│   ├── NetworksV6-drake       # High-throughput transport, quantum vaults & autocrafters
-│   ├── ChestTerminal-drake    # Remote centralized chest network access
-│   ├── DynaTech-drake         # Advanced technical machinery, generators & materials
-│   ├── SensibleToolbox-drake  # Mechanical item filters, pipes & fluid routing
-│   ├── FoxyMachines-drake     # High-tier industrial processing & material synthetics
-│   └── Automation             # Automated crafting & factory assembly lines
-│
-├── ⚔️ Bosses, Combat & Legends
-│   ├── MultiverseCreatures    # Adaptive bosses (Mahoraga, Dio, Obsidian Sentinel) & relics
-│   ├── DrakesBosses           # Instanced boss dimensions, Dragmas fees & loot mailbox
-│   ├── Military-Arsenal       # Tactical firearms, turrets & ballistic defense systems
-│   ├── MissileWarfare-drake   # Guided missile launchers, radar & defensive interceptors
-│   ├── SFPortalGun            # Dual-portal quantum teleportation & gravity manipulation
-│   └── RelicsOfCthonia-drake  # Nether abyssal artifacts, catalysts & dark enchantments
-│
-├── 🔮 Magic, Alchemy & Dimensions
-│   ├── ArcanaDrakes           # 6 elemental magic trees, meditation shrines & codices
-│   ├── Galactifun2-drake      # Space exploration, rockets, alien planets & oxygen nets
-│   ├── Galaxyfun-drake        # Solar generators, stellar progression & celestial drills
-│   ├── InfernalExpansion      # Nether thermal alchemy, runic altars & volcanic tech
-│   ├── DemonicExpansion       # Soul extraction, demonic rituals & void catalysts
-│   ├── MagicXpansion          # Magical wands, soul manipulation & ethereal synthesis
-│   └── CrystamaeHistoria-drake# Magical lore books, crystal infusers & arcane research
-│
-├── 🌾 Agriculture, Cooking & Economy
-│   ├── Gastronomicon-drake    # Gourmet culinary recipes, custom kitchenware & buffs
-│   ├── Cultivation_Updated    # Enhanced farming, automated harvesters & sprinklers
-│   ├── SlimyBees              # Genetic apiculture, resource bees & automated apiaries
-│   ├── Drugfun                # Botanical alchemy, brewing distillation & status perks
-│   ├── sbank                  # Comprehensive banking system, interest & player loans
-│   └── DrakesSlimeMarket      # Dynamic fluctuating material exchange & market trading
-│
-└── 🛡️ Server Core, Utilities & Identity
-    ├── Odysseia               # Sovereign operational core, Tebex gateway & kits
-    ├── DrakesCore             # Community essentials, performance utilities & commands
-    ├── DrakesCrates           # El Oraculo & Relicarios del Olimpo: virtual keys, GUI relicaries, pity system
-    ├── DrakesRankup           # 50-tier progression (Dragon Ball / One Piece divisions), abilities, upkeep & ascent pouch
-    ├── MultiverseCreatures    # Custom creatures & bosses across modalities (Chagui)
-    ├── DrakesRanks            # Tiered visual prefix hierarchy & LP synchronization
-    ├── DrakesTab              # Dynamic gradient tablist & scoreboard integration
-    └── AxGraves-Drakes        # Secure death graves with Soulbound item protection
-```
+## Principios
 
----
+1. **El producto manda.** Elegimos la tecnología que resuelve el problema; no
+   forzamos todo a Minecraft, Java o un único tipo de proyecto.
+2. **No romper datos.** Compras, inventarios, configuraciones y trabajo de la
+   comunidad se tratan como información que hay que preservar.
+3. **Aprender en público, operar con cuidado.** Los experimentos pueden ser
+   abiertos; la producción necesita cambios trazables y reversibles.
+4. **Crédito y colaboración.** Mantenemos forks y aportes con atribución,
+   licencia y contexto técnico.
 
-## 🛡️ Production Engineering Standards
+## Colaborar
 
-All software produced and maintained by DrakesCraft Labs adheres to strict engineering rules:
-
-1. **Player Data Integrity First**: Inventory state, machine locations, land claims, player vaults, and economy ledgers are sacred. Migrations and updates must be 100% backwards-compatible.
-2. **Transactional Idempotency**: Commercial transactions utilize state machines with atomic SQLite WAL journaling. Duplicate events, network timeouts, or sudden restarts will never duplicate rewards or drop purchases.
-3. **Zero Rogue Telemetry**: External analytics, background pings, and unverified webhooks are systematically stripped from all third-party ports. All telemetry is internal and auditable.
-4. **Graceful Maintenance Protocol**: Server maintenance utilizes safe countdowns (`/restart30`) with global warnings and forced disk flushes, ensuring zero rollback on restarts.
-
----
-
-## 👥 Engineering Leadership & Collaboration
-
-DrakesCraft Labs is driven by a small, focused team combining dedicated solo backend engineering with valued collaborative development:
-
-* **👑 Lead Architect & Systems Operator:** **Jack** ([@JackStar6677-1](https://github.com/JackStar6677-1)) — Leads and executes the server-side architecture, 100+ maintained plugin codebases, Java 21 LTS ports, custom forks, database integrity, Linux SRE infrastructure, and the **SAORI** autonomous operating fleet.
-* **🤝 Core Engineering Collaboration:** **Chagui** ([@Chagui68](https://github.com/Chagui68)) — Author of `MultiverseNets` and `MultiverseCreatures`; collaborates on core mechanics (Supreme cargo smart-fill, Electric Core Fabricator), gameplay enhancements, technical testing and feature implementations.
-* **🤖 SAORI:** the autonomous SRE/agent fleet (Codex · Claude · Antigravity) that triages tickets, builds and stages fixes, guards the economy and runs the Discord/WhatsApp assistants. Public skeleton: [JackStar6677-1/saori](https://github.com/JackStar6677-1/saori).
-* **🛡️ Community & Moderation Staff:** Supported by our dedicated in-game and Discord staff team who manage player support, community events, and day-to-day player relations.
-
----
-
-## 🌐 Connect with DrakesCraft
+Puedes abrir un issue, proponer una mejora o revisar un proyecto concreto. Para
+cambios que afecten DrakesCraft, explica el impacto sobre jugadores, datos y
+compatibilidad antes de enviar un pull request.
 
 <div align="center">
 
-| Platform | Address / URL |
-|---|---|
-| **Java Edition** | `mc.drakescraft.cl` (Port: `25565`) |
-| **Bedrock Edition** | `mc.drakescraft.cl` (Port: `25565` / Geyser) |
-| **Official Web Portal** | [web.drakescraft.cl](https://web.drakescraft.cl) |
-| **Command & Player Guide** | [web.drakescraft.cl/guia-comandos.html](https://web.drakescraft.cl/guia-comandos.html) |
-| **Official Store** | [web.drakescraft.cl/store.html](https://web.drakescraft.cl/store.html) |
-| **Discord Community** | [discord.gg/rv3vtXZTk7](https://discord.gg/rv3vtXZTk7) |
-| **Instagram** | [@drakescraft.cl](https://www.instagram.com/drakescraft.cl/) |
+**Construimos cosas para jugar, aprender y resolver problemas.**
 
-<br>
-
-```
-  ____                 _                 ____                __ _     _               _             
- |  _ \  _ __   __ _  | | __  ___  ___  / ___|_ __  __ _   / _| |_  | |    __ _  ___| |_   ___  
- | | | || '__| / _` | | |/ / / _ \/ __|| |   | '__|/ _` | | |_| __| | |   / _` |/ __| __| / __| 
- | |_| || |   | (_| | |   < |  __/\__ \| |___| |  | (_| | |  _| |_  | |__| (_| |\__ \ |_ _\__ \ 
- |____/ |_|    \__,_| |_|\_\ \___||___/ \____|_|   \__,_| |_|  \__| |_____\__,_||___/\__(_)___/ 
-```
-
-**Engineered with ☕, 🦀, and architectural precision for the DrakesCraft community.**
+[DrakesCraft](https://web.drakescraft.cl) · [Discord](https://discord.gg/rv3vtXZTk7) · [Repositorios](https://github.com/orgs/DrakesCraft-Labs/repositories)
 
 </div>
