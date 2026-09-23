@@ -50,15 +50,19 @@ Algunos proyectos relevantes:
 
 - **[Odysseia](https://github.com/DrakesCraft-Labs/Odysseia)** — núcleo operativo,
   eventos, entregas y lógica de comunidad.
-- **[Slimefun4-Drake](https://github.com/DrakesCraft-Labs/Slimefun4-Drake)** — base
-  mantenida para la plataforma técnica y sus addons.
+- **[StarSuites](https://github.com/DrakesCraft-Labs/Drakes-Suites)** (`Drakes-Suites`) —
+  arquitectura maestra que consolida más de 180 micro-addons en suites desacopladas
+  con persistencia SQLite WAL, configs modulares y aceleración off-heap en Rust.
+  > ℹ️ *Aclaración de Autoría:* Slimefun es una obra open-source creada por **TheBusyBiscuit**
+  y su comunidad. DrakesCraft Labs / JackStar no es su creador original, sino el arquitecto de su
+  modernización técnica, estabilidad en Paper 1.21.11 y erradicación de pausas de Garbage Collector.
+- **Suite Multiverse (por Chagui68)** — autoría y diseño soberano de **Chagui68**
+  consolidado en [MultiverseCreatures](https://github.com/DrakesCraft-Labs/MultiverseCreatures) y
+  [MultiverseNets](https://github.com/DrakesCraft-Labs/MultiverseNets).
 - **[DrakesBosses](https://github.com/DrakesCraft-Labs/DrakesBosses)** — encuentros,
   arenas y recompensas.
-- **[MultiverseNets](https://github.com/DrakesCraft-Labs/MultiverseNets)** — redes
-  logísticas y almacenamiento digital que conviven con la plataforma existente.
-- **[Drakes-Suites](https://github.com/DrakesCraft-Labs/Drakes-Suites)** — trabajo
-  gradual para ordenar addons por dominio, sin confundir el monorepo con un producto
-  ya terminado.
+- **[Slimefun-Rust](https://github.com/DrakesCraft-Labs/Slimefun-Rust)** — motor nativo
+  JNI/FFM para resolver grafos de redes y matrices energéticas off-heap sin GC pauses.
 - **[DrakesCrates](https://github.com/DrakesCraft-Labs/DrakesCrates)** y
   **[DrakesRankup](https://github.com/DrakesCraft-Labs/DrakesRankup)** — sistemas de
   progresión y recompensas de la comunidad.
