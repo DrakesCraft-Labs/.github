@@ -1,72 +1,39 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/DrakesCraft-Labs/org-profile/main/banner.svg" alt="org-profile Banner" width="920" />
+<img src="https://raw.githubusercontent.com/DrakesCraft-Labs/.github/main/profile/assets/labs-hero.svg" alt="DrakesCraft Labs" width="100%" />
 
-# ⚡ org-profile
+# ✦ DrakesCraft Labs — Organización Oficial ✦
 
-**SLIMEFUN4 ADDON · DRAKES EDITION**
+### Ecosistema de Monorepos, Motores en Rust e Infraestructura SRE de Producción
 
-<p>
-  <a href="https://github.com/DrakesCraft-Labs/org-profile"><img src="https://img.shields.io/badge/GitHub-org-profile-181717?style=for-the-badge&logo=github" alt="GitHub"/></a>
-  <img src="https://img.shields.io/badge/Slimefun4-Drake_Edition-22C55E?style=for-the-badge&logo=curseforge&logoColor=white" alt="Slimefun4"/>
-  <img src="https://img.shields.io/badge/Paper-1.21.11-38BDF8?style=for-the-badge&logo=minecraft&logoColor=white" alt="Paper 1.21.11"/>
-  <img src="https://img.shields.io/badge/Java-21-F89820?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java 21"/>
-</p>
+[![StarSuites](https://img.shields.io/badge/StarSuites-Monorepo_LTS-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DrakesCraft-Labs/Drakes-Suites)
+[![DrakesCraft](https://img.shields.io/badge/DrakesCraft-Producción-22C55E?style=for-the-badge&logo=minecraft&logoColor=white)](https://web.drakescraft.cl)
+[![Java 21](https://img.shields.io/badge/Java-21_LTS-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/)
+[![Rust Workspace](https://img.shields.io/badge/Rust-Off--Heap_SIMD-DEA584?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
+
+[🌐 Web Oficial](https://web.drakescraft.cl) ·
+[💬 Comunidad Discord](https://discord.gg/rv3vtXZTk7) ·
+[🌌 StarSuites Monorepo](https://github.com/DrakesCraft-Labs/Drakes-Suites)
 
 </div>
 
-> ### 🏰 ¡Únete a la Comunidad Oficial de DrakesCraft!
-> 
-> * 🎮 **IP del Servidor**: `play.drakescraft.cl` *(Java 1.21.11 & Bedrock)*
-> * 💬 **Discord Oficial**: [discord.gg/drakescraft](https://discord.gg/rR7FbfCt9Y)
-> * 🌐 **Web & Guía**: [web.drakescraft.cl](https://web.drakescraft.cl) — 🛒 **Tienda**: [web.drakescraft.cl/store](https://web.drakescraft.cl/store.html)
-> 
-> *¡Juega con este addon y más de 80 expansiones optimizadas en vivo en nuestra network de supervivencia técnica!*
-
 ---
 
----
+Este repositorio (`.github`) almacena la configuración de perfil y gobernanza global de la organización **DrakesCraft-Labs**.
 
-## 📖 Descripción General
+### 🌌 Arquitectura Central: [StarSuites](https://github.com/DrakesCraft-Labs/Drakes-Suites)
+Todo el ecosistema de más de 180 addons y plugins históricos ha sido consolidado en el monorepo oficial **StarSuites**, concebido por **JackStar**:
+- **8 Mega-Suites Oficiales** (`drakes-core.jar` a `drakes-server.jar`)
+- **Suite Multiverse** (autoría soberana de **Chagui68**)
+- Motor nativo en Rust off-heap ([`Slimefun-Rust`](https://github.com/DrakesCraft-Labs/Slimefun-Rust))
+- Persistencia transaccional SQLite WAL y configuración desacoplada `modules/*.yml`
 
-**org-profile** es un componente esencial del ecosistema **DrakesCraft Labs** para servidores Minecraft **Paper / Purpur 1.21.11**.
-
-Addon de Slimefun mantenido y optimizado por DrakesCraft Labs para Paper 1.21.11.
-
-Todo el contenido y sus mecánicas se integran y desbloquean desde la **Guía de Slimefun (`/sf guide`)** sin necesidad de comandos especiales.
-
----
-
-## ⚙️ Características y Sistemas Principales
-
-* 🚀 **Rendimiento Optimizado**: Construido para Java 21 sobre Paper 1.21.11 con recolección limpia de entidades y sin telemetría externa.
-* 🛡️ **Seguridad e Integridad**: Transacciones seguras en memoria y compatibilidad completa con almacenamiento `BlockStorage`.
-* 🎮 **Integración Total**: Compatible con Slimefun4-Drake, redes de logística, sistemas de energía y economía global.
-
----
-
-## 📋 Compatibilidad Técnica
-
-| Parámetro | Requisito |
-|---|---|
-| **Servidor** | Paper / Purpur / Folia **1.21.11** |
-| **Java** | **Java 21** LTS |
-| **Core** | [Slimefun4-Drake](https://github.com/DrakesCraft-Labs/Slimefun4-Drake) |
-| **Lado** | 100% Servidor (Server-side) |
-
----
-
-## 📥 Instalación
-
-1. Descarga la versión compilada `.jar` desde las releases del repositorio o Modrinth.
-2. Colócala en la carpeta `plugins/` de tu servidor Minecraft junto a `Slimefun4-Drake.jar`.
-3. Inicia o reinicia el servidor.
+Para explorar la visión completa y la documentación de la organización, consulta el [Perfil de la Organización](./profile/README.md).
 
 ---
 
 <div align="center">
 
-**Desarrollado y Mantenido por [DrakesCraft Labs](https://github.com/DrakesCraft-Labs)**  
-Licencia **GPL-3.0-only** / **MIT**.
+**DrakesCraft Labs · Arquitectura por JackStar**
 
 </div>
