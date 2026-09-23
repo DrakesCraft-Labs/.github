@@ -1,41 +1,227 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 240" width="920" height="240" role="img" aria-label="org-profile Banner">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="100%" height="auto" role="img" aria-label="DrakesCraft Labs — Celestial Laboratory Banner">
   <defs>
-    <linearGradient id="bFondo" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#070B14"/>
-      <stop offset="100%" stop-color="#0F172A"/>
+    <!-- Fondo Abisal Profundo -->
+    <linearGradient id="labVoid" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="25%" stop-color="#031525"/>
+      <stop offset="55%" stop-color="#06201b"/>
+      <stop offset="85%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#02040a"/>
     </linearGradient>
-    <linearGradient id="acG" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#F59E0B"/>
-      <stop offset="100%" stop-color="#FCD34D"/>
-    </linearGradient>
-    <radialGradient id="bHalo" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0"/>
+
+    <!-- Nebulosas Esmeralda y Cian Cuántico -->
+    <radialGradient id="nebulaEmerald" cx="50%" cy="38%" r="65%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.32"/>
+      <stop offset="45%" stop-color="#06B6D4" stop-opacity="0.18"/>
+      <stop offset="80%" stop-color="#047857" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
+
+    <radialGradient id="nebulaGoldDragon" cx="50%" cy="30%" r="35%">
+      <stop offset="0%" stop-color="#F59E0B" stop-opacity="0.38"/>
+      <stop offset="60%" stop-color="#D97706" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Tipografía con Gradiente de Fuego Celestial -->
+    <linearGradient id="dragonTitleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6EE7B7"/>
+      <stop offset="25%" stop-color="#38BDF8"/>
+      <stop offset="55%" stop-color="#FDE68A"/>
+      <stop offset="85%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#FB923C"/>
+    </linearGradient>
+
+    <!-- Borde Holográfico -->
+    <linearGradient id="cyberBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#F59E0B" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="50%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+
+    <!-- Patrón Hexagonal de Laboratorio Cuántico -->
+    <pattern id="hexMatrix" width="40" height="69.282" patternUnits="userSpaceOnUse" patternTransform="scale(0.85)">
+      <path d="M 40 0 L 20 11.547 L 0 0 L 0 23.094 L 20 34.641 L 40 23.094 Z M 0 34.641 L 20 46.188 L 40 34.641 L 40 57.735 L 20 69.282 L 0 57.735 Z"
+            fill="none" stroke="#38BDF8" stroke-width="0.75" stroke-opacity="0.055"/>
+      <circle cx="20" cy="34.641" r="1" fill="#10B981" fill-opacity="0.2"/>
+    </pattern>
+
+    <!-- Filtros de Resplandor Óptico -->
+    <filter id="glowLab" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="intenseLaser" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="b1"/>
+      <feGaussianBlur stdDeviation="16" result="b2"/>
+      <feMerge>
+        <feMergeNode in="b2"/>
+        <feMergeNode in="b1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Animaciones CSS Puras -->
+    <style>
+      @keyframes spinTachyon { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+      @keyframes spinTachyonRev { from { transform: rotate(360deg); } to { transform: rotate(0deg); } }
+      @keyframes pulseDragonCore { 0%, 100% { transform: scale(1); filter: drop-shadow(0 0 10px #10B981); } 50% { transform: scale(1.08); filter: drop-shadow(0 0 24px #F59E0B); } }
+      @keyframes dashConduit { to { stroke-dashoffset: -180; } }
+      @keyframes twinkleLab { 0%, 100% { opacity: 0.25; transform: scale(0.8); } 50% { opacity: 1; transform: scale(1.3); } }
+      @keyframes borderShimmer { 0%, 100% { stroke-opacity: 0.5; } 50% { stroke-opacity: 1; } }
+      @keyframes laserSweep { 0% { transform: translateX(-350px); opacity: 0; } 15%, 85% { opacity: 0.9; } 50% { transform: translateX(350px); } 100% { transform: translateX(350px); opacity: 0; } }
+
+      .tachyon-ring { animation: spinTachyon 40s linear infinite; transform-origin: 600px 135px; }
+      .tachyon-ring-rev { animation: spinTachyonRev 25s linear infinite; transform-origin: 600px 135px; }
+      .dragon-heart { animation: pulseDragonCore 3.5s ease-in-out infinite; transform-origin: 600px 135px; }
+      .conduit-flow { stroke-dasharray: 12 16; animation: dashConduit 14s linear infinite; }
+      .twinkle-node { animation: twinkleLab 3.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .border-pulse { animation: borderShimmer 4s ease-in-out infinite; }
+      .sweep-beam { animation: laserSweep 5s ease-in-out infinite; }
+    </style>
   </defs>
-  <rect width="920" height="240" rx="16" fill="url(#bFondo)"/>
-  <rect width="920" height="240" rx="16" fill="url(#bHalo)"/>
-  <rect x="2" y="2" width="916" height="236" rx="14" fill="none" stroke="url(#acG)" stroke-width="2" opacity="0.4"/>
-  
-  <g transform="translate(460,70) scale(1.6)">
-<rect x="-24" y="-24" width="48" height="48" rx="8" fill="none" stroke="url(#acG)" stroke-width="4"/><circle cx="0" cy="0" r="10" fill="#F59E0B"/>
+
+  <!-- Capa de Fondo Espacial -->
+  <rect width="1200" height="440" rx="24" fill="url(#labVoid)"/>
+  <rect width="1200" height="440" rx="24" fill="url(#hexMatrix)"/>
+
+  <!-- Nebulosa Pulsante Central -->
+  <circle cx="600" cy="140" r="320" fill="url(#nebulaEmerald)"/>
+  <circle cx="600" cy="125" r="200" fill="url(#nebulaGoldDragon)"/>
+
+  <!-- Líneas de Conducción y Circuitos Cuánticos de Laboratorio -->
+  <g class="conduit-flow" opacity="0.35">
+    <path d="M 60 70 L 380 70 L 460 135 M 1140 70 L 820 70 L 740 135" fill="none" stroke="#10B981" stroke-width="1.6"/>
+    <path d="M 60 380 L 380 380 L 460 310 M 1140 380 L 820 380 L 740 310" fill="none" stroke="#06B6D4" stroke-width="1.6"/>
   </g>
-  
-  <text x="460" y="152" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-weight="900" font-size="28" fill="#F8FAFC" letter-spacing="2">
-    ORG-PROFILE
-  </text>
-  <text x="460" y="184" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-weight="700" font-size="12" fill="#FCD34D" letter-spacing="3" opacity="0.9">
-    SLIMEFUN4 ADDON · ORG-PROFILE
-  </text>
-  
-  <g transform="translate(460, 210)">
-    <rect x="-180" y="-12" width="110" height="20" rx="4" fill="#1E293B" stroke="#F59E0B" stroke-width="1"/>
-    <text x="-125" y="2" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#E2E8F0">DRAKES LABS</text>
-    
-    <rect x="-55" y="-12" width="110" height="20" rx="4" fill="#1E293B" stroke="#FCD34D" stroke-width="1"/>
-    <text x="0" y="2" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#E2E8F0">PAPER 1.21.11</text>
-    
-    <rect x="70" y="-12" width="110" height="20" rx="4" fill="#1E293B" stroke="#F59E0B" stroke-width="1"/>
-    <text x="125" y="2" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="700" fill="#E2E8F0">JAVA 21</text>
+
+  <!-- Anillo de Aceleración Cuántica (Tachyon Particle Ring) -->
+  <g class="tachyon-ring">
+    <circle cx="600" cy="135" r="115" fill="none" stroke="url(#ringGrad)" stroke-width="1.8" stroke-dasharray="16 12" opacity="0.75"/>
+    <polygon points="600,20 615,35 600,50 585,35" fill="#10B981" filter="url(#glowLab)"/>
+    <polygon points="600,220 615,235 600,250 585,235" fill="#06B6D4" filter="url(#glowLab)"/>
+    <circle cx="715" cy="135" r="4.5" fill="#F59E0B" filter="url(#glowLab)"/>
+    <circle cx="485" cy="135" r="4.5" fill="#10B981" filter="url(#glowLab)"/>
   </g>
+
+  <g class="tachyon-ring-rev">
+    <!-- Geometría Rúnica Hexagonal Giratoria -->
+    <polygon points="600,55 670,95 670,175 600,215 530,175 530,95" fill="none" stroke="#38BDF8" stroke-width="1.2" stroke-dasharray="8 6" opacity="0.55"/>
+    <circle cx="670" cy="95" r="3.5" fill="#FDE68A" filter="url(#glowLab)"/>
+    <circle cx="530" cy="175" r="3.5" fill="#FDE68A" filter="url(#glowLab)"/>
+  </g>
+
+  <!-- Constelación Mítica del Dragón Primordial (Cresta Central) -->
+  <g class="dragon-heart">
+    <!-- Alas Celestiales Vectoriales -->
+    <path d="M 600 75 L 635 110 L 685 95 L 648 135 L 675 160 L 628 152 L 600 190 L 572 152 L 525 160 L 552 135 L 515 95 L 565 110 Z"
+          fill="#062226" stroke="url(#dragonTitleGrad)" stroke-width="2.2" filter="url(#glowLab)"/>
+    <!-- Escudo Interior de Dragón -->
+    <path d="M 600 95 L 620 120 L 635 115 L 618 138 L 600 162 L 582 138 L 565 115 L 580 120 Z"
+          fill="url(#dragonTitleGrad)" opacity="0.9"/>
+    <!-- Ojo / Núcleo de Plasma -->
+    <circle cx="600" cy="130" r="7" fill="#FFFBEB" filter="url(#intenseLaser)"/>
+  </g>
+
+  <!-- Campo Estelar de Nodos de Laboratorio -->
+  <g class="twinkle-node">
+    <circle cx="120" cy="120" r="2.4" fill="#6EE7B7"/>
+    <circle cx="220" cy="80" r="1.8" fill="#FDE68A"/>
+    <circle cx="310" cy="160" r="2.2" fill="#38BDF8"/>
+    <circle cx="440" cy="50" r="2.0" fill="#6EE7B7"/>
+    <circle cx="760" cy="50" r="2.2" fill="#FDE68A"/>
+    <circle cx="890" cy="160" r="2.0" fill="#38BDF8"/>
+    <circle cx="980" cy="80" r="2.4" fill="#6EE7B7"/>
+    <circle cx="1080" cy="120" r="1.8" fill="#FDE68A"/>
+    <circle cx="160" cy="320" r="2.2" fill="#38BDF8"/>
+    <circle cx="340" cy="340" r="1.9" fill="#FDE68A"/>
+    <circle cx="860" cy="340" r="2.2" fill="#6EE7B7"/>
+    <circle cx="1040" cy="320" r="2.0" fill="#38BDF8"/>
+  </g>
+
+  <!-- Tipografía Principal: ✦ DRAKESCRAFT LABS ✦ -->
+  <g id="org-typography" text-anchor="middle">
+    <text x="600" y="248"
+          font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+          font-weight="900" font-size="48" fill="url(#dragonTitleGrad)"
+          letter-spacing="10" filter="url(#glowLab)">
+      ✦ DRAKESCRAFT LABS ✦
+    </text>
+
+    <!-- Subtítulo de Ingeniería y Monorepo -->
+    <text x="600" y="286"
+          font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif"
+          font-weight="800" font-size="14.5" fill="#E2E8F0"
+          letter-spacing="4">
+      HIGH-PERFORMANCE GAMING INFRASTRUCTURE · STARSUITES MONOREPO · RUST ENGINE
+    </text>
+
+    <!-- Línea Divisoria Láser con Escáner Activo -->
+    <line x1="360" y1="308" x2="840" y2="308" stroke="url(#cyberBorder)" stroke-width="1.8" stroke-linecap="round" opacity="0.8"/>
+    <circle cx="600" cy="308" r="3.5" fill="#10B981" filter="url(#glowLab)"/>
+    <!-- Haz de barrido láser -->
+    <line class="sweep-beam" x1="600" y1="305" x2="600" y2="311" stroke="#FDE68A" stroke-width="3"/>
+  </g>
+
+  <!-- Píldoras de Tecnologías de Producción -->
+  <g id="org-tech-badges" transform="translate(600, 362)">
+    <!-- Badge 1: StarSuites Monorepo -->
+    <g transform="translate(-430, 0)">
+      <rect x="-85" y="-18" width="170" height="36" rx="18" fill="#031525" fill-opacity="0.9" stroke="#10B981" stroke-width="1.4"/>
+      <circle cx="-62" cy="0" r="4.5" fill="#34D399" filter="url(#glowLab)"/>
+      <text x="5" y="5" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#D1FAE5" letter-spacing="0.8">
+        STARSUITES MONOREPO
+      </text>
+    </g>
+
+    <!-- Badge 2: Rust Off-Heap SIMD -->
+    <g transform="translate(-215, 0)">
+      <rect x="-80" y="-18" width="160" height="36" rx="18" fill="#031525" fill-opacity="0.9" stroke="#F59E0B" stroke-width="1.4"/>
+      <circle cx="-58" cy="0" r="4.5" fill="#FBBF24" filter="url(#glowLab)"/>
+      <text x="4" y="5" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#FEF3C7" letter-spacing="0.8">
+        RUST SIMD OFF-HEAP
+      </text>
+    </g>
+
+    <!-- Badge 3: SQLite WAL Engine -->
+    <g transform="translate(0, 0)">
+      <rect x="-75" y="-18" width="150" height="36" rx="18" fill="#031525" fill-opacity="0.9" stroke="#06B6D4" stroke-width="1.4"/>
+      <circle cx="-54" cy="0" r="4.5" fill="#22D3EE" filter="url(#glowLab)"/>
+      <text x="4" y="5" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#ECFEFF" letter-spacing="0.8">
+        SQLITE WAL ENGINE
+      </text>
+    </g>
+
+    <!-- Badge 4: Paper 1.21.11 & 26.X -->
+    <g transform="translate(215, 0)">
+      <rect x="-80" y="-18" width="160" height="36" rx="18" fill="#031525" fill-opacity="0.9" stroke="#8B5CF6" stroke-width="1.4"/>
+      <circle cx="-58" cy="0" r="4.5" fill="#A855F7" filter="url(#glowLab)"/>
+      <text x="4" y="5" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#EDE9FE" letter-spacing="0.8">
+        PAPER 1.21.11 · 26.X
+      </text>
+    </g>
+
+    <!-- Badge 5: SRE Triad Orchestrated -->
+    <g transform="translate(430, 0)">
+      <rect x="-85" y="-18" width="170" height="36" rx="18" fill="#031525" fill-opacity="0.9" stroke="#EC4899" stroke-width="1.4"/>
+      <circle cx="-64" cy="0" r="4.5" fill="#F472B6" filter="url(#glowLab)"/>
+      <text x="4" y="5" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="800" font-size="11" fill="#FDF2F8" letter-spacing="0.8">
+        SRE TRIAD AUDITED
+      </text>
+    </g>
+  </g>
+
+  <!-- Marco Exterior Neón con Resplandor -->
+  <rect x="2" y="2" width="1196" height="436" rx="22" fill="none" stroke="url(#cyberBorder)" stroke-width="2.5" class="border-pulse"/>
+  <rect x="7" y="7" width="1186" height="426" rx="18" fill="none" stroke="#10B981" stroke-width="0.8" opacity="0.3"/>
 </svg>
