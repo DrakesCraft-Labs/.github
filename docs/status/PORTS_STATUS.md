@@ -55,7 +55,7 @@
 | DrakesTab | maven | ✅ sí | ⚠️ no medido (paper-api fija) | sin tests | pom fija paper-api 1.20.6-R0.1-SNAPSHOT (ignora -Dpaper.version); parametrizar paper.version |
 | DrakesTech | maven | ✅ sí | ✅ sí | sin tests | sin bloqueo |
 | DrakesTranslate | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| DrakesWorlds | maven | ❌ no | ❌ no | sin tests | /home/jack/workspace/drakescraft/DrakesWorlds/src/main/java/me/jackstar/drakesworlds/generation/DrakesBiomeProvider.java:[9;24] package java |
+| DrakesWorlds | maven | ✅ sí | ✅ sí | sin tests | sin bloqueo (Biome como registro + jsr305; corregido en 003529d; carga y genera mundo en staging 26.2) |
 | DyeBench-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | DynaTech-drake | maven | ⚠️ indeterminado (dependencias) | ⚠️ indeterminado (dependencias) | sin tests | Failed to execute goal on project DynaTech-drake: Could not resolve dependencies for project com.github.drakescraft_labs:DynaTech-drake:jar: |
 | EMCTech-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |

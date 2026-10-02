@@ -54,6 +54,7 @@
 | **DecentHolograms** | Dallas (`BASE_PLUGINS_TO_SYNC`) | 2.10.1 |  SÍ | Adaptador NMS v26_2 inicializado |
 | **CMILib** | Dallas (`BASE_PLUGINS_TO_SYNC`) | 1.5.9.3 |  SÍ | Detección Mojang Mappings v26_2_0 OK |
 | **spark** | Staging (`spark`) | 1.10.119 |  SÍ | Profiler de rendimiento en segundo plano |
+| **DrakesWorlds** | Repo `DrakesWorlds` (`003529d`) | 1.0 |  SÍ | Prueba puntual 2026-10-02 20:15 CLT: carga y genera `drakes_wild` (perfil `wild_natural`) sin excepciones. Retirado tras la prueba: reescribe `level-name` y `bukkit.yml` al habilitarse |
 
 ---
 
