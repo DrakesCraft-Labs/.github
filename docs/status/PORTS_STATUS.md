@@ -23,10 +23,10 @@
 
 | Alcance | Repos | Medidos |
 |---|---:|---:|
-| Maven (`*-drake`, `Drakes*`, `DiosesDrakes`, `ArcanaDrakes`) | 57 | 14 |
+| Maven (`*-drake`, `Drakes*`, `DiosesDrakes`, `ArcanaDrakes`) | 57 | 16 |
 | Gradle | 9 | 9 |
 | Sin código fuente en el repo | 28 | 28 |
-| **Total** | **94** | **51** |
+| **Total** | **94** | **53** |
 
 ## Tabla
 
@@ -53,7 +53,7 @@
 | DrakesRankup | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo |
 | DrakesSlimeMarket | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | DrakesTab | maven | ✅ sí | ⚠️ no medido (paper-api fija) | sin tests | pom fija paper-api 1.20.6-R0.1-SNAPSHOT (ignora -Dpaper.version); parametrizar paper.version |
-| DrakesTech | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| DrakesTech | maven | ❌ no | ❌ no | sin tests | /home/jack/workspace/drakescraft/DrakesTech/src/main/java/me/jackstar/drakestech/guide/TechGuideManager.java:[909;45] cannot find symbol |
 | DrakesTranslate | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | DrakesWorlds | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | DyeBench-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
@@ -62,7 +62,7 @@
 | ElectricSpawners-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | EssentialsX-Drake | gradle | n/a | ⏳ pendiente (gradle) | sin tests | gradle: medir con wrapper |
 | ExcellentEnchants-Drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| ExoticGarden-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| ExoticGarden-drake | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo |
 | ExtraGear-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | ExtraHeads-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | FlowerPower-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
