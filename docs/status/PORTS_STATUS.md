@@ -23,28 +23,28 @@
 
 | Alcance | Repos | Medidos |
 |---|---:|---:|
-| Maven (`*-drake`, `Drakes*`, `DiosesDrakes`, `ArcanaDrakes`) | 49 | 3 |
+| Maven (`*-drake`, `Drakes*`, `DiosesDrakes`, `ArcanaDrakes`) | 49 | 10 |
 | Gradle | 9 | 9 |
 | Sin código fuente en el repo | 28 | 28 |
-| **Total** | **86** | **40** |
+| **Total** | **86** | **47** |
 
 ## Tabla
 
 | repo | build | 1.21.11 compila | 26.x compila | tests | bloqueo / nota |
 |---|---|---|---|---|---|
 | AlchimiaVitae-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
-| ArcanaDrakes | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| ArcanaDrakes | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo |
 | BentoBox-Drake | gradle | n/a | ⏳ pendiente (gradle) | sin tests | gradle: medir con wrapper |
 | BreweryX-Drake | gradle | n/a | ⏳ pendiente (gradle) | sin tests | gradle: medir con wrapper |
-| ChestTerminal-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| ChestTerminal-drake | maven | ✅ sí | ✅ sí | ⚠️ indeterminado | sin bloqueo |
 | ColoredEnderChests-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | CompressionCraft-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
-| CrystamaeHistoria-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| DankTech2-Drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| DiosesDrakes | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| CrystamaeHistoria-drake | maven | ⚠️ indeterminado (dependencias) | ⚠️ indeterminado (dependencias) | sin tests | Failed to execute goal on project CrystamaeHistoria-drake: Could not resolve dependencies for project com.github.drakescraft_labs:CrystamaeH |
+| DankTech2-Drake | maven | ✅ sí | ✅ sí | sin tests | sin bloqueo |
+| DiosesDrakes | maven | ⚠️ indeterminado (dependencias) | ⚠️ indeterminado (dependencias) | sin tests | Failed to execute goal on project dioses-drakes: Could not resolve dependencies for project cl.drakescraft:dioses-drakes:jar:0.6.0: Could no |
 | Drakes-Suites | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| DrakesBosses | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| DrakesCore | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| DrakesBosses | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo |
+| DrakesCore | maven | ❌ no | ✅ sí | ❌ fallan | Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project DrakesCore: There are test failu |
 | DrakesCrates | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | DrakesLabPresence-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | DrakesMotd | maven | ✅ sí | ✅ sí | sin tests | sin bloqueo |
