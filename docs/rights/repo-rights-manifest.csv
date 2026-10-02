@@ -1,0 +1,180 @@
+repo,licencia_detectada,ligado_a_slimefun,paquete_dominante,creditos_en_readme,clase_propuesta,accion
+Drakes-Suites,SIN-ARCHIVO,si,com.chagui68.multiversenets,si,AUTORIA-CHAGUI68,Confirmar licencia con Chagui68 y agregar el archivo LICENSE que el autor elija; credito en README
+MultiverseTinker,SIN-ARCHIVO,no,com.chagui68.multiversetinker,no,AUTORIA-CHAGUI68,Confirmar licencia con Chagui68 y agregar el archivo LICENSE que el autor elija; credito en README
+Automation,SIN-ARCHIVO,si,io.github.seggan,si,DERIVADO-DE-TERCERO-SIN-LICENCIA (verificar upstream),"VERIFICAR licencia del upstream; hasta resolver, NO publicar releases/Modrinth; agregar NOTICE con autor original"
+BentoBox-Drake,OTRA/DESCONOCIDA,si,world.bentobox.bentobox,si,DERIVADO-DE-TERCERO-SIN-LICENCIA (verificar upstream),"VERIFICAR licencia del upstream; hasta resolver, NO publicar releases/Modrinth; agregar NOTICE con autor original"
+Better-Nuclear-Generator-drake,SIN-ARCHIVO,si,me.CAPS123987.Item,no,DERIVADO-DE-TERCERO-SIN-LICENCIA (verificar upstream),"VERIFICAR licencia del upstream; hasta resolver, NO publicar releases/Modrinth; agregar NOTICE con autor original"
+BreweryMenu,SIN-ARCHIVO,si,me.figgnus.slimefunaddon,si,DERIVADO-DE-TERCERO-SIN-LICENCIA (verificar upstream),"VERIFICAR licencia del upstream; hasta resolver, NO publicar releases/Modrinth; agregar NOTICE con autor original"
+Drugfun,SIN-ARCHIVO,si,tsp.drugfun.implementation,si,DERIVADO-DE-TERCERO-SIN-LICENCIA (verificar upstream),"VERIFICAR licencia del upstream; hasta resolver, NO publicar releases/Modrinth; agregar NOTICE con autor original"
+InvSwitcher-Drake,OTRA/DESCONOCIDA,no,com.wasteofplastic.invswitcher,si,DERIVADO-DE-TERCERO-SIN-LICENCIA (verificar upstream),"VERIFICAR licencia del upstream; hasta resolver, NO publicar releases/Modrinth; agregar NOTICE con autor original"
+Inventory-Rollback-Plus,ARR,no,com.nuclyon.technicallycoded,no,DERIVADO-DE-TERCERO-SIN-LICENCIA (verificar upstream),"VERIFICAR licencia del upstream; hasta resolver, NO publicar releases/Modrinth; agregar NOTICE con autor original"
+Inventory-Rollback-Plus-Drake,ARR,no,com.nuclyon.technicallycoded,si,DERIVADO-DE-TERCERO-SIN-LICENCIA (verificar upstream),"VERIFICAR licencia del upstream; hasta resolver, NO publicar releases/Modrinth; agregar NOTICE con autor original"
+ObsidianExpansion,SIN-ARCHIVO,si,me.lucasgithuber.obsidianexpansion,si,DERIVADO-DE-TERCERO-SIN-LICENCIA (verificar upstream),"VERIFICAR licencia del upstream; hasta resolver, NO publicar releases/Modrinth; agregar NOTICE con autor original"
+Odysseia,SIN-ARCHIVO,no,org.metamechanists.odysseia,si,DERIVADO-DE-TERCERO-SIN-LICENCIA (verificar upstream),"VERIFICAR licencia del upstream; hasta resolver, NO publicar releases/Modrinth; agregar NOTICE con autor original"
+Odysseia-Rust,SIN-ARCHIVO,no,org.metamechanists.odysseia,si,DERIVADO-DE-TERCERO-SIN-LICENCIA (verificar upstream),"VERIFICAR licencia del upstream; hasta resolver, NO publicar releases/Modrinth; agregar NOTICE con autor original"
+PlayerVaultZ-Drake,SIN-ARCHIVO,no,com.rugzy.playervaultz,no,DERIVADO-DE-TERCERO-SIN-LICENCIA (verificar upstream),"VERIFICAR licencia del upstream; hasta resolver, NO publicar releases/Modrinth; agregar NOTICE con autor original"
+Slimefun-Disc-drake,SIN-ARCHIVO,si,dev.drake.disc,no,DERIVADO-DE-TERCERO-SIN-LICENCIA (verificar upstream),"VERIFICAR licencia del upstream; hasta resolver, NO publicar releases/Modrinth; agregar NOTICE con autor original"
+VanillaPatPat,SIN-ARCHIVO,no,dev.synapseos.patpat,si,DERIVADO-DE-TERCERO-SIN-LICENCIA (verificar upstream),"VERIFICAR licencia del upstream; hasta resolver, NO publicar releases/Modrinth; agregar NOTICE con autor original"
+WorldEditSlimefun-drake,SIN-ARCHIVO,si,dev.j3fftw.worldeditslimefun,no,DERIVADO-DE-TERCERO-SIN-LICENCIA (verificar upstream),"VERIFICAR licencia del upstream; hasta resolver, NO publicar releases/Modrinth; agregar NOTICE con autor original"
+WorldwideChat-Drake,SIN-ARCHIVO,no,com.dominicfeliton.worldwidechat,si,DERIVADO-DE-TERCERO-SIN-LICENCIA (verificar upstream),"VERIFICAR licencia del upstream; hasta resolver, NO publicar releases/Modrinth; agregar NOTICE con autor original"
+dough-core,SIN-ARCHIVO,si,dev.drake.dough,si,DERIVADO-DE-TERCERO-SIN-LICENCIA (verificar upstream),"VERIFICAR licencia del upstream; hasta resolver, NO publicar releases/Modrinth; agregar NOTICE con autor original"
+sbank,SIN-ARCHIVO,no,com.spearforge.sBank,si,DERIVADO-DE-TERCERO-SIN-LICENCIA (verificar upstream),"VERIFICAR licencia del upstream; hasta resolver, NO publicar releases/Modrinth; agregar NOTICE con autor original"
+Galactifun2-drake,Apache-2.0,no,io.github.seggan,si,OPEN-Apache-2.0,Mantener licencia; OK (revisar NOTICE)
+AxGraves-Drakes,GPL-3.0,no,com.artillexstudios.axgraves,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+BreweryX-Drake,GPL-3.0,si,com.dre.brewery,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+Bump,GPL-3.0,si,io.github.slimefunguguproject,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+Bump-Igdrassil,GPL-3.0,si,io.github.slimefunguguproject,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+CrystamaeHistoria-drake,GPL-3.0,si,io.github.sefiraat,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+Cultivation,GPL-3.0,si,dev.sefiraat.cultivation,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+DankTech2-Drake,GPL-3.0,si,io.github.sefiraat,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+DemonicExpansion,GPL-3.0,si,tsp.demonicexpansion.implementation,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+Element-Manipulation-drake,GPL-3.0,si,me.lucasgithuber.elementmanipulation,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+EliteMobs,GPL-3.0,no,com.magmaguy.elitemobs,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+EquivalencyTech,GPL-3.0,si,io.github.sefiraat,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+ExcellentEnchants-Drake,GPL-3.0,no,su.nightexpress.excellentenchants,no,OPEN-GPL-3.0,Mantener licencia; agregar seccion de creditos al README
+ExoticGarden-drake,GPL-3.0,si,com.github.drakescraft_labs,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+ExtraUtils-drake,GPL-3.0,si,dev.j3fftw.extrautils,no,OPEN-GPL-3.0,Mantener licencia; agregar seccion de creditos al README
+FN-FAL-s-Amplifications-drake,GPL-3.0,si,ne.fnfal113.fnamplifications,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+FlowerPower-drake,GPL-3.0,si,io.ncbpfluffybear.flowerpower,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+FluffyMachines-drake,GPL-3.0,si,io.ncbpfluffybear.fluffymachines,no,OPEN-GPL-3.0,Mantener licencia; agregar seccion de creditos al README
+FoxyMachines-drake,GPL-3.0,si,me.gallowsdove.foxymachines,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+Galaxyfun-drake,GPL-3.0,si,com.github.drakescraft_labs,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+Gastronomicon-drake,GPL-3.0,si,io.github.schntgaispock,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+Geyser-Slimefun-Heads-drake,GPL-3.0,si,me.lz5509.geyserheads,no,OPEN-GPL-3.0,Mantener licencia; agregar seccion de creditos al README
+GuizhanLib,GPL-3.0,si,net.guizhanss.guizhanlib,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+IDreamOfEasy,GPL-3.0,si,me.bunnky.idreamofeasy,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+ImageFrame,GPL-3.0,no,com.loohp.imageframe,no,OPEN-GPL-3.0,Mantener licencia; agregar seccion de creditos al README
+InfinityExpansion-drake,GPL-3.0,si,com.github.drakescraft_labs,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+InfinityLib-Drake,GPL-3.0,si,io.github.mooy1,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+JustEnoughGuide-Igdrassil,GPL-3.0,si,,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+LiteXpansion-drake,GPL-3.0,si,dev.j3fftw.litexpansion,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+MagicXpansion,GPL-3.0,si,me.apeiros.magicxpansion,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+Mantle-Unofficial,GPL-3.0,no,slimeknights.mantle.util,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+Military-Arsenal,GPL-3.0,si,com.Chagui68.weaponsaddon,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+MissileWarfare-drake,GPL-3.0,si,me.kaiyan.missilewarfare,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+MultiverseCreatures,GPL-3.0,si,com.Chagui68.entities,no,OPEN-GPL-3.0,Mantener licencia; agregar seccion de creditos al README
+MultiverseNets,GPL-3.0,si,com.chagui68.multiversenets,no,OPEN-GPL-3.0,Mantener licencia; agregar seccion de creditos al README
+MultiverseProgramming,GPL-3.0,no,com.multiverse.programming,no,OPEN-GPL-3.0,Mantener licencia; agregar seccion de creditos al README
+Netheopoiesis,GPL-3.0,si,dev.sefiraat.netheopoiesis,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+Networks---Better-Compatibility-Unofficial-,GPL-3.0,si,io.github.sefiraat,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+NetworksExpansion-Igdrassil,GPL-3.0,si,com.ytdd9527.networksexpansion,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+NetworksV6-drake,GPL-3.0,si,com.ytdd9527.networksexpansion,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+RealisticVillagers,GPL-3.0,no,me.matsubara.realisticvillagers,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+RelicsOfCthonia-drake,GPL-3.0,si,ne.fnfal113.relicsofcthonia,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+RykenSlimeCustomizer-EN-drake,GPL-3.0,si,org.lins.mmmjjkx,no,OPEN-GPL-3.0,Mantener licencia; agregar seccion de creditos al README
+SFCalc-drake,GPL-3.0,si,com.github.drakescraft_labs,no,OPEN-GPL-3.0,Mantener licencia; agregar seccion de creditos al README
+SFPortalGun,GPL-3.0,si,ru.officialdakari.portalgunsf,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+SMG-drake,GPL-3.0,si,me.waleks.simplematerialgenerators,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+SefiLib,GPL-3.0,si,dev.sefiraat.sefilib,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+SensibleToolbox-drake,GPL-3.0,si,io.github.thebusybiscuit,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+SimpleUtils-drake,GPL-3.0,si,com.github.drakescraft_labs,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+SlimeCustomizer,GPL-3.0,si,io.ncbpfluffybear.slimecustomizer,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+SlimeFrame-drake,GPL-3.0,si,me.voper.slimeframe,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+SlimeHUD-drake,GPL-3.0,si,io.github.schntgaispock,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+SlimeTinker,GPL-3.0,si,io.github.sefiraat,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+SlimeTinker-drake,GPL-3.0,si,io.github.sefiraat,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+Slimefun4-1.20.6-Port,GPL-3.0,si,io.github.thebusybiscuit,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+Slimefun4-Drake,GPL-3.0,si,com.github.drakescraft_labs,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+Slimefun4-Igdrassil,GPL-3.0,si,com.xzavier0722.mc,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+SlimefunAdvancements,GPL-3.0,si,me.char321.sfadvancements,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+SlimefunAdvancements-Igdrassil,GPL-3.0,si,me.char321.sfadvancements,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+SlimefunWarfare-Drake,GPL-3.0,si,io.github.seggan,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+SlimyBees,GPL-3.0,si,cz.martinbrom.slimybees,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+SmallSpace-drake,GPL-3.0,si,me.CAPS123987.cargo,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+SoulJars-drake,GPL-3.0,si,com.github.drakescraft_labs,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+SoundMuffler-drake,GPL-3.0,si,dev.j3fftw.soundmuffler,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+Supreme-Drake,GPL-3.0,si,com.github.relativobr,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+TinkersConstruct,GPL-3.0,no,slimeknights.tconstruct.library,si,OPEN-GPL-3.0,Mantener licencia; OK (revisar NOTICE)
+drakes-slimefun-labs,GPL-3.0,si,org.lins.mmmjjkx,no,OPEN-GPL-3.0,Mantener licencia; agregar seccion de creditos al README
+Liquid-drake,LGPL-3.0,si,com.github.drakescraft_labs,no,OPEN-LGPL-3.0,Mantener licencia; agregar seccion de creditos al README
+Pylon-Drake,LGPL-3.0,no,io.github.pylonmc,no,OPEN-LGPL-3.0,Mantener licencia; agregar seccion de creditos al README
+Rebar-Drake,LGPL-3.0,no,io.github.pylonmc,no,OPEN-LGPL-3.0,Mantener licencia; agregar seccion de creditos al README
+SlimeChem-drake,LGPL-3.0,si,com.github.drakescraft_labs,si,OPEN-LGPL-3.0,Mantener licencia; OK (revisar NOTICE)
+AdvancedTech-drake,MIT,si,me.pranavverma.advancedtech,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+ChestTerminal-drake,MIT,si,io.github.thebusybiscuit,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+CrazyAuctions,MIT,no,com.badbones69.crazyauctions,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+Cringle-Bosses,MIT,si,me.crashcringle.cringlebosses,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+DrakesCore,MIT,no,me.jackstar.drakescrates,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+DyedBackpacks-drake,MIT,si,com.github.drakescraft_labs,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+DynaTech-drake,MIT,si,me.profelements.dynatech,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+EcoPower-drake,MIT,si,com.github.drakescraft_labs,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+EnderCarryOn,MIT,no,net.endkind.enderCarryOn,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+EnderCore,MIT,no,net.endkind.enderCore,no,OPEN-MIT,Mantener licencia; agregar seccion de creditos al README
+ExtraTools-drake,MIT,si,me.sfiguz7.extratools,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+GlobalWarming,MIT,si,me.poma123.globalwarming,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+GlobiaMachines,MIT,si,me.fhoz.globiamachines,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+HardcoreSlimefun,MIT,si,dev.walshy.hardcoreslimefun,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+InfernalExpansion,MIT,si,ga.kirzu.infernalexpansion,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+MobCapturer-drake,MIT,si,com.github.drakescraft_labs,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+Nexcavate,MIT,si,me.char321.nexcavate,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+NotEnoughAddons,MIT,si,me.fhoz.notenoughaddons,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+Obsidian-Armor,MIT,si,me.jordang8.obsidianarmor,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+PrivateStorage,MIT,si,com.github.drakescraft_labs,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+RandomExpansion,MIT,si,me.lucasgithuber.randomexpansion,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+S-PlayerWarps-Drake,MIT,no,dev.losterixx.sPlayerWarps,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+SFMobDrops-drake,MIT,si,dev.walshy.sfmobdrops,no,OPEN-MIT,Mantener licencia; agregar seccion de creditos al README
+SaneCrafting-drake,MIT,si,org.metamechanists.sanecrafting,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+SlimefunEssentials,MIT,no,me.justahuman.slimefun_essentials,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+SlimefunNukes,MIT,si,com.aurgiyalgo.SlimefunNukes,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+SlimefunOreChunks,MIT,si,io.github.thebusybiscuit,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+TinkersConstruct-1.21.11,MIT,no,slimeknights.mantle.util,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+TranscEndence-drake,MIT,si,me.sfiguz7.transcendence,si,OPEN-MIT,Mantener licencia; OK (revisar NOTICE)
+ArcanaDrakes,SIN-ARCHIVO,no,cl.drakescraft.arcana,si,ORIGINAL-CANDIDATO-ARR,Jack confirma que es 100% original -> agregar LICENSE de Todos los Derechos Reservados (templates/rights/LICENSE-ARR.txt)
+DiosesDrakes,SIN-ARCHIVO,no,cl.drakescraft.diosesdrakes,no,ORIGINAL-CANDIDATO-ARR,Jack confirma que es 100% original -> agregar LICENSE de Todos los Derechos Reservados (templates/rights/LICENSE-ARR.txt)
+DrakesRankup,SIN-ARCHIVO,no,com.drakescraft.rankup,no,ORIGINAL-CANDIDATO-ARR,Jack confirma que es 100% original -> agregar LICENSE de Todos los Derechos Reservados (templates/rights/LICENSE-ARR.txt)
+DrakesTranslate,SIN-ARCHIVO,no,cl.drakescraft.translate,no,ORIGINAL-CANDIDATO-ARR,Jack confirma que es 100% original -> agregar LICENSE de Todos los Derechos Reservados (templates/rights/LICENSE-ARR.txt)
+DrakesVIPPlusPlus,SIN-ARCHIVO,no,com.drakescraft.vip,no,ORIGINAL-CANDIDATO-ARR,Jack confirma que es 100% original -> agregar LICENSE de Todos los Derechos Reservados (templates/rights/LICENSE-ARR.txt)
+DrakesBosses,SIN-ARCHIVO,si,cl.drakescraft.bosses,no,ORIGINAL-LIGADO-A-SLIMEFUN (GPL-3.0 por defecto),Ligado a Slimefun (GPL-3.0): agregar LICENSE GPL-3.0 + bloque de creditos de Slimefun
+DrakesNanotech,SIN-ARCHIVO,si,cl.drakescraft.nanotech,no,ORIGINAL-LIGADO-A-SLIMEFUN (GPL-3.0 por defecto),Ligado a Slimefun (GPL-3.0): agregar LICENSE GPL-3.0 + bloque de creditos de Slimefun
+DrakesSlimeMarket,SIN-ARCHIVO,si,cl.drakescraft.slimemarket,si,ORIGINAL-LIGADO-A-SLIMEFUN (GPL-3.0 por defecto),Ligado a Slimefun (GPL-3.0): agregar LICENSE GPL-3.0 + bloque de creditos de Slimefun
+GeneticChickengineering-Reborn-drake,SIN-ARCHIVO,si,com.github.drakescraft_labs,si,ORIGINAL-LIGADO-A-SLIMEFUN (GPL-3.0 por defecto),Ligado a Slimefun (GPL-3.0): agregar LICENSE GPL-3.0 + bloque de creditos de Slimefun
+drakes-labs-autoupdate,SIN-ARCHIVO,si,com.github.drakescraft_labs,si,ORIGINAL-LIGADO-A-SLIMEFUN (GPL-3.0 por defecto),Ligado a Slimefun (GPL-3.0): agregar LICENSE GPL-3.0 + bloque de creditos de Slimefun
+Coronalis-drake,SIN-ARCHIVO,si,com.github.jackstar,si,PAQUETE-PROPIO-VERIFICAR-ORIGEN (puede ser fork renombrado),Jack indica si es original o fork renombrado; si fork: tratar como DERIVADO
+DrakesCrates,SIN-ARCHIVO,si,me.jackstar.drakescrates,si,PAQUETE-PROPIO-VERIFICAR-ORIGEN (puede ser fork renombrado),Jack indica si es original o fork renombrado; si fork: tratar como DERIVADO
+DrakesMotd,SIN-ARCHIVO,no,me.jackstar.drakesmotd,si,PAQUETE-PROPIO-VERIFICAR-ORIGEN (puede ser fork renombrado),Jack indica si es original o fork renombrado; si fork: tratar como DERIVADO
+DrakesRanks,SIN-ARCHIVO,no,me.jackstar.drakesranks,si,PAQUETE-PROPIO-VERIFICAR-ORIGEN (puede ser fork renombrado),Jack indica si es original o fork renombrado; si fork: tratar como DERIVADO
+DrakesTab,SIN-ARCHIVO,no,me.jackstar.drakestab,si,PAQUETE-PROPIO-VERIFICAR-ORIGEN (puede ser fork renombrado),Jack indica si es original o fork renombrado; si fork: tratar como DERIVADO
+DrakesTech,SIN-ARCHIVO,si,me.jackstar.drakestech,si,PAQUETE-PROPIO-VERIFICAR-ORIGEN (puede ser fork renombrado),Jack indica si es original o fork renombrado; si fork: tratar como DERIVADO
+DrakesWorlds,SIN-ARCHIVO,no,me.jackstar.drakesworlds,no,PAQUETE-PROPIO-VERIFICAR-ORIGEN (puede ser fork renombrado),Jack indica si es original o fork renombrado; si fork: tratar como DERIVADO
+.github,SIN-ARCHIVO,no,,no,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+AlchimiaVitae-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+AllSlimeCustomAddons,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+ColoredEnderChests-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+CompressionCraft-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+DrakesLabPresence-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+DyeBench-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+EMCTech-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+ElectricSpawners-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+ExtraGear-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+ExtraHeads-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+HeadLimiter-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+HotbarPets-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+Igdrassil,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+KinematicCore-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+Magic-8-Ball-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+MapJammers-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+MiniBlocks-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+MoreResearches-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+PotionExpansion-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+Quaptics-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+SfBetterChests-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+SfChunkInfo-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+Simple-Storage-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+Slimefun-Rust,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+SlimyRepair-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+SlimyTreeTaps-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+SpiritsUnchained-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+VillagerTrade-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+VillagerUtil-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+Wildernether-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+commons-lang-drake-patched,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+community,SIN-ARCHIVO,no,,no,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+drakes-log-audit,SIN-ARCHIVO,no,,no,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+drakescraft-datapack,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+drakescraft-texture-pack,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+drakescraft-web,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+drakescraft-web-rebuild,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+jack-portal,SIN-ARCHIVO,no,,no,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+luckyblocks-sf-drake,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+maven-repo,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar
+slimefun-porting-tools,SIN-ARCHIVO,no,,si,SIN-CLASIFICAR,Jack indica origen (original / fork de X); luego reclasificar

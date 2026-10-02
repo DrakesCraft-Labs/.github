@@ -1,0 +1,19 @@
+Copyright (c) 2026 JackStar6677-1 and DrakesCraft Labs contributors.
+ALL RIGHTS RESERVED.
+
+This software and its source code are the exclusive property of the copyright
+holders listed above. No license is granted to copy, modify, merge, publish,
+distribute, sublicense, host, or sell this software or any part of it, in source
+or binary form, without the prior written permission of the copyright holders.
+
+Viewing and forking this repository on GitHub is permitted only as allowed by
+the GitHub Terms of Service. Any other use requires written permission.
+
+THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT
+HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE USE
+OF THIS SOFTWARE.
+
+Third-party components used by this project (dependencies) remain under their own
+licenses; see NOTICE.
