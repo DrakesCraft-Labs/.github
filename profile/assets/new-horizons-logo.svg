@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Slimefun: New Horizons emblem">
+  <defs>
+    <!-- Deep space backdrop (dark teal -> indigo), echoing the nebula behind the original Slimefun mark -->
+    <radialGradient id="space" cx="50%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#14263d"/>
+      <stop offset="55%" stop-color="#0b1424"/>
+      <stop offset="100%" stop-color="#060a14"/>
+    </radialGradient>
+    <radialGradient id="nebulaA" cx="20%" cy="18%" r="45%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nebulaB" cx="85%" cy="88%" r="45%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Gelatinous shell: lavender (Slimefun) blending into cyan (new horizon) -->
+    <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C7D2FE"/>
+      <stop offset="55%" stop-color="#A5B4FC"/>
+      <stop offset="100%" stop-color="#67E8F9"/>
+    </linearGradient>
+
+    <!-- Slime interior -->
+    <linearGradient id="interior" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#06301c"/>
+      <stop offset="60%" stop-color="#0a4a2a"/>
+      <stop offset="100%" stop-color="#0d5b38"/>
+    </linearGradient>
+
+    <!-- Sunrise on the horizon -->
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FEF3C7" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#FBBF24" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="land" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+
+    <linearGradient id="eye" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D9F99D"/>
+      <stop offset="45%" stop-color="#84CC16"/>
+      <stop offset="100%" stop-color="#16A34A"/>
+    </linearGradient>
+
+    <!-- CRT-style scanlines, like the original interior -->
+    <pattern id="scan" width="6" height="4" patternUnits="userSpaceOnUse">
+      <rect width="6" height="1.6" fill="#000" fill-opacity="0.28"/>
+    </pattern>
+
+    <clipPath id="innerClip"><rect x="122" y="122" width="268" height="268" rx="30"/></clipPath>
+
+    <!-- Slightly irregular edge so the shell reads as slime, not as a perfect square -->
+    <filter id="wobble" x="-5%" y="-5%" width="110%" height="110%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.035" numOctaves="2" seed="7" result="n"/>
+      <feDisplacementMap in="SourceGraphic" in2="n" scale="7"/>
+    </filter>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="9"/></filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="72" fill="url(#space)"/>
+  <rect width="512" height="512" rx="72" fill="url(#nebulaA)"/>
+  <rect width="512" height="512" rx="72" fill="url(#nebulaB)"/>
+
+  <!-- Stars and golden specks -->
+  <g fill="#FDE68A">
+    <circle cx="58" cy="70" r="1.6"/><circle cx="104" cy="44" r="1.2"/><circle cx="452" cy="58" r="1.8"/>
+    <circle cx="470" cy="150" r="1.2"/><circle cx="40" cy="214" r="1.3"/><circle cx="486" cy="300" r="1.5"/>
+    <circle cx="62" cy="420" r="1.7"/><circle cx="436" cy="462" r="1.3"/><circle cx="140" cy="476" r="1.2"/>
+    <circle cx="396" cy="40" r="1.1"/>
+    <circle cx="82" cy="110" r="1.1"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="430" cy="120" r="1.4"><animate attributeName="opacity" values="1;0.25;1" dur="2.8s" repeatCount="indefinite"/></circle>
+    <circle cx="448" cy="400" r="1.2"><animate attributeName="opacity" values="0.3;1;0.3" dur="4.1s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- Orbit ring around the slime (celestial laboratory link), rotating -->
+  <g transform="translate(256 256)">
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="48s" repeatCount="indefinite"/>
+      <ellipse cx="0" cy="0" rx="222" ry="86" fill="none" stroke="#67E8F9" stroke-width="1.6" stroke-dasharray="10 9" opacity="0.55" transform="rotate(-24)"/>
+      <circle cx="-202" cy="-8" r="5" fill="#FBBF24" filter="url(#glow)" transform="rotate(-24)"/>
+    </g>
+  </g>
+
+  <!-- Slime shell (outer) -->
+  <g filter="url(#wobble)">
+    <rect x="96" y="96" width="320" height="320" rx="52" fill="url(#shell)"/>
+  </g>
+  <!-- tiny gold specks on the shell, like the original -->
+  <g fill="#FCD34D" fill-opacity="0.9">
+    <circle cx="112" cy="150" r="1.8"/><circle cx="104" cy="250" r="1.4"/><circle cx="120" cy="338" r="1.6"/>
+    <circle cx="398" cy="180" r="1.6"/><circle cx="406" cy="292" r="1.4"/><circle cx="388" cy="402" r="1.8"/>
+    <circle cx="200" cy="108" r="1.5"/><circle cx="318" cy="104" r="1.4"/><circle cx="260" cy="408" r="1.6"/>
+  </g>
+
+  <!-- Slime interior -->
+  <rect x="122" y="122" width="268" height="268" rx="30" fill="url(#interior)"/>
+
+  <g clip-path="url(#innerClip)">
+    <!-- Sunrise behind the horizon -->
+    <circle cx="256" cy="366" r="150" fill="url(#sun)">
+      <animate attributeName="cy" values="378;346;378" dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.85;1;0.85" dur="9s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Horizon / planet limb -->
+    <path d="M 100 366 Q 256 316 412 366 L 412 400 L 100 400 Z" fill="url(#land)"/>
+    <path d="M 100 366 Q 256 316 412 366" fill="none" stroke="#FDE68A" stroke-width="3.2" opacity="0.95" filter="url(#glow)"/>
+    <!-- Scanlines -->
+    <rect x="122" y="122" width="268" height="268" fill="url(#scan)"/>
+    <!-- Glossy highlight (top-left), as in the original -->
+    <ellipse cx="170" cy="158" rx="30" ry="18" fill="#BEF264" opacity="0.28" filter="url(#soft)"/>
+  </g>
+
+  <!-- Eyes: pointy-top hexagons, looking up-right toward the horizon -->
+  <g transform="translate(206 226)">
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="1 1;1 1;1 0.12;1 1;1 1" keyTimes="0;0.9;0.94;0.98;1" dur="6s" repeatCount="indefinite"/>
+      <polygon points="0,-40 34.6,-20 34.6,20 0,40 -34.6,20 -34.6,-20" fill="url(#eye)" filter="url(#glow)"/>
+      <polygon points="-6,-30 18,-17 18,-9 -6,-22" fill="#F7FEE7" opacity="0.55"/>
+    </g>
+  </g>
+  <g transform="translate(306 226)">
+    <g>
+      <animateTransform attributeName="transform" type="scale" values="1 1;1 1;1 0.12;1 1;1 1" keyTimes="0;0.9;0.94;0.98;1" dur="6s" repeatCount="indefinite"/>
+      <polygon points="0,-40 34.6,-20 34.6,20 0,40 -34.6,20 -34.6,-20" fill="url(#eye)" filter="url(#glow)"/>
+      <polygon points="-6,-30 18,-17 18,-9 -6,-22" fill="#F7FEE7" opacity="0.55"/>
+    </g>
+  </g>
+
+  <!-- Horizon flare: four-point star at the top-right of the shell -->
+  <g transform="translate(418 104)" filter="url(#glow)">
+    <path d="M 0 -26 L 5 -5 L 26 0 L 5 5 L 0 26 L -5 5 L -26 0 L -5 -5 Z" fill="#FEF3C7">
+      <animateTransform attributeName="transform" type="rotate" values="0;90" dur="6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

@@ -1,73 +1,84 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/DrakesCraft-Labs/.github/main/profile/assets/labs-hero.svg" alt="DrakesCraft Labs" width="100%" />
+<img src="https://raw.githubusercontent.com/DrakesCraft-Labs/.github/main/profile/assets/new-horizons-banner.svg" alt="Slimefun: New Horizons — Modernizing Slimefun for the next generation of Minecraft" width="100%" />
 
-# ✦ DrakesCraft Labs ✦
+# Slimefun: New Horizons
 
-### Ingeniería de Sistemas, Redes de Producción & Suites de Nueva Generación
+### Modernizing Slimefun for the next generation of Minecraft
 
-[![StarSuites](https://img.shields.io/badge/StarSuites-Monorepo_LTS-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DrakesCraft-Labs/Drakes-Suites)
-[![DrakesCraft](https://img.shields.io/badge/DrakesCraft-Producción-22C55E?style=for-the-badge&logo=minecraft&logoColor=white)](https://web.drakescraft.cl)
+[![StarSuites](https://img.shields.io/badge/StarSuites-Monorepo-8B5CF6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DrakesCraft-Labs/Drakes-Suites)
+[![Paper](https://img.shields.io/badge/Paper-1.21.11_→_26.x-38BDF8?style=for-the-badge&logo=minecraft&logoColor=white)](https://papermc.io/)
 [![Java 21](https://img.shields.io/badge/Java-21_LTS-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjdk.org/)
-[![Rust Workspace](https://img.shields.io/badge/Rust-Off--Heap_SIMD-DEA584?style=for-the-badge&logo=rust&logoColor=white)](https://www.rust-lang.org/)
-[![Community](https://img.shields.io/badge/Discord-Comunidad-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/rv3vtXZTk7)
+[![Rust](https://img.shields.io/badge/Rust-Off--Heap_SIMD-DEA584?style=for-the-badge&logo=rust&logoColor=white)](https://github.com/DrakesCraft-Labs/Slimefun-Rust)
+[![Discord](https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/rv3vtXZTk7)
 
-**DrakesCraft Labs es la organización de ingeniería de software, videojuegos e infraestructura de JackStar.**  
-Aquí se investigan, desarrollan y blindan las tecnologías que sostienen la red de producción de Minecraft DrakesCraft (Dallas, TX), motores off-heap en Rust, suites modulares y sistemas de orquestación autónoma.
-
-[🌐 Web Oficial](https://web.drakescraft.cl) ·
-[💬 Comunidad Discord](https://discord.gg/rv3vtXZTk7) ·
-[🌌 StarSuites Monorepo](https://github.com/DrakesCraft-Labs/Drakes-Suites) ·
-[🧭 Explorar Repositorios](https://github.com/orgs/DrakesCraft-Labs/repositories)
+[🌐 Website](https://web.drakescraft.cl) ·
+[💬 Discord](https://discord.gg/rv3vtXZTk7) ·
+[🌌 StarSuites](https://github.com/DrakesCraft-Labs/Drakes-Suites) ·
+[🧭 All repositories](https://github.com/orgs/DrakesCraft-Labs/repositories) ·
+[🇪🇸 Español](README_ES.md)
 
 </div>
 
 ---
 
-## 🏛️ El Proyecto Insignia: StarSuites (`Drakes-Suites`)
+## What is this?
 
-La organización opera bajo la arquitectura unificada **[StarSuites](https://github.com/DrakesCraft-Labs/Drakes-Suites)**, concebida y dirigida por **JackStar**.  
-StarSuites consolida y moderniza más de 180 micro-repositorios históricos en **8 Mega-Suites oficiales** más la Suite soberana Multiverse:
+**Slimefun: New Horizons** is an independent, community-driven effort to carry [Slimefun](https://github.com/Slimefun/Slimefun4) and its addon
+ecosystem into the next generation of Minecraft servers: current Paper releases, modern Java, predictable performance, and addons that keep working
+instead of being abandoned.
 
-* **Suite 0 (`drakes-core.jar`):** Kernel, motor Dough-core shadeado, Ticker centralizado (`SuiteTickerEngine`), JNI Bindings y persistencia SQLite WAL.
-* **Suite 1 (`drakes-tech.jar`):** Logística digital (Networks), celdas de almacenamiento masivo cuántico, InfinityExpansion, DynaTech y FastMachines.
-* **Suite 2 (`drakes-bio.jar`):** GeneticChickengineering (Tiers 0-9), ExoticGarden, Cultivation y apicultura SlimyBees.
-* **Suite 3 (`drakes-magic.jar`):** AlchimiaVitae, Crystamae, RelicsOfCthonia, transmutación y botánica oscura.
-* **Suite 4 (`drakes-generators.jar`):** LiteXpansion, SMG, reactores solares, nucleares y celdas energéticas.
-* **Suite 5 (`drakes-utility.jar`):** DyedBackpacks, ColoredEnderChests, ChestTerminal, SFCalc y SlimeHUD.
-* **Suite 6 (`drakes-combat.jar`):** DrakesBosses, SlimeTinker, SlimefunWarfare, armaduras reactivas y arsenal divino.
-* **Suite 7 (`drakes-server.jar`):** **Star Engine** (evolución canónica de Odysseia a **Star**), enlace Rust nativo (`Star-Rust`), InvSwitcher (5 modalidades), PlayerVaultZ y economía macroeconómica dinámica.
-* **Suite Multiverse (`drakes-multiverse.jar`):** **Autoría Soberana de Chagui68**, consolidando `MultiverseCreatures` y `MultiverseNets`.
+Everything here is battle-tested on a live production network, **DrakesCraft** (`mc.drakescraft.cl`), before it is published.
 
-> ℹ️ **Aclaración Canónica de Autoría Upstream (Slimefun):**  
-> Slimefun original es una creación monumental de código abierto de **TheBusyBiscuit** y la comunidad. **DrakesCraft Labs / JackStar no es su autor original**, sino el arquitecto de modernización y rescate: resolución de cuellos de botella en Paper 1.21.11, aceleración off-heap en Rust ([`Slimefun-Rust`](https://github.com/DrakesCraft-Labs/Slimefun-Rust)) y unificación en suites desacopladas.
+> ℹ️ **Credit and independence.** Slimefun is an open-source project created by **TheBusyBiscuit** and its community.
+> We are **not** its original authors and are **not affiliated with or endorsed by** the official Slimefun team. Our role is modernization and
+> rescue: keeping Slimefun and its addons alive on current server software while preserving the original licenses and author credits.
 
----
+## What we build
 
-## 🌐 Líneas de Desarrollo
-
-| Línea | Dominio y Enfoque | Tecnologías y Proyectos Clave |
+| Pillar | What it means | Where to look |
 |---|---|---|
-| 🌌 **StarSuites & Gaming** | Suites consolidadas, plugins de alto rendimiento y modalidades para Minecraft. | [StarSuites](https://github.com/DrakesCraft-Labs/Drakes-Suites), [DrakesBosses](https://github.com/DrakesCraft-Labs/DrakesBosses), [BentoBox-Drake](https://github.com/DrakesCraft-Labs/BentoBox-Drake) |
-| ⚡ **Motores Nativos Rust** | Aceleración matemática SIMD, algoritmos de grafos y bypass de Garbage Collector. | [Slimefun-Rust](https://github.com/DrakesCraft-Labs/Slimefun-Rust), [Odysseia-Rust](https://github.com/DrakesCraft-Labs/Odysseia-Rust) (`libodysseia_ffi.so`) |
-| 🌸 **SRE & IA Autónoma** | Coordinación de agentes autónomos, observabilidad y resiliencia de producción. | [SAORI Core](https://github.com/JackStar6677-1/saori), Tríada Simétrica (Antigravity · Codex · Claude) |
-| 🛡️ **Seguridad e Infraestructura** | Protección perimetral, auditoría de logs, persistencia transaccional y proxying. | [IP-Detector](https://github.com/DrakesCraft-Labs/IP-Detector), [maven-repo](https://github.com/DrakesCraft-Labs/maven-repo) |
-| 🌐 **Plataformas Web & Portal** | Portales de comunidad, tiendas sincronizadas y telemetría de jugadores. | [drakescraft-web](https://github.com/DrakesCraft-Labs/drakescraft-web) |
+| 🧬 **Modern Slimefun core** | A maintained Slimefun port for current Paper (production on **1.21.11**, **26.x** in staging). | `Slimefun4-Drake`, [`Drakes-Suites`](https://github.com/DrakesCraft-Labs/Drakes-Suites) |
+| 🌌 **StarSuites** | 180+ scattered addon repositories consolidated into **8 mega-suites** plus the Multiverse suite, with one ticker engine and one module system. | [`Drakes-Suites`](https://github.com/DrakesCraft-Labs/Drakes-Suites) |
+| ⚡ **Native acceleration** | Graph, network and energy solving moved off-heap with SIMD, to remove Garbage Collector pauses. | [`Slimefun-Rust`](https://github.com/DrakesCraft-Labs/Slimefun-Rust) |
+| 🔗 **Addon interoperability** | Bridges that let independent plugins cooperate while each still works standalone (Networks ↔ MultiverseNets, SlimeTinker ↔ MultiverseTinker). | `NetworksV6-drake`, `SlimeTinker-drake`, `MultiverseNets`, `MultiverseTinker` |
+| 🛡️ **Player-data safety** | Item identifiers (PDC keys) are never renamed; migrations are additive and every fix is replicated into the next-generation suites. | Project policy |
 
----
+## StarSuites at a glance
 
-## 📋 Directiva de Desarrollo y Contribución
+| Suite | Artifact | Focus |
+|---|---|---|
+| 0 · Core | `drakes-core.jar` | Kernel, shaded Dough, centralized `SuiteTickerEngine`, JNI bindings, SQLite WAL, audit logs |
+| 1 · Tech | `drakes-tech.jar` | Digital logistics (Networks), quantum storage, InfinityExpansion, DynaTech, FastMachines |
+| 2 · Bio | `drakes-bio.jar` | GeneticChickengineering, ExoticGarden, Cultivation, SlimyBees |
+| 3 · Magic | `drakes-magic.jar` | AlchimiaVitae, Crystamae, RelicsOfCthonia, SoulJars, transmutation |
+| 4 · Generators | `drakes-generators.jar` | LiteXpansion, SMG, solar and nuclear reactors, energy cells |
+| 5 · Utility | `drakes-utility.jar` | DyedBackpacks, ColoredEnderChests, ChestTerminal, SFCalc, SlimeHUD |
+| 6 · Combat | `drakes-combat.jar` | DrakesBosses, SlimeTinker, SlimefunWarfare, reactive armor |
+| 7 · Server | `drakes-server.jar` | Star Engine (server kernel), Rust bridge, isolated game modes, dynamic economy |
+| Multiverse | `drakes-multiverse.jar` | **Authored by [Chagui68](https://github.com/Chagui68):** MultiverseCreatures, MultiverseNets, MultiverseTinker |
 
-1. **Monorepo Central (`Drakes-Suites`):** Todo desarrollo activo para plugins consolidados se realiza exclusivamente en el monorepo [StarSuites](https://github.com/DrakesCraft-Labs/Drakes-Suites).
-2. **Integridad de Datos:** Ningún cambio puede comprometer ítems de jugadores, inventarios o compras históricas. Claves PDC estrictamente conservadas.
-3. **Respaldo de Producción:** Despliegues en Dallas protegidos mediante backups automáticos y reinicios programados con aviso previo.
-4. **Crédito y Licencias:** Todo fork y consolidación preserva sus licencias de origen (GPLv3 / MIT / Apache 2.0) y menciones a los autores originales.
+## Roadmap (exploring)
 
----
+- **Season 2 on Paper 26.x**: atomic rollout of the StarSuites jars after staging validation.
+- **Display-based 3D**: pipes and cables drawn with `ItemDisplay`/`BlockDisplay` entities instead of fixed blocks (inspired by the approach used by
+  [PylonMC/Rebar](https://github.com/pylonmc/rebar), LGPL-3.0, with attribution).
+- **Unified configuration**: one modular YAML folder per suite, hot-reloadable per module.
+
+## Using our artifacts
+
+Maven repository (used by our addons): `https://drakescraft-labs.github.io/maven-repo`. Each repository documents its own coordinates and licence.
+
+## Contributing
+
+1. Active development of consolidated plugins happens in the [`Drakes-Suites`](https://github.com/DrakesCraft-Labs/Drakes-Suites) monorepo.
+2. **Never break player data**: no item, inventory or purchase history may be put at risk; PDC keys are preserved.
+3. Forks and consolidations **keep their original licenses** (GPL-3.0 / LGPL-3.0 / MIT / Apache-2.0) and credit the original authors.
+4. Public READMEs are written in English; Spanish documentation lives alongside as `README_ES.md`.
 
 <div align="center">
 
-**DrakesCraft Labs · Arquitectura Diseñada por JackStar**  
-[DrakesCraft](https://web.drakescraft.cl) · [Discord](https://discord.gg/rv3vtXZTk7) · [StarSuites](https://github.com/DrakesCraft-Labs/Drakes-Suites)
+**Slimefun: New Horizons** · built with ♥ by the DrakesCraft Labs community<br/>
+[Website](https://web.drakescraft.cl) · [Discord](https://discord.gg/rv3vtXZTk7) · [StarSuites](https://github.com/DrakesCraft-Labs/Drakes-Suites)
 
 </div>
