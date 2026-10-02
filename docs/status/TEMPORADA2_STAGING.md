@@ -16,6 +16,7 @@
   - Cuotas: `CPUQuota=200%`, `MemoryMax=6G`
   - Parámetros JVM: `-Xms1G -Xmx4G -XX:+UseG1GC -jar paper-26.2-129.jar --nogui`
   - Política de ciclo de vida: Se levanta exclusivamente para pruebas y se apaga al finalizar (`1 servidor de pruebas a la vez`).
+  - Parada ordenada: la unidad inyecta `save-all flush` y `stop` por una FIFO privada de runtime; la FIFO se elimina al completar el apagado.
 
 ---
 
@@ -66,6 +67,7 @@
 - PlaceholderAPI 2.12.3 eliminó el fallo anterior de dependencia: DeluxeMenus quedó habilitado, enlazado con PlaceholderAPI y Vault, y cargó sus tres menús. Esta es una prueba de ejecución en staging; no implica despliegue ni compatibilidad declarada para Dallas.
 - Persisten incompatibilidades independientes para seguir triando: Slimefun-Rust usa el fallback Java por ausencia de su biblioteca nativa, EssentialsX emite aviso de versión no soportada y DeluxeMenus limita cuatro opciones NBT heredadas. No se presentan como resueltas.
 - El servicio se detuvo limpiamente al terminar la prueba; su pico fue 2.0 GiB de memoria y 2 min 57 s de CPU. No hubo cambios en Dallas.
+- Prueba de ciclo de vida 2026-10-02 20:38-20:39 CLT: tras corregir la parada de la unidad, Paper 26.2 alcanzó `Done` en 87.912 s y salió con `Result=success` después de guardar jugadores, mundos y chunks. El staging quedó apagado; no hubo cambios en Dallas.
 
 ## 5. Próximos Pasos (Fase 2 de Temporada 2)
 1. Absorción y verificación de addons secundarios de Slimefun pendientes en las StarSuites (manteniendo invariantes de IDs y claves PDC).

@@ -1,0 +1,21 @@
+[Unit]
+Description=DrakesCraft Temporada 2 - servidor staging Paper 26.2 (puerto 25566, solo local)
+Documentation=file:///home/jack/workspace/drakescraft/.github/docs/status/TEMPORADA2_STAGING.md
+
+[Service]
+Type=simple
+Slice=saori-agentes.slice
+WorkingDirectory=/home/jack/workspace/season2-staging
+RuntimeDirectory=saori-staging-s2
+ExecStartPre=/usr/bin/mkfifo %t/saori-staging-s2/console.stdin
+ExecStart=/usr/bin/env bash -c 'exec /usr/lib/jvm/java-25-openjdk-amd64/bin/java -Xms1G -Xmx4G -XX:+UseG1GC -jar paper-26.2-129.jar --nogui <> "$1"' -- %t/saori-staging-s2/console.stdin
+ExecStop=/usr/bin/env bash -c 'printf "save-all flush\nstop\n" > "$1"' -- %t/saori-staging-s2/console.stdin
+ExecStopPost=/usr/bin/unlink %t/saori-staging-s2/console.stdin
+CPUQuota=200%
+MemoryMax=6G
+Nice=10
+TimeoutStopSec=90
+Restart=no
+SuccessExitStatus=143
+
+[Install]
