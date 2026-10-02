@@ -42,6 +42,8 @@
 | **DrakesBio** | Drakes-Suites (`26.x`) | 2.0.0-26.X-SNAPSHOT |  SÍ | Módulos biológicos y flora habilitados |
 | **DrakesServer** | Drakes-Suites (`26.x`) | 2.0.0-26.X-SNAPSHOT |  SÍ | Gestión de bóvedas y utilidades de servidor |
 | **Slimefun** | Dallas (`Slimefun4-Drake`) | 11.0-Drake-1.21.11-SNAPSHOT |  SÍ | 554 ítems, 257 investigaciones, 1615 recetas |
+| **PlaceholderAPI** | PlaceholderAPI upstream | 2.12.3 | SÍ | Prueba real 2026-10-02 17:33 CLT: habilitado en Paper 26.2; la versión upstream declara soporte 26.2 experimental. SHA-256: `fde03259f5af6938f3c33eeb4d814000a1adabf1d2304ce14970be81f609a437`. |
+| **DeluxeMenus** | Dallas (`BASE_PLUGINS_TO_SYNC`) | 1.14.1-Release | SÍ, con límite | Prueba real 2026-10-02 17:33 CLT: se enganchó correctamente a PlaceholderAPI y Vault; cargó 3 menús. Las opciones NBT heredadas (`nbt_int`, `nbt_ints`, `nbt_string`, `nbt_strings`) no tienen hook NMS en 26.2. |
 | **LuckPerms** | Dallas (`BASE_PLUGINS_TO_SYNC`) | 5.5.17 |  SÍ | Almacenamiento H2, ganchos Vault registrados |
 | **Vault** | Dallas (`BASE_PLUGINS_TO_SYNC`) | 1.7.3-b131 |  SÍ | Proveedor de economía y permisos enlazado |
 | **BentoBox** | Dallas (`BASE_PLUGINS_TO_SYNC`) | 3.17.0-SNAPSHOT-LOCAL |  SÍ | Gancho con Vault y Slimefun activo, módulo de protección reflection OK |
@@ -58,7 +60,14 @@
 
 ---
 
-## 4. Próximos Pasos (Fase 2 de Temporada 2)
+## 4. Última verificación integrada
+
+- El servicio `saori-staging-s2.service` inició con JDK 25 y alcanzó `Done` en 83.163 s el 2026-10-02 a las 17:33 CLT.
+- PlaceholderAPI 2.12.3 eliminó el fallo anterior de dependencia: DeluxeMenus quedó habilitado, enlazado con PlaceholderAPI y Vault, y cargó sus tres menús. Esta es una prueba de ejecución en staging; no implica despliegue ni compatibilidad declarada para Dallas.
+- Persisten incompatibilidades independientes para seguir triando: Slimefun-Rust usa el fallback Java por ausencia de su biblioteca nativa, EssentialsX emite aviso de versión no soportada y DeluxeMenus limita cuatro opciones NBT heredadas. No se presentan como resueltas.
+- El servicio se detuvo limpiamente al terminar la prueba; su pico fue 2.0 GiB de memoria y 2 min 57 s de CPU. No hubo cambios en Dallas.
+
+## 5. Próximos Pasos (Fase 2 de Temporada 2)
 1. Absorción y verificación de addons secundarios de Slimefun pendientes en las StarSuites (manteniendo invariantes de IDs y claves PDC).
 2. Sincronización de configuraciones de modalidades de juego (SkyBlock, OneBlock, Clásico, Survival) en solo-lectura desde producción.
 3. Smoke test exhaustivo in-game y preparación del plan atómico de despliegue a Dallas con escalado a Jack.
