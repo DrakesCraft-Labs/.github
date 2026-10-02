@@ -23,10 +23,10 @@
 
 | Alcance | Repos | Medidos |
 |---|---:|---:|
-| Maven (`*-drake`, `Drakes*`, `DiosesDrakes`, `ArcanaDrakes`) | 52 | 11 |
+| Maven (`*-drake`, `Drakes*`, `DiosesDrakes`, `ArcanaDrakes`) | 52 | 12 |
 | Gradle | 9 | 9 |
 | Sin código fuente en el repo | 28 | 28 |
-| **Total** | **89** | **48** |
+| **Total** | **89** | **49** |
 
 ## Tabla
 
@@ -48,7 +48,7 @@
 | DrakesCrates | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo |
 | DrakesLabPresence-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | DrakesMotd | maven | ✅ sí | ✅ sí | sin tests | sin bloqueo |
-| DrakesNanotech | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| DrakesNanotech | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo |
 | DrakesRanks | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | DrakesRankup | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo |
 | DrakesSlimeMarket | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
