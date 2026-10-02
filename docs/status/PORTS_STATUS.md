@@ -23,22 +23,22 @@
 
 | Alcance | Repos | Medidos |
 |---|---:|---:|
-| Maven (`*-drake`, `Drakes*`, `DiosesDrakes`, `ArcanaDrakes`) | 45 | 0 |
-| Gradle | 9 | 0 |
-| Sin código fuente en el repo | 28 | 0 |
-| **Total** | **82** | **0** |
+| Maven (`*-drake`, `Drakes*`, `DiosesDrakes`, `ArcanaDrakes`) | 49 | 3 |
+| Gradle | 9 | 9 |
+| Sin código fuente en el repo | 28 | 28 |
+| **Total** | **86** | **40** |
 
 ## Tabla
 
 | repo | build | 1.21.11 compila | 26.x compila | tests | bloqueo / nota |
 |---|---|---|---|---|---|
-| AlchimiaVitae-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
+| AlchimiaVitae-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | ArcanaDrakes | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| BentoBox-Drake | gradle | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| BreweryX-Drake | gradle | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| BentoBox-Drake | gradle | n/a | ⏳ pendiente (gradle) | sin tests | gradle: medir con wrapper |
+| BreweryX-Drake | gradle | n/a | ⏳ pendiente (gradle) | sin tests | gradle: medir con wrapper |
 | ChestTerminal-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| ColoredEnderChests-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
-| CompressionCraft-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
+| ColoredEnderChests-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
+| CompressionCraft-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | CrystamaeHistoria-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | DankTech2-Drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | DiosesDrakes | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
@@ -46,74 +46,78 @@
 | DrakesBosses | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | DrakesCore | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | DrakesCrates | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| DrakesLabPresence-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
-| DrakesMotd | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| DrakesLabPresence-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
+| DrakesMotd | maven | ✅ sí | ✅ sí | sin tests | sin bloqueo |
 | DrakesNanotech | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | DrakesRanks | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| DrakesRankup | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| DrakesRankup | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo |
 | DrakesSlimeMarket | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| DrakesTab | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| DrakesTab | maven | ✅ sí | ✅ sí | sin tests | sin bloqueo |
 | DrakesTech | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | DrakesTranslate | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | DrakesWorlds | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| DyeBench-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
+| DyeBench-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | DynaTech-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| EMCTech-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
-| ElectricSpawners-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
-| EssentialsX-Drake | gradle | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| EMCTech-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
+| ElectricSpawners-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
+| EssentialsX-Drake | gradle | n/a | ⏳ pendiente (gradle) | sin tests | gradle: medir con wrapper |
 | ExcellentEnchants-Drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | ExoticGarden-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| ExtraGear-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
-| ExtraHeads-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
+| ExtraGear-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
+| ExtraHeads-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | FlowerPower-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | FluffyMachines-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | FoxyMachines-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| Galactifun2-drake | gradle | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| Galaxyfun-drake | gradle | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| Galactifun2-drake | gradle | n/a | ⏳ pendiente (gradle) | sin tests | gradle: medir con wrapper |
+| Galaxyfun-drake | gradle | n/a | ⏳ pendiente (gradle) | sin tests | gradle: medir con wrapper |
 | Gastronomicon-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | GeneticChickengineering-Reborn-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| HeadLimiter-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
-| HotbarPets-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
+| HeadLimiter-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
+| HotbarPets-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | InfinityExpansion-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | InfinityLib-Drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | Inventory-Rollback-Plus-Drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| KinematicCore-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
-| LevelledMobs-Drake | gradle | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| KinematicCore-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
+| LevelledMobs-Drake | gradle | n/a | ⏳ pendiente (gradle) | sin tests | gradle: medir con wrapper |
 | LiteXpansion-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| Magic-8-Ball-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
-| MapJammers-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
-| MiniBlocks-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
+| Magic-8-Ball-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
+| MapJammers-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
+| MiniBlocks-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | MissileWarfare-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | MobCapturer-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| MoreResearches-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
+| MoreResearches-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | NetworksV6-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| PotionExpansion-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
+| PotionExpansion-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | ProtectionStones-Drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| Pylon-Drake | gradle | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| Quaptics-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
-| Rebar-Drake | gradle | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| Pylon-Drake | gradle | n/a | ⏳ pendiente (gradle) | sin tests | gradle: medir con wrapper |
+| Quaptics-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
+| Rebar-Drake | gradle | n/a | ⏳ pendiente (gradle) | sin tests | gradle: medir con wrapper |
 | RelicsOfCthonia-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| S-PlayerWarps-Drake | gradle | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| S-PlayerWarps-Drake | gradle | n/a | ⏳ pendiente (gradle) | sin tests | gradle: medir con wrapper |
 | SaneCrafting-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | SensibleToolbox-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| SfBetterChests-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
-| SfChunkInfo-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
-| Simple-Storage-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
+| SfBetterChests-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
+| SfChunkInfo-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
+| Simple-Storage-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | SimpleUtils-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | SlimeChem-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | SlimeFrame-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | SlimeTinker-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | Slimefun4-Drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | SlimefunWarfare-Drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| SlimyRepair-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
-| SlimyTreeTaps-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
-| SpiritsUnchained-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
+| SlimyRepair-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
+| SlimyTreeTaps-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
+| SoulJars-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| SoundMuffler-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| SpiritsUnchained-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | Supreme-Drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| VillagerTrade-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
-| VillagerUtil-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
-| Wildernether-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
+| TranscEndence-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| VillagerTrade-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
+| VillagerUtil-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
+| Wildernether-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
+| WorldEditSlimefun-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | WorldwideChat-Drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| luckyblocks-sf-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | solo README/docs en el repo |
+| luckyblocks-sf-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 
 ## Fuente de las mediciones
 
