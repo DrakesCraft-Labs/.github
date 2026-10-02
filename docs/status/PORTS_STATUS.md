@@ -33,26 +33,26 @@
 | repo | build | 1.21.11 compila | 26.x compila | tests | bloqueo / nota |
 |---|---|---|---|---|---|
 | AlchimiaVitae-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
-| ArcanaDrakes | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo |
+| ArcanaDrakes | maven | ✅ sí | ⚠️ no medido (paper-api fija) | ✅ ok | pom fija paper-api 1.21.11-R0.1-SNAPSHOT (ignora -Dpaper.version); parametrizar paper.version |
 | BentoBox-Drake | gradle | n/a | ⏳ pendiente (gradle) | sin tests | gradle: medir con wrapper |
 | BreweryX-Drake | gradle | n/a | ⏳ pendiente (gradle) | sin tests | gradle: medir con wrapper |
 | ChestTerminal-drake | maven | ✅ sí | ✅ sí | ⚠️ indeterminado | sin bloqueo |
 | ColoredEnderChests-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | CompressionCraft-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
-| CrystamaeHistoria-drake | maven | ⚠️ indeterminado (dependencias) | ⚠️ indeterminado (dependencias) | sin tests | Failed to execute goal on project CrystamaeHistoria-drake: Could not resolve dependencies for project com.github.drakescraft_labs:CrystamaeH |
-| DankTech2-Drake | maven | ✅ sí | ✅ sí | sin tests | sin bloqueo |
-| DiosesDrakes | maven | ⚠️ indeterminado (dependencias) | ⚠️ indeterminado (dependencias) | sin tests | Failed to execute goal on project dioses-drakes: Could not resolve dependencies for project cl.drakescraft:dioses-drakes:jar:0.6.0: Could no |
+| CrystamaeHistoria-drake | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo (deps corregidas en 012c8d1) |
+| DankTech2-Drake | maven | ✅ sí | ⚠️ no medido (paper-api fija) | sin tests | pom fija paper-api 1.19-R0.1-SNAPSHOT (ignora -Dpaper.version); parametrizar paper.version |
+| DiosesDrakes | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo (DrakesBosses en maven.drakescraft.cl; paper.version parametrizado en e952e05) |
 | Drakes-Suites | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | DrakesBosses | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo |
-| DrakesCore | maven | ❌ no | ✅ sí | ❌ fallan | Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project DrakesCore: There are test failu |
-| DrakesCrates | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo |
+| DrakesCore | maven | ❌ no | ⚠️ no medido (paper-api fija) | ❌ fallan | pom fija paper-api 1.20.6-R0.1-SNAPSHOT (ignora -Dpaper.version); parametrizar paper.version |
+| DrakesCrates | maven | ✅ sí | ⚠️ no medido (paper-api fija) | ✅ ok | pom fija paper-api 1.20.6-R0.1-SNAPSHOT (ignora -Dpaper.version); parametrizar paper.version |
 | DrakesLabPresence-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
-| DrakesMotd | maven | ✅ sí | ✅ sí | sin tests | sin bloqueo |
-| DrakesNanotech | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo |
-| DrakesRanks | maven | ✅ sí | ✅ sí | sin tests | sin bloqueo |
+| DrakesMotd | maven | ✅ sí | ⚠️ no medido (paper-api fija) | sin tests | pom fija paper-api 1.20.6-R0.1-SNAPSHOT (ignora -Dpaper.version); parametrizar paper.version |
+| DrakesNanotech | maven | ✅ sí | ⚠️ no medido (paper-api fija) | ✅ ok | pom fija paper-api 1.21.11-R0.1-SNAPSHOT (ignora -Dpaper.version); parametrizar paper.version |
+| DrakesRanks | maven | ✅ sí | ⚠️ no medido (paper-api fija) | sin tests | pom fija paper-api 1.20.6-R0.1-SNAPSHOT (ignora -Dpaper.version); parametrizar paper.version |
 | DrakesRankup | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo |
 | DrakesSlimeMarket | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| DrakesTab | maven | ✅ sí | ✅ sí | sin tests | sin bloqueo |
+| DrakesTab | maven | ✅ sí | ⚠️ no medido (paper-api fija) | sin tests | pom fija paper-api 1.20.6-R0.1-SNAPSHOT (ignora -Dpaper.version); parametrizar paper.version |
 | DrakesTech | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | DrakesTranslate | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | DrakesWorlds | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
