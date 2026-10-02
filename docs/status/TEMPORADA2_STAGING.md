@@ -42,7 +42,7 @@
 | **DrakesMultiverse** | Drakes-Suites (`26.x`) | 2.0.0-26.X-SNAPSHOT |  SÍ | 30 recetas de crafteo Bukkit registradas |
 | **DrakesBio** | Drakes-Suites (`26.x`) | 2.0.0-26.X-SNAPSHOT |  SÍ | Módulos biológicos y flora habilitados |
 | **DrakesServer** | Drakes-Suites (`26.x`) | 2.0.0-26.X-SNAPSHOT |  SÍ | Gestión de bóvedas y utilidades de servidor |
-| **Slimefun** | Dallas (`Slimefun4-Drake`) | 11.0-Drake-1.21.11-SNAPSHOT |  SÍ | 554 ítems, 257 investigaciones, 1615 recetas |
+| **Slimefun** | `Slimefun4-Drake` rama `feat/universal-slimefun-abi` (`ead69ea`) | 11.0-Drake-1.21.11-SNAPSHOT | SÍ | Prueba real 2026-10-02 20:26 CLT: ABI upstream (`io.github.thebusybiscuit.slimefun4.*` y legacy en `me.mrCookieSlime.Slimefun.*`), 1615 recetas. SHA-256: `89982f7558963bc1d8550e144eef366d924d8fcec99f084639d87fbabc801339`. El jar relocalizado anterior queda en `backups/plugins-20261003-0126/`. |
 | **PlaceholderAPI** | PlaceholderAPI upstream | 2.12.3 | SÍ | Prueba real 2026-10-02 17:33 CLT: habilitado en Paper 26.2; la versión upstream declara soporte 26.2 experimental. SHA-256: `fde03259f5af6938f3c33eeb4d814000a1adabf1d2304ce14970be81f609a437`. |
 | **DeluxeMenus** | Dallas (`BASE_PLUGINS_TO_SYNC`) | 1.14.1-Release | SÍ, con límite | Prueba real 2026-10-02 17:33 CLT: se enganchó correctamente a PlaceholderAPI y Vault; cargó 3 menús. Las opciones NBT heredadas (`nbt_int`, `nbt_ints`, `nbt_string`, `nbt_strings`) no tienen hook NMS en 26.2. |
 | **LuckPerms** | Dallas (`BASE_PLUGINS_TO_SYNC`) | 5.5.17 |  SÍ | Almacenamiento H2, ganchos Vault registrados |
@@ -67,7 +67,8 @@
 - PlaceholderAPI 2.12.3 eliminó el fallo anterior de dependencia: DeluxeMenus quedó habilitado, enlazado con PlaceholderAPI y Vault, y cargó sus tres menús. Esta es una prueba de ejecución en staging; no implica despliegue ni compatibilidad declarada para Dallas.
 - Persisten incompatibilidades independientes para seguir triando: Slimefun-Rust usa el fallback Java por ausencia de su biblioteca nativa, EssentialsX emite aviso de versión no soportada y DeluxeMenus limita cuatro opciones NBT heredadas. No se presentan como resueltas.
 - El servicio se detuvo limpiamente al terminar la prueba; su pico fue 2.0 GiB de memoria y 2 min 57 s de CPU. No hubo cambios en Dallas.
-- Prueba de ciclo de vida 2026-10-02 20:38-20:39 CLT: tras corregir la parada de la unidad, Paper 26.2 alcanzó `Done` en 87.912 s y salió con `Result=success` después de guardar jugadores, mundos y chunks. El staging quedó apagado; no hubo cambios en Dallas.
+- Prueba de ciclo de vida 2026-10-02 19:38-19:39 CLT: tras corregir la parada de la unidad, Paper 26.2 alcanzó `Done` en 87.912 s y salió con `Result=success` después de guardar jugadores, mundos y chunks. El staging quedó apagado; no hubo cambios en Dallas.
+- Prueba ABI universal 2026-10-02 20:26-20:28 CLT: con el Slimefun de `feat/universal-slimefun-abi` (`ead69ea`) desaparece el `NoSuchMethodError` de `SlimefunItem.getById` que dejaba a `NanotechModule` (DrakesTech) en modo standalone; las 9 StarSuites se habilitan y MultiverseNets detecta `me.mrCookieSlime.Slimefun.api`. Nanotech sigue sin registrar contenido por falta de ingredientes de addons no instalados en staging (`INFINITE_CIRCUIT`/`INFINITE_MACHINE_CIRCUIT`/`NETWORK_CONTROLLER`: InfinityExpansion/Networks). Paper 26.2 llegó a `Done` en 83.236 s y se detuvo con `Result=success`. Sin cambios en Dallas.
 
 ## 5. Próximos Pasos (Fase 2 de Temporada 2)
 1. Absorción y verificación de addons secundarios de Slimefun pendientes en las StarSuites (manteniendo invariantes de IDs y claves PDC).
