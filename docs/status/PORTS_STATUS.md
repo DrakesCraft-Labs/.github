@@ -23,10 +23,10 @@
 
 | Alcance | Repos | Medidos |
 |---|---:|---:|
-| Maven (`*-drake`, `Drakes*`, `DiosesDrakes`, `ArcanaDrakes`) | 49 | 10 |
+| Maven (`*-drake`, `Drakes*`, `DiosesDrakes`, `ArcanaDrakes`) | 52 | 11 |
 | Gradle | 9 | 9 |
 | Sin código fuente en el repo | 28 | 28 |
-| **Total** | **86** | **47** |
+| **Total** | **89** | **48** |
 
 ## Tabla
 
@@ -45,7 +45,7 @@
 | Drakes-Suites | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | DrakesBosses | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo |
 | DrakesCore | maven | ❌ no | ✅ sí | ❌ fallan | Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12.4:test (default-test) on project DrakesCore: There are test failu |
-| DrakesCrates | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| DrakesCrates | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo |
 | DrakesLabPresence-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | DrakesMotd | maven | ✅ sí | ✅ sí | sin tests | sin bloqueo |
 | DrakesNanotech | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
@@ -102,11 +102,14 @@
 | SimpleUtils-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | SlimeChem-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | SlimeFrame-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| SlimeHUD-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | SlimeTinker-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| Slimefun-Disc-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | Slimefun4-Drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | SlimefunWarfare-Drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | SlimyRepair-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | SlimyTreeTaps-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
+| SmallSpace-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | SoulJars-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | SoundMuffler-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | SpiritsUnchained-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
