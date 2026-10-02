@@ -23,10 +23,10 @@
 
 | Alcance | Repos | Medidos |
 |---|---:|---:|
-| Maven (`*-drake`, `Drakes*`, `DiosesDrakes`, `ArcanaDrakes`) | 57 | 16 |
+| Maven (`*-drake`, `Drakes*`, `DiosesDrakes`, `ArcanaDrakes`) | 57 | 19 |
 | Gradle | 9 | 9 |
 | Sin código fuente en el repo | 28 | 28 |
-| **Total** | **94** | **53** |
+| **Total** | **94** | **56** |
 
 ## Tabla
 
@@ -53,9 +53,9 @@
 | DrakesRankup | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo |
 | DrakesSlimeMarket | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | DrakesTab | maven | ✅ sí | ⚠️ no medido (paper-api fija) | sin tests | pom fija paper-api 1.20.6-R0.1-SNAPSHOT (ignora -Dpaper.version); parametrizar paper.version |
-| DrakesTech | maven | ❌ no | ❌ no | sin tests | /home/jack/workspace/drakescraft/DrakesTech/src/main/java/me/jackstar/drakestech/guide/TechGuideManager.java:[909;45] cannot find symbol |
+| DrakesTech | maven | ✅ sí | ✅ sí | sin tests | sin bloqueo |
 | DrakesTranslate | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| DrakesWorlds | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| DrakesWorlds | maven | ❌ no | ❌ no | sin tests | /home/jack/workspace/drakescraft/DrakesWorlds/src/main/java/me/jackstar/drakesworlds/generation/DrakesBiomeProvider.java:[9;24] package java |
 | DyeBench-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | DynaTech-drake | maven | ⚠️ indeterminado (dependencias) | ⚠️ indeterminado (dependencias) | sin tests | Failed to execute goal on project DynaTech-drake: Could not resolve dependencies for project com.github.drakescraft_labs:DynaTech-drake:jar: |
 | EMCTech-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
@@ -65,8 +65,8 @@
 | ExoticGarden-drake | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo |
 | ExtraGear-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | ExtraHeads-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
-| FlowerPower-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| FluffyMachines-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| FlowerPower-drake | maven | ✅ sí | ✅ sí | sin tests | sin bloqueo |
+| FluffyMachines-drake | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo (main no compilaba: Lombok duplicaba constructor; corregido en ce841f7) |
 | FoxyMachines-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | Galactifun2-drake | gradle | n/a | ⏳ pendiente (gradle) | sin tests | gradle: medir con wrapper |
 | Galaxyfun-drake | gradle | n/a | ⏳ pendiente (gradle) | sin tests | gradle: medir con wrapper |
