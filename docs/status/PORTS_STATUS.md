@@ -23,10 +23,10 @@
 
 | Alcance | Repos | Medidos |
 |---|---:|---:|
-| Maven (`*-drake`, `Drakes*`, `DiosesDrakes`, `ArcanaDrakes`) | 57 | 19 |
+| Maven (`*-drake`, `Drakes*`, `DiosesDrakes`, `ArcanaDrakes`) | 60 | 20 |
 | Gradle | 9 | 9 |
 | Sin código fuente en el repo | 28 | 28 |
-| **Total** | **94** | **56** |
+| **Total** | **97** | **57** |
 
 ## Tabla
 
@@ -67,18 +67,21 @@
 | ExtraHeads-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | FlowerPower-drake | maven | ✅ sí | ✅ sí | sin tests | sin bloqueo |
 | FluffyMachines-drake | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo (main no compilaba: Lombok duplicaba constructor; corregido en ce841f7) |
-| FoxyMachines-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| FoxyMachines-drake | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo (26.x en rama port-26x commit 7139fb5) |
 | Galactifun2-drake | gradle | n/a | ⏳ pendiente (gradle) | sin tests | gradle: medir con wrapper |
 | Galaxyfun-drake | gradle | n/a | ⏳ pendiente (gradle) | sin tests | gradle: medir con wrapper |
 | Gastronomicon-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | GeneticChickengineering-Reborn-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| Geyser-Slimefun-Heads-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | HeadLimiter-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | HotbarPets-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | InfinityExpansion-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | InfinityLib-Drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| InvSwitcher-Drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | Inventory-Rollback-Plus-Drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | KinematicCore-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | LevelledMobs-Drake | gradle | n/a | ⏳ pendiente (gradle) | sin tests | gradle: medir con wrapper |
+| Liquid-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | LiteXpansion-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | Magic-8-Ball-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | MapJammers-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
