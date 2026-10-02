@@ -9,6 +9,8 @@
 [🌐 Web](https://web.drakescraft.cl) ·
 [💬 Discord](https://discord.gg/rv3vtXZTk7) ·
 [🌌 StarSuites](https://github.com/DrakesCraft-Labs/Drakes-Suites) ·
+[📊 Estado verificado](docs/status/ECOSYSTEM_STATUS_2026-10-02.md) ·
+[⚖️ Derechos y atribución](RIGHTS_AND_ATTRIBUTION_ES.md) ·
 [🇬🇧 English](README.md)
 
 </div>
@@ -17,38 +19,121 @@
 
 ## ¿Qué es esto?
 
-**Slimefun: New Horizons** es un esfuerzo independiente y comunitario para llevar [Slimefun](https://github.com/Slimefun/Slimefun4) y su ecosistema de
-addons a la próxima generación de servidores de Minecraft: versiones actuales de Paper, Java moderno, rendimiento predecible y addons que siguen
-funcionando en lugar de quedar abandonados.
+Esta organización es la casa de un **ecosistema**, no de un solo plugin. Nació para llevar [Slimefun](https://github.com/Slimefun/Slimefun4) y sus addons a la próxima generación de servidores
+de Minecraft, y creció alrededor de una red de producción real, **DrakesCraft** (`mc.drakescraft.cl`, Java y Bedrock). Todo se prueba ahí antes de publicarse.
 
-Todo lo que publicamos se prueba antes en una red de producción real, **DrakesCraft** (`mc.drakescraft.cl`).
+| Línea | En una frase |
+|---|---|
+| 🧬 **Slimefun: New Horizons** | Ports, forks y arreglos que mantienen vivos a Slimefun y sus addons en Paper actual. |
+| 🌌 **StarSuites** | Un monorepo que está absorbiendo los repositorios históricos de addons en 8 mega-suites. |
+| ⭐ **Star** | La plataforma alrededor del juego: Star Engine, operaciones autónomas, observabilidad y respaldos. |
+| 🏛️ **Odysseia** | El motor del servidor: comercio, modalidades, salvaguardas de economía, eventos y jefes. |
+| 🐉 **Drakes** | Los plugins de juego originales de la red DrakesCraft. |
+| 🌠 **Multiverse** | La suite independiente de **Chagui68**, interoperable con Slimefun pero autónoma. |
 
-> ℹ️ **Crédito e independencia.** Slimefun es un proyecto de código abierto creado por **TheBusyBiscuit** y su comunidad. **No somos sus autores
-> originales** ni estamos **afiliados ni respaldados** por el equipo oficial de Slimefun. Nuestro rol es la modernización y el rescate: mantener
-> Slimefun y sus addons vivos en software de servidor actual, preservando las licencias originales y el crédito de cada autor.
+> ℹ️ **Crédito e independencia.** Slimefun es obra de **TheBusyBiscuit** y la comunidad de Slimefun (GPL-3.0). **No somos sus autores originales** ni estamos **afiliados ni respaldados** por el equipo oficial.
+> Modernizamos y rescatamos; las licencias y créditos originales siempre se conservan — ver [Derechos y atribución](RIGHTS_AND_ATTRIBUTION_ES.md).
 
-## Qué construimos
+---
 
-| Pilar | Qué significa | Dónde verlo |
+## 📊 Estado verificado (medido el 2026-10-02)
+
+Las cifras se **midieron, no se estimaron**. Método y listas de plugins: [`docs/status/ECOSYSTEM_STATUS_2026-10-02.md`](docs/status/ECOSYSTEM_STATUS_2026-10-02.md).
+
+| Pregunta | Respuesta | Evidencia |
 |---|---|---|
-| 🧬 **Núcleo Slimefun moderno** | Un port mantenido de Slimefun para Paper actual (producción en **1.21.11**, **26.x** en staging). | `Slimefun4-Drake`, [`Drakes-Suites`](https://github.com/DrakesCraft-Labs/Drakes-Suites) |
-| 🌌 **StarSuites** | Más de 180 repositorios de addons dispersos consolidados en **8 mega-suites** más la suite Multiverse, con un solo motor de ticker y un solo sistema de módulos. | [`Drakes-Suites`](https://github.com/DrakesCraft-Labs/Drakes-Suites) |
-| ⚡ **Aceleración nativa** | Resolución de grafos, redes y energía fuera del heap con SIMD, para eliminar las pausas del Garbage Collector. | [`Slimefun-Rust`](https://github.com/DrakesCraft-Labs/Slimefun-Rust) |
-| 🔗 **Interoperabilidad entre addons** | Puentes que permiten que plugins independientes cooperen y que cada uno siga funcionando solo (Networks ↔ MultiverseNets, SlimeTinker ↔ MultiverseTinker). | `NetworksV6-drake`, `SlimeTinker-drake`, `MultiverseNets`, `MultiverseTinker` |
-| 🛡️ **Seguridad de datos de jugadores** | Los identificadores de ítems (claves PDC) nunca se renombran; las migraciones son aditivas y cada arreglo se replica en las suites de nueva generación. | Política del proyecto |
+| Plugins corriendo en la red de producción (Paper/Purpur **1.21.11**) | **169 cargados** | Log del servidor en vivo |
+| …de los cuales mantenidos o adaptados por nosotros | **≈ 64** (43 forks/originales con marca Drake + 21 adaptados) | Versiones de la lista de plugins en vivo |
+| …de terceros, sin modificar | **105** | Ídem |
+| Repositorios en la organización | **189** (90 son ports/forks `-drake` mantenidos) | API de GitHub |
+| Repositorios cuyo build apunta a la API **1.21.11** | **61** de 75 con objetivo detectable | Archivos de build |
+| Repositorios que ya mencionan **26.x** | **2** (+ las StarSuites de abajo) | Archivos de build |
+| **StarSuites compilan en Paper 26.2** (`26.2.build.129-stable`, JDK 25) | **9 / 9 módulos ✅** | Reactor de Maven, `BUILD SUCCESS` |
+| StarSuites validadas **corriendo** en un servidor 26.x | **Aún no** ⏳ | El staging hoy corre 1.21.11 |
 
-## Hoja de ruta (en exploración)
+> ⚠️ **Compilar no es lo mismo que correr.** La temporada 2 en Paper 26.x sale solo tras validar cada suite en ejecución sobre un servidor 26.x real.
 
-- **Temporada 2 en Paper 26.x**: despliegue atómico de los jars de StarSuites tras validar en staging.
-- **3D basado en displays**: tuberías y cables dibujados con entidades `ItemDisplay`/`BlockDisplay` en lugar de bloques fijos (inspirado en el enfoque de
-  [PylonMC/Rebar](https://github.com/pylonmc/rebar), LGPL-3.0, con atribución).
-- **Configuración unificada**: una carpeta YAML modular por suite, recargable en caliente por módulo.
+---
+
+## ⭐ Star — la plataforma
+
+**Star** agrupa todo lo que corre *alrededor* del juego: el **Star Engine** (la evolución del kernel de servidor de Odysseia, entregado en la Suite 7), **SAORI** (operaciones autónomas: asistentes de
+Discord y WhatsApp, triaje de tickets, manejo de incidentes), observabilidad, respaldos automáticos y un entorno en la nube 24/7. Es lo que permite que un equipo pequeño opere una red grande con mods.
+
+## 🏛️ Odysseia — el motor del servidor
+
+`Odysseia` es el motor que hace que una red de **5 modalidades aisladas** se comporte como un solo producto. Levantado sobre la plantilla de addon de la comunidad de Slimefun, incluye:
+
+- **Motor de compras** — entrega idempotente de compras de la tienda, con compuerta de identidad, reembolsos revocables y vías de revisión manual.
+- **Aislamiento de modalidades** — viaje entre modos con inventarios, bóvedas y economías separados.
+- **Vigilante de economía** — salvaguarda dentro del juego contra ganancias anormalmente rápidas.
+- **Eventos, jefes, juegos de chat, cosméticos, kits, cheques, sistema de renacimiento, coordinación de reinicios** y un **puente nativo en Rust** (`Odysseia-Rust`) para rutas críticas.
+
+## 🐉 Drakes — los plugins de juego de DrakesCraft
+
+| Plugin | Qué hace |
+|---|---|
+| `DrakesRankup` | 50 rangos anime/shōnen, transformaciones, auras y un sumidero de economía por mantenimiento de rango |
+| `DrakesVIPPlusPlus` | 15 rangos VIP con habilidades activas únicas, cosméticos y boosters automáticos de fin de semana |
+| `DrakesBosses` | Arenas, jefes adaptativos, recompensas y economía de entradas (anti-AFK, daño verdadero adaptativo) |
+| `DrakesCrates` | Cajas virtuales y físicas con soporte Slimefun y guarda para el modo Clásico |
+| `DrakesSlimeMarket` | Mercado dinámico de materiales de Slimefun con control de inflación |
+| `DrakesNanotech` | Materia programable de ultra-endgame y tecnología cósmica para Slimefun |
+| `DiosesDrakes` · `ArcanaDrakes` | Progresión divina/mitológica y magia elemental |
+| `DrakesTranslate` | Traducción nativa de chat en tiempo real |
+
+## 🌠 Multiverse — por [Chagui68](https://github.com/Chagui68)
+
+Una suite independiente que funciona **por sí sola** y además **interopera** con Slimefun mediante puentes opcionales (sin dependencia obligatoria):
+
+| Plugin | Qué es | En producción |
+|---|---|---|
+| **MultiverseNets** | Logística digital y almacenamiento masivo, con puente a Slimefun Networks | ✅ v4.7 |
+| **MultiverseTinker** | Metalurgia modular, 90 minerales, aleaciones, fundición y forja; puente a SlimeTinker | ⏳ lanzamiento pendiente |
+| **MultiverseCreatures** | Entidades y jefes personalizados temáticos | ✅ v2.4 |
+| **MultiverseProgramming** | Tortugas programables dentro de Minecraft | ✅ v1.1.6 |
+
+---
+
+## 🌌 StarSuites
+
+El monorepo `Drakes-Suites` está **absorbiendo los más de 180 repositorios históricos de addons en 8 mega-suites más Multiverse**, con un solo motor de ticker y un sistema de configuración modular
+(`modules/<módulo>.yml`, recargable en caliente). **La fase 1 está completa; la fase 2 (absorción) sigue en curso: hoy hay 44 módulos de addons dentro.**
+
+| Suite | Artefacto | Módulos absorbidos | Enfoque |
+|---|---|---:|---|
+| 0 · Core | `drakes-core.jar` | 1 | Kernel, Dough integrado, ticker centralizado, SQLite WAL, registros de auditoría |
+| 1 · Tech | `drakes-tech.jar` | 6 | Logística tipo Networks, DynaTech, FoxyMachines, Supreme, FluffyMachines, InfinityExpansion |
+| 2 · Bio | `drakes-bio.jar` | 7 | Cultivation, GeneticChickengineering, FlowerPower, TreeTaps, MobCapturer, ExoticGarden, SlimyBees |
+| 3 · Magic | `drakes-magic.jar` | 4 | RelicsOfCthonia, Crystamae, AlchimiaVitae, SoulJars |
+| 4 · Generators | `drakes-generators.jar` | 6 | LiteXpansion, reactores, SMG, EcoPower, ore chunks, generadores definitivos |
+| 5 · Utility | `drakes-utility.jar` | 13 | Mochilas, SlimeHUD, ChestTerminal, SFCalc, pistola de portales, silenciador y más |
+| 6 · Combat | `drakes-combat.jar` | 6 | Warfare, ObsidianExpansion, ExtraGear, drops de mobs, SlimeTinker |
+| 7 · Server | `drakes-server.jar` | 1 | Star Engine, módulo de economía |
+| Multiverse | `drakes-multiverse.jar` | — | Obra de Chagui68 (ver arriba) |
+
+Lo que aún no se absorbe sigue publicándose como ports `-drake` individuales, conservando cada ID de ítem para no poner en riesgo datos de jugadores.
+
+---
+
+## 🧭 Hoja de ruta (en exploración)
+
+- **Temporada 2 en Paper 26.x** — validación en ejecución de cada suite sobre un servidor 26.x real y luego despliegue atómico.
+- **DrakesID** — identidad de cuenta propia (una cuenta, varias identidades Java/Bedrock, alcance por modalidad) para simplificar compras, rollbacks y rangos.
+- **3D basado en displays** — tuberías y cables dibujados con entidades `ItemDisplay`/`BlockDisplay`, inspirado en [PylonMC/Rebar](https://github.com/pylonmc/rebar) (LGPL-3.0, con atribución).
+- **Plan de derechos y licencias** — un bloque de licencia y créditos en cada repositorio ([política](RIGHTS_AND_ATTRIBUTION_ES.md)).
+
+## 🤝 Sobre los hombros de
+
+Lista no exhaustiva de autores y proyectos upstream sobre los que construimos (cada repositorio trae sus propios créditos y licencia):
+**TheBusyBiscuit y la comunidad de Slimefun** (Slimefun 4) · **Sefiraat** (Networks, SlimeTinker y otros addons) · **Seggan** · **balugaq** y **ytdd9527** (NetworksExpansion / JustEnoughGuide) ·
+**J3fftw** (WorldEditSlimefun) · **tastybento y el equipo de BentoBox** (BentoBox, InvSwitcher) · **Dominic Feliton** (WorldwideChat) · **Rugzy** (PlayerVaultZ) · **spearforge** (sBank) · **PylonMC** (inspiración).
 
 ## Cómo contribuir
 
-1. El desarrollo activo de los plugins consolidados ocurre en el monorepo [`Drakes-Suites`](https://github.com/DrakesCraft-Labs/Drakes-Suites).
+1. El desarrollo activo de los plugins consolidados ocurre en [`Drakes-Suites`](https://github.com/DrakesCraft-Labs/Drakes-Suites).
 2. **Nunca romper datos de jugadores**: ningún ítem, inventario ni historial de compras puede ponerse en riesgo; se conservan las claves PDC.
-3. Los forks y consolidaciones **conservan sus licencias originales** (GPL-3.0 / LGPL-3.0 / MIT / Apache-2.0) y acreditan a los autores originales.
+3. Los forks y consolidaciones **conservan sus licencias originales** y acreditan a los autores originales.
 4. Los README públicos se escriben en inglés; la documentación en español vive al lado como `README_ES.md`.
 
 <div align="center">
