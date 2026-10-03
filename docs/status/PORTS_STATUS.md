@@ -48,7 +48,7 @@
 | DrakesCrates | maven | ✅ sí | ⚠️ no medido (paper-api fija) | ✅ ok | pom fija paper-api 1.20.6-R0.1-SNAPSHOT (ignora -Dpaper.version); parametrizar paper.version |
 | DrakesLabPresence-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | DrakesMotd | maven | ✅ sí | ✅ sí | sin tests | sin bloqueo (paper.version parametrizado en 4b2c0a6) |
-| DrakesNanotech | maven | ✅ sí | ⚠️ no medido (paper-api fija) | ✅ ok | pom fija paper-api 1.21.11-R0.1-SNAPSHOT (ignora -Dpaper.version); parametrizar paper.version |
+| DrakesNanotech | maven | ✅ sí | ✅ sí (rama `port-26x`, PR #1) | ✅ ok (7/7 en 21 y 25) | 2026-10-03: `paper.version` parametrizada + `jsr305` provided (paper-api 26.2 ya no trae `@Nonnull`). Compila; sin prueba de ejecución en staging. |
 | DrakesRanks | maven | ✅ sí | ⚠️ no medido (paper-api fija) | sin tests | pom fija paper-api 1.20.6-R0.1-SNAPSHOT (ignora -Dpaper.version); parametrizar paper.version |
 | DrakesRankup | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo |
 | DrakesSlimeMarket | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
