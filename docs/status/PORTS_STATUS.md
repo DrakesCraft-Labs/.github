@@ -45,7 +45,7 @@
 | Drakes-Suites | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | DrakesBosses | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo |
 | DrakesCore | maven | — archivado | — archivado | — | repo archivado en GitHub (solo lectura); sustituido por Drakes-Suites y Odysseia, se omite |
-| DrakesCrates | maven | ✅ sí | ⚠️ no medido (paper-api fija) | ✅ ok | pom fija paper-api 1.20.6-R0.1-SNAPSHOT (ignora -Dpaper.version); parametrizar paper.version |
+| DrakesCrates | maven | ✅ sí | ✅ sí | ✅ ok (3/3 JDK 21 y JDK 25) | sin bloqueo (paper.version parametrizado, Material.CHAIN→IRON_CHAIN y test sin registro de ítems en 536ecc4); solo compila, no arrancado en staging 26.x |
 | DrakesLabPresence-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | DrakesMotd | maven | ✅ sí | ✅ sí | sin tests | sin bloqueo (paper.version parametrizado en 4b2c0a6) |
 | DrakesNanotech | maven | ✅ sí | ✅ sí (rama `port-26x`, PR #1) | ✅ ok (7/7 en 21 y 25) | 2026-10-03: `paper.version` parametrizada + `jsr305` provided (paper-api 26.2 ya no trae `@Nonnull`). Compila; sin prueba de ejecución en staging. |
