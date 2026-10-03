@@ -103,7 +103,7 @@
 | SFMobDrops-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | SMG-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | SaneCrafting-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| SensibleToolbox-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| SensibleToolbox-drake | maven | ✅ sí (main `1e7e345`, ticket #4) | ✅ sí (rama `port-26x` `e09c7a7`, core universal) | ✅ 86/86 en JDK 25 perfil mc-26.2 | **corre** en staging Paper 26.2 build 129 (2026-10-03 00:16 CLT): habilita sin excepciones con Slimefun universal; antes fallaba por `ClassNotFoundException` del wrapper propietario |
 | SfBetterChests-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | SfChunkInfo-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | Simple-Storage-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
