@@ -86,6 +86,7 @@
 | Magic-8-Ball-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | MapJammers-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | MiniBlocks-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
+| MultiverseNets | maven | ✅ sí (hotfix `441e2fe` sobre v5.0) | ⚠️ no medido (JDK 25) | ✅ ok (267 pruebas JDK 21) | El JAR 5.0 del hotfix **corre** en staging Paper 26.2 build 129/Java 25: habilita, detecta Slimefun y registra 46 recetas; no equivale aún a compilar la rama 26.x. |
 | MissileWarfare-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | MobCapturer-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | MoreResearches-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
@@ -140,4 +141,4 @@
 
 * Repos Gradle: medir con su `gradlew` (no hay Gradle global en el VPS).
 * `Drakes-Suites`: reactor de 9 módulos, se mide aparte (ver `ECOSYSTEM_STATUS_2026-10-02.md` §4).
-* Ningún resultado de esta tabla certifica *ejecución*; el staging 26.x sigue sin construirse.
+* Los resultados que dicen **corre** incluyen evidencia de ejecución en staging; el resto solo certifica compilación. El staging 26.x ya está reconstruido y se sigue completando por módulos.
