@@ -118,7 +118,7 @@
 | SlimyRepair-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | SlimyTreeTaps-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | SmallSpace-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
-| SoulJars-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| SoulJars-drake | maven | ✅ sí | ✅ sí (rama `port-26x`, PR #1) | sin tests | 2026-10-03: `port-26x` migra imports al Slimefun universal (`11.0-Universal-26.x-SNAPSHOT`). **Corre** en staging Paper 26.2: habilita sin excepciones y aparece en `/sf versions`. |
 | SoundMuffler-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | SpiritsUnchained-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | Supreme-Drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |

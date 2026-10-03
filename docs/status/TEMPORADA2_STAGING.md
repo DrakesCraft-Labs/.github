@@ -58,6 +58,7 @@
 | **CMILib** | Dallas (`BASE_PLUGINS_TO_SYNC`) | 1.5.9.3 |  SÍ | Detección Mojang Mappings v26_2_0 OK |
 | **spark** | Staging (`spark`) | 1.10.119 |  SÍ | Profiler de rendimiento en segundo plano |
 | **SensibleToolbox** | `SensibleToolbox-drake` rama `port-26x` (`e09c7a7`) | 1.22-Drake-SNAPSHOT | SÍ | Prueba real 2026-10-03 00:15-00:17 CLT: habilita sin excepciones con Slimefun universal (antes `ClassNotFoundException` de `com.github.drakescraft_labs.slimefun4.libraries.dough.items.CustomItemStack`); aparece en `/sf versions`; `/stb`, `/stb validate` y `/stb save` responden. SHA-256: `00433367036ddb572e7d7b67b6f60a882df1a3e5f764edcac098cd423ef32498`. Retirado de `plugins/` tras la prueba (copia en `backups/claude-stb-universal-20261003/`). |
+| **SoulJars (standalone)** | `SoulJars-drake` rama `port-26x` (`c5795a9`) | 1.21-Drake-v1 | SÍ | Prueba real 2026-10-03 00:14-00:17 CLT: Paper 26.2 llegó a `Done` en 85.2 s; habilita sin excepciones con Slimefun universal y aparece en `/sf versions`; sin conflictos de ID con el módulo `soul_jars` de DrakesMagic. SHA-256: `ae71897a11ea1a06f9140f2d29db297c287a5c2de114a0fe83bf47604531c1f0`. Retirado de `plugins/` tras la prueba (copia en `backups/claude-souljars-universal-20261003/`). |
 | **DrakesWorlds** | Repo `DrakesWorlds` (`003529d`) | 1.0 |  SÍ | Prueba puntual 2026-10-02 15:15 CLT: carga y genera `drakes_wild` (perfil `wild_natural`) sin excepciones. Retirado tras la prueba: reescribe `level-name` y `bukkit.yml` al habilitarse |
 
 ---
