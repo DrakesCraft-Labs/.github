@@ -40,7 +40,7 @@
 | ColoredEnderChests-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | CompressionCraft-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | CrystamaeHistoria-drake | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo (deps corregidas en 012c8d1) |
-| DankTech2-Drake | maven | ✅ sí | ⚠️ no medido (paper-api fija) | sin tests | pom fija paper-api 1.19-R0.1-SNAPSHOT (ignora -Dpaper.version); parametrizar paper.version |
+| DankTech2-Drake | maven | ✅ sí | ✅ sí | sin tests | 2026-10-03 `1a33d22`: paper-api `${paper.version}`, Lombok en annotationProcessorPaths (JDK 25), Particle.DUST/EntityType.ITEM; solo compila, sin arranque en staging |
 | DiosesDrakes | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo (DrakesBosses en maven.drakescraft.cl; paper.version parametrizado en e952e05) |
 | Drakes-Suites | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | DrakesBosses | maven | ✅ sí | ✅ sí | ✅ ok | sin bloqueo |
