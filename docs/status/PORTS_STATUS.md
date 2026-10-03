@@ -23,7 +23,7 @@
 
 | Alcance | Repos | Medidos |
 |---|---:|---:|
-| Maven (`*-drake`, `Drakes*`, `DiosesDrakes`, `ArcanaDrakes`) | 60 | 20 |
+| Maven (`*-drake`, `Drakes*`, `DiosesDrakes`, `ArcanaDrakes`) | 61 | 21 |
 | Gradle | 9 | 9 |
 | Sin código fuente en el repo | 28 | 28 |
 | **Total** | **97** | **57** |
@@ -91,6 +91,7 @@
 | MobCapturer-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | MoreResearches-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | NetworksV6-drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
+| Odysseia | maven | ✅ sí | ✅ sí (`port-26x` `9004d68`) | ✅ 333/333 en JDK 21 y JDK 25 | **corre** en staging Paper 26.2 build 129/Java 25 (2026-10-03): habilita correctamente y alcanza `Done` en 91.112 s; API Slimefun universal validada sin fallos de `SlimefunGuideMode` ni `SlimefunItem`. |
 | PlayerVaultZ-Drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
 | PotionExpansion-drake | sin-codigo | n/a (sin fuente) | n/a (sin fuente) | n/a | sin codigo fuente en el repo (solo README/docs) |
 | ProtectionStones-Drake | maven | ⏳ pendiente | ⏳ pendiente | ⏳ pendiente |  |
